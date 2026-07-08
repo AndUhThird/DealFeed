@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/formc" xmlns:com="http://www.sec.gov/edgar/common">
+  <headerData>
+    <submissionType>C</submissionType>
+  </headerData>
+  <formData>
+    <issuerInformation>
+      <issuerInfo>
+        <nameOfIssuer>Musaffa, Inc.</nameOfIssuer>
+        <legalStatus>
+          <legalStatusForm>Corporation</legalStatusForm>
+          <jurisdictionOrganization>DE</jurisdictionOrganization>
+          <dateIncorporation>04-25-2022</dateIncorporation>
+        </legalStatus>
+        <issuerAddress>
+          <com:street1>48 WALL STREET SUITE 1100</com:street1>
+          <com:city>NEW YORK</com:city>
+          <com:stateOrCountry>NY</com:stateOrCountry>
+          <com:zipCode>10005</com:zipCode>
+        </issuerAddress>
+        <issuerWebsite>https://musaffa.com/</issuerWebsite>
+      </issuerInfo>
+      <isCoIssuer>Y</isCoIssuer>
+      <coIssuers>
+        <coIssuerInfo>
+          <nameOfCoIssuer>Musaffa CFV LLC</nameOfCoIssuer>
+          <coIssuerAddress>
+            <com:city>New York</com:city>
+            <com:stateOrCountry>NY</com:stateOrCountry>
+          </coIssuerAddress>
+        </coIssuerInfo>
+      </coIssuers>
+      <companyName>DEALMAKER SECURITIES LLC</companyName>
+      <commissionCik>0001872856</commissionCik>
+    </issuerInformation>
+    <offeringInformation>
+      <compensationAmount>The issuer shall pay a fee of 7.5% of the amount raised in the offering to the Intermediary. There is also a $2,000 monthly fee payable to DealMaker Securities LLC and/or its affiliates starting 6 months after the raise launches.</compensationAmount>
+      <financialInterest>None.</financialInterest>
+      <securityOfferedType>Other</securityOfferedType>
+      <securityOfferedOtherDesc>Class B Common Stock</securityOfferedOtherDesc>
+      <noOfSecurityOffered>3922</noOfSecurityOffered>
+      <price>3.00000</price>
+      <offeringAmount>12001.32</offeringAmount>
+      <maximumOfferingAmount>1200000.42</maximumOfferingAmount>
+      <deadlineDate>10-11-2026</deadlineDate>
+    </offeringInformation>
+    <annualReportDisclosureRequirements>
+      <currentEmployees>25.00</currentEmployees>
+      <totalAssetMostRecentFiscalYear>1056391.00</totalAssetMostRecentFiscalYear>
+      <cashEquiMostRecentFiscalYear>82558.00</cashEquiMostRecentFiscalYear>
+      <shortTermDebtMostRecentFiscalYear>309604.00</shortTermDebtMostRecentFiscalYear>
+      <longTermDebtMostRecentFiscalYear>410630.00</longTermDebtMostRecentFiscalYear>
+      <revenueMostRecentFiscalYear>280818.00</revenueMostRecentFiscalYear>
+      <revenuePriorFiscalYear>171295.00</revenuePriorFiscalYear>
+      <netIncomeMostRecentFiscalYear>-2889985.00</netIncomeMostRecentFiscalYear>
+    </annualReportDisclosureRequirements>
+  </formData>
+</edgarSubmission>

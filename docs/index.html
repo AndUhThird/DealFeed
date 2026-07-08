@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DealFeed — every live crowdfunding deal, one feed</title>
+<meta name="description" content="Every live Regulation CF offering in the US, aggregated daily from public SEC filings, in plain English.">
+<style>
+  :root{
+    --bg:#0e1116; --card:#161b23; --card2:#1c2330; --line:#28303d;
+    --text:#e8ecf2; --muted:#8b96a5; --accent:#4f8cff; --green:#3ecf8e;
+    --amber:#f5b544; --red:#f0655a; --chip:#222a37;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.45}
+  .wrap{max-width:520px;margin:0 auto;min-height:100vh}
+  header{position:sticky;top:0;z-index:10;background:rgba(14,17,22,.93);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:14px 16px 10px}
+  .brand{display:flex;align-items:center;justify-content:space-between}
+  .brand h1{font-size:20px;font-weight:800;letter-spacing:-.5px}
+  .brand h1 span{color:var(--accent)}
+  .watch{font-size:13px;color:var(--muted);background:var(--chip);border:1px solid var(--line);border-radius:20px;padding:5px 12px;cursor:pointer;user-select:none}
+  .watch.active{color:var(--accent);border-color:var(--accent)}
+  .disclaimer{font-size:10.5px;color:var(--muted);margin-top:6px}
+  .controls{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap}
+  .chipf{font-size:12.5px;padding:5px 12px;border-radius:20px;background:var(--chip);border:1px solid var(--line);color:var(--muted);cursor:pointer;user-select:none}
+  .chipf.on{background:var(--accent);border-color:var(--accent);color:#fff}
+  select,input[type=search]{font-size:12.5px;padding:5px 10px;border-radius:20px;background:var(--chip);border:1px solid var(--line);color:var(--text);outline:none}
+  input[type=search]{flex:1;min-width:120px}
+  .feed{padding:14px 12px 40px;display:flex;flex-direction:column;gap:14px}
+  .count{font-size:12px;color:var(--muted);padding:0 4px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+  .banner{height:64px;display:flex;align-items:center;padding:0 16px;gap:12px}
+  .avatar{width:38px;height:38px;border-radius:10px;background:rgba(255,255,255,.18);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;color:#fff;flex:0 0 auto}
+  .banner .co{font-size:17px;font-weight:700;letter-spacing:-.3px;color:#fff}
+  .banner .loc{font-size:12px;color:rgba(255,255,255,.78);font-weight:400}
+  .body{padding:14px 16px 16px}
+  .tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+  .tag{font-size:11px;padding:3px 9px;border-radius:12px;background:var(--chip);color:var(--muted);border:1px solid var(--line)}
+  .tag.equity{color:var(--green);border-color:rgba(62,207,142,.35)}
+  .tag.debt{color:var(--amber);border-color:rgba(245,181,68,.35)}
+  .terms{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin:10px 0}
+  .term{background:var(--card2);border-radius:10px;padding:8px 10px}
+  .term .l{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px}
+  .term .v{font-size:12px;font-weight:600;margin-top:2px}
+  .fin{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin:8px 0 10px;padding:9px 12px;background:var(--card2);border-radius:10px}
+  .fin b{color:var(--text);font-weight:600}
+  .fin .up{color:var(--green)} .fin .down{color:var(--red)}
+  .ai{font-size:13px;color:#c6cedb;background:linear-gradient(135deg,rgba(79,140,255,.08),rgba(79,140,255,.02));border:1px solid rgba(79,140,255,.25);border-radius:12px;padding:11px 13px;margin-bottom:8px}
+  .ai .lab{font-size:10.5px;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:.6px;display:block;margin-bottom:4px}
+  .flags{font-size:12px;color:var(--amber);margin:2px 0 10px;padding-left:2px}
+  .flags div{margin-bottom:3px}
+  .actions{display:flex;gap:8px;margin-top:10px}
+  .btn{flex:1;text-align:center;padding:10px 4px;border-radius:11px;font-size:13px;font-weight:600;cursor:pointer;user-select:none;text-decoration:none;border:1px solid var(--line);color:var(--text);background:var(--card2)}
+  .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+  .btn.saved{color:var(--green);border-color:rgba(62,207,142,.4)}
+  .meta{font-size:11px;color:var(--muted);margin-top:10px}
+  .deadline.soon{color:var(--amber)}
+  .empty{text-align:center;color:var(--muted);padding:60px 20px;font-size:14px}
+  footer{padding:18px 16px 40px;font-size:10.5px;color:var(--muted);border-top:1px solid var(--line);text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <h1>Deal<span>Feed</span></h1>
+      <div class="watch" id="watchBtn">&#9734; Watchlist (<span id="watchCount">0</span>)</div>
+    </div>
+    <div class="disclaimer">Live offerings aggregated from public SEC Form C filings. Not investment advice. DealFeed receives no compensation from issuers or platforms. Investing happens on the registered platform hosting each offering.</div>
+    <div class="controls">
+      <div class="chipf on" data-f="all">All</div>
+      <div class="chipf" data-f="Equity">Equity</div>
+      <div class="chipf" data-f="Debt">Debt</div>
+      <select id="platformSel"><option value="all">All platforms</option></select>
+      <select id="stateSel"><option value="all">All states</option></select>
+      <select id="sortSel">
+        <option value="filed">Newest filed</option>
+        <option value="deadline">Deadline soonest</option>
+        <option value="max">Largest raise</option>
+        <option value="rev">Highest revenue</option>
+      </select>
+      <input type="search" id="q" placeholder="Search deals&hellip;">
+    </div>
+  </header>
+
+  <div class="feed">
+    <div class="count" id="count">Loading deals&hellip;</div>
+    <div id="cards"></div>
+    <div class="empty" id="empty" style="display:none">No deals match your filters.</div>
+  </div>
+
+  <footer>
+    Data: SEC EDGAR Form C filings, refreshed daily. Financials are issuer-reported and unaudited unless noted; DealFeed does not verify them. Summaries are generated automatically from filing data. Every card links to the original SEC filing. This site lists offerings without recommendation or ranking.
+  </footer>
+</div>
+
+<script>
+let DEALS=[], typeF="all", platF="all", stateF="all", sortF="filed", query="", watchOnly=false;
+const saved = new Set(JSON.parse(localStorage.getItem("dealfeed_watchlist")||"[]"));
+
+const GRADS=[["#1d4ed8","#0e7490"],["#9d174d","#c2410c"],["#b45309","#ca8a04"],["#1e40af","#5b21b6"],
+  ["#be123c","#7c3aed"],["#0f766e","#155e75"],["#065f46","#0e7490"],["#334155","#065f46"]];
+function grad(name){let h=0;for(const c of name)h=(h*31+c.charCodeAt(0))>>>0;const g=GRADS[h%GRADS.length];return `linear-gradient(120deg,${g[0]},${g[1]})`;}
+function fmt(n){if(n===null||n===undefined||isNaN(n))return "—";const a=Math.abs(n);
+  const s=a>=1e6?(a/1e6).toFixed(1)+"M":a>=1e3?Math.round(a/1e3)+"K":a.toFixed(0);return (n<0?"-$":"$")+s;}
+function daysLeft(d){return d?Math.ceil((new Date(d)-new Date())/86400000):null;}
+function esc(s){return (s||"").replace(/</g,"&lt;");}
+function persist(){localStorage.setItem("dealfeed_watchlist",JSON.stringify([...saved]));}
+
+function options(sel, values, label){
+  const s=document.getElementById(sel);
+  [...new Set(values.filter(Boolean))].sort().forEach(v=>{
+    const o=document.createElement("option");o.value=v;o.textContent=v;s.appendChild(o);
+  });
+}
+
+function render(){
+  const wrap=document.getElementById("cards"); wrap.innerHTML="";
+  let list=DEALS.filter(d=>
+    (typeF==="all"||d.type===typeF) &&
+    (platF==="all"||d.platform===platF) &&
+    (stateF==="all"||d.state===stateF) &&
+    (!watchOnly||saved.has(d.key)) &&
+    (!query||(d.name+" "+(d.city||"")+" "+(d.security||"")).toLowerCase().includes(query))
+  );
+  list.sort((a,b)=>{
+    if(sortF==="deadline")return (a.deadline||"9999").localeCompare(b.deadline||"9999");
+    if(sortF==="max")return (b.maxAmount||0)-(a.maxAmount||0);
+    if(sortF==="rev")return (b.rev||0)-(a.rev||0);
+    return (b.filed||"").localeCompare(a.filed||"");
+  });
+  list.forEach(d=>{
+    const dl=daysLeft(d.deadline);
+    const growth=(d.revPrior&&d.rev)?Math.round((d.rev-d.revPrior)/d.revPrior*100):null;
+    const card=document.createElement("div");card.className="card";
+    card.innerHTML=`
+      <div class="banner" style="background:${grad(d.name)}">
+        <div class="avatar">${esc(d.name[0]||"?")}</div>
+        <div><div class="co">${esc(d.name)}</div><div class="loc">${esc(d.city)}${d.city&&d.state?", ":""}${esc(d.state)}${d.founded?` &middot; est. ${d.founded}`:""}</div></div>
+      </div>
+      <div class="body">
+        <div class="tags">
+          <span class="tag ${d.type.toLowerCase()}">${d.type}</span>
+          <span class="tag">${esc(d.platform)}</span>
+          ${d.amended?'<span class="tag">Amended filing</span>':""}
+        </div>
+        <div class="terms">
+          <div class="term"><div class="l">Security</div><div class="v">${esc(d.security||d.type)}${d.type==="Equity"&&d.price?`<br>$${d.price.toFixed(2)}/share`:""}</div></div>
+          <div class="term"><div class="l">Raise</div><div class="v">${fmt(d.minAmount)} min<br>${fmt(d.maxAmount)} max</div></div>
+          <div class="term"><div class="l">Deadline</div><div class="v deadline ${dl!==null&&dl<60?"soon":""}">${dl===null?"—":dl+" days left"}</div></div>
+        </div>
+        <div class="fin">
+          <span>Revenue <b>${fmt(d.rev)}</b>${growth!==null?` <span class="${growth>=0?"up":"down"}">${growth>=0?"+":""}${growth}%</span>`:""}</span>
+          <span>Net income <b class="${d.ni<0?"down":d.ni>0?"up":""}">${fmt(d.ni)}</b></span>
+          <span>Cash <b>${fmt(d.cash)}</b></span>
+          <span>Team <b>${d.employees||"—"}</b></span>
+        </div>
+        <div class="ai"><span class="lab">&#10024; Plain-English summary</span>${esc(d.summary)}</div>
+        ${d.flags&&d.flags.length?`<div class="flags">${d.flags.map(f=>`<div>&#9888;&#65039; ${esc(f)}</div>`).join("")}</div>`:""}
+        <div class="actions">
+          <div class="btn ${saved.has(d.key)?"saved":""}" data-save="${d.key}">${saved.has(d.key)?"&#9733; Saved":"&#9734; Save"}</div>
+          <a class="btn" href="${d.filingUrl}" target="_blank" rel="noopener">SEC Filing</a>
+          ${d.site?`<a class="btn primary" href="${d.site.startsWith("http")?d.site:"https://"+d.site}" target="_blank" rel="noopener">Company &rarr;</a>`:""}
+        </div>
+        <div class="meta">Invest via ${esc(d.platform)} &middot; filed ${d.filed||"—"} &middot; ${esc(d.legal)}</div>
+      </div>`;
+    wrap.appendChild(card);
+  });
+  document.getElementById("empty").style.display=list.length?"none":"block";
+  document.getElementById("count").textContent=`${list.length} live offering${list.length===1?"":"s"}${watchOnly?" saved":""}`;
+  document.getElementById("watchCount").textContent=saved.size;
+  document.querySelectorAll("[data-save]").forEach(b=>{
+    b.onclick=()=>{const k=b.dataset.save;saved.has(k)?saved.delete(k):saved.add(k);persist();render();};
+  });
+}
+
+document.querySelectorAll(".chipf").forEach(c=>{
+  c.onclick=()=>{document.querySelectorAll(".chipf").forEach(x=>x.classList.remove("on"));c.classList.add("on");typeF=c.dataset.f;render();};
+});
+document.getElementById("platformSel").onchange=e=>{platF=e.target.value;render();};
+document.getElementById("stateSel").onchange=e=>{stateF=e.target.value;render();};
+document.getElementById("sortSel").onchange=e=>{sortF=e.target.value;render();};
+document.getElementById("q").oninput=e=>{query=e.target.value.toLowerCase();render();};
+document.getElementById("watchBtn").onclick=function(){watchOnly=!watchOnly;this.classList.toggle("active",watchOnly);render();};
+
+fetch("data.json").then(r=>r.json()).then(j=>{
+  DEALS=(j.deals||[]).map(d=>({...d,key:String(d.cik||d.name)}));
+  options("platformSel",DEALS.map(d=>d.platform));
+  options("stateSel",DEALS.map(d=>d.state));
+  render();
+  const g=new Date(j.generated);
+  document.getElementById("count").textContent+=` · updated ${g.toLocaleDateString()}`;
+}).catch(()=>{document.getElementById("count").textContent="Could not load data.json";});
+</script>
+</body>
+</html>

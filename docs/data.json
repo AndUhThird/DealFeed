@@ -1,0 +1,94 @@
+{
+ "generated": "2026-07-06T00:00:00.000Z",
+ "count": 8,
+ "deals": [
+  {
+   "name": "Musaffa", "legal": "Musaffa, Inc.", "city": "New York", "state": "NY",
+   "site": "https://musaffa.com/", "founded": 2022, "type": "Equity",
+   "security": "Class B Common Stock", "price": 3.0, "minAmount": 12001.32, "maxAmount": 1200000.42,
+   "deadline": "2026-10-11", "platform": "DealMaker", "platformRaw": "DEALMAKER SECURITIES LLC",
+   "rev": 280818, "revPrior": 171295, "ni": -2889985, "cash": 82558, "assets": 1056391,
+   "shortDebt": 309604, "employees": 25, "amended": false, "filed": "2026-06-12", "cik": 1966710,
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1966710/000187285626000221/",
+   "summary": "Musaffa, based in New York, NY, is raising up to $1.2M by selling Class B Common Stock at $3.00/share on DealMaker. It reported $281K in revenue for its most recent fiscal year, up 64% year-over-year, with a net loss of $2.9M. Reported cash ($83K) is below its annual loss ($2.9M), so this raise materially affects its runway.",
+   "flags": ["Cash on hand covers less than half the most recent annual loss.", "Issuer fee load: 7.5% of the amount raised plus a $2,000 monthly fee to DealMaker Securities starting 6 months after launch."]
+  },
+  {
+   "name": "Lost Boy Hospitality Ventures I", "legal": "LOST BOY HOSPITALITY VENTURES I, INC.", "city": "Miami", "state": "FL",
+   "site": "https://www.wearealllost.com", "founded": 2026, "type": "Equity",
+   "security": "Class A Common Stock", "price": 2.5, "minAmount": 10000.69, "maxAmount": 4999999.61,
+   "deadline": "2026-12-31", "platform": "DealMaker", "platformRaw": "DEALMAKER SECURITIES LLC",
+   "rev": 0, "revPrior": 0, "ni": 0, "cash": 0, "assets": 40000,
+   "shortDebt": 40000, "employees": 0, "amended": false, "filed": "2026-06-24", "cik": 2132417,
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2132417/000187285626000225/",
+   "summary": "Lost Boy Hospitality Ventures I, based in Miami, FL, is raising up to $5.0M by selling Class A Common Stock at $2.50/share on DealMaker. The company reported no revenue for its most recent fiscal year.",
+   "flags": ["Pre-revenue: no sales reported in the most recent fiscal year.", "Newly formed entity with little or no operating history.", "Issuer fee load: 8.5% cash commission plus a $37,500 advance setup fee and $15,000 monthly fee to DealMaker Securities."]
+  },
+  {
+   "name": "Social Impact Solar HoldCo", "legal": "Social Impact Solar HoldCo LLC", "city": "Lexington", "state": "KY",
+   "site": "https://edelenrenewables.com", "founded": 2026, "type": "Debt",
+   "security": "Loan notes ($1.00 par)", "price": 1.0, "minAmount": 350000, "maxAmount": 500000,
+   "deadline": "2026-09-23", "platform": "Climatize", "platformRaw": "CLIMATIZE EARTH SECURITIES LLC",
+   "rev": 0, "revPrior": 0, "ni": 0, "cash": 0, "assets": 0,
+   "shortDebt": 0, "employees": 0, "amended": false, "filed": "2026-06-25", "cik": 2133170,
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2133170/000213317026000001/",
+   "summary": "Social Impact Solar HoldCo, based in Lexington, KY, is raising up to $500K in loan notes on Climatize. The company reported no revenue for its most recent fiscal year; this is a project-finance vehicle for community solar developed by Edelen Renewables.",
+   "flags": ["Pre-revenue: no sales reported in the most recent fiscal year.", "Newly formed entity with little or no operating history.", "Issuer fee load: 5% origination fee plus 0.5% annual servicing fee to the portal."]
+  },
+  {
+   "name": "IOTTY Smart Home", "legal": "IOTTY Smart Home, Inc.", "city": "Westwood", "state": "NJ",
+   "site": "https://iottysmarthome.com/", "founded": 2025, "type": "Equity",
+   "security": "Class B Common Stock", "price": 1.5, "minAmount": 10000.5, "maxAmount": 4309998.75,
+   "deadline": "2027-04-15", "platform": "DealMaker", "platformRaw": "DEALMAKER SECURITIES LLC",
+   "rev": 1195709, "revPrior": 2367799, "ni": -316778, "cash": 11270, "assets": 62901,
+   "shortDebt": 2796928, "employees": 0, "amended": false, "filed": "2026-06-26", "cik": 2088658,
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2088658/000187285626000229/",
+   "summary": "IOTTY Smart Home, based in Westwood, NJ, is raising up to $4.3M by selling Class B Common Stock at $1.50/share on DealMaker. It reported $1.2M in revenue for its most recent fiscal year, down 50% year-over-year, with a net loss of $317K. Reported cash ($11K) is below its annual loss ($317K), so this raise materially affects its runway.",
+   "flags": ["Revenue declined 50% year-over-year.", "Cash on hand covers less than half the most recent annual loss.", "Short-term debt ($2.8M) exceeds total assets ($63K).", "Issuer fee load: 8.5% cash commission plus a $5,000 setup fee and $2,000 monthly fee to DealMaker Securities."]
+  },
+  {
+   "name": "TOKYOPOP", "legal": "TOKYOPOP INC", "city": "Culver City", "state": "CA",
+   "site": "https://tokyopop.com/", "founded": 1997, "type": "Equity",
+   "security": "Class B Common Stock", "price": 5.0, "minAmount": 10001.3, "maxAmount": 1234995.75,
+   "deadline": "2026-12-31", "platform": "DealMaker", "platformRaw": "DEALMAKER SECURITIES LLC",
+   "rev": 16006680, "revPrior": 14843004, "ni": -997637, "cash": 1565217, "assets": 11181095,
+   "shortDebt": 8442933, "employees": 11, "amended": true, "filed": "2026-06-02", "cik": 2111984,
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2111984/000187285626000206/",
+   "summary": "TOKYOPOP, based in Culver City, CA, is raising up to $1.2M by selling Class B Common Stock at $5.00/share on DealMaker. It reported $16.0M in revenue for its most recent fiscal year, up 8% year-over-year, with a net loss of $998K.",
+   "flags": ["Swung from a $1.9M profit to a $1M loss year-over-year.", "Issuer fee load: 8.5% cash commission plus a $47,500 setup fee and $12,000 monthly fee to DealMaker Securities."]
+  },
+  {
+   "name": "Aircar Aviation", "legal": "Aircar Aviation, Inc.", "city": "Dover", "state": "DE",
+   "site": "https://www.aircar.aero/", "founded": 2018, "type": "Equity",
+   "security": "Class B Common Stock", "price": 1.0, "minAmount": 10000.17, "maxAmount": 4999999.1,
+   "deadline": "2026-12-31", "platform": "DealMaker", "platformRaw": "DEALMAKER SECURITIES LLC",
+   "rev": 0, "revPrior": 0, "ni": 170809, "cash": 380644, "assets": 420232,
+   "shortDebt": 130448, "employees": 1, "amended": true, "filed": "2026-06-09", "cik": 2110275,
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2110275/000187285626000219/",
+   "summary": "Aircar Aviation, based in Dover, DE, is raising up to $5.0M by selling Class B Common Stock at $1.00/share on DealMaker. The company reported no revenue for its most recent fiscal year.",
+   "flags": ["Pre-revenue: no sales reported in the most recent fiscal year, eight years after incorporation.", "Positive net income ($171K) despite zero revenue suggests a one-off accounting item — read the full Form C.", "Issuer fee load: 8.5% cash commission plus a $38,500 setup fee and $15,000 monthly fee to DealMaker Securities."]
+  },
+  {
+   "name": "Eliaz Therapeutics", "legal": "Eliaz Therapeutics Inc.", "city": "Santa Rosa", "state": "CA",
+   "site": "https://www.eliaztherapeutics.com", "founded": 2015, "type": "Equity",
+   "security": "Class B Common Stock", "price": 5.56, "minAmount": 10004.72, "maxAmount": 2999995.63,
+   "deadline": "2027-04-15", "platform": "DealMaker", "platformRaw": "DEALMAKER SECURITIES LLC",
+   "rev": 332235, "revPrior": 302481, "ni": -1745041, "cash": 1799510, "assets": 2589276,
+   "shortDebt": 1796731, "employees": 2, "amended": false, "filed": "2026-06-10", "cik": 2042609,
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2042609/000187285626000220/",
+   "summary": "Eliaz Therapeutics, based in Santa Rosa, CA, is raising up to $3.0M by selling Class B Common Stock at $5.56/share on DealMaker. It reported $332K in revenue for its most recent fiscal year, up 10% year-over-year, with a net loss of $1.7M. Reported cash ($1.8M) roughly covers one year of losses at the current burn rate.",
+   "flags": ["Long-term debt ($8.0M) far exceeds total assets ($2.6M).", "Clinical-stage: outcome depends on regulatory and clinical milestones.", "Issuer fee load: 8.5% cash commission plus a $38,000 fee and $15,000 monthly fee to DealMaker Securities."]
+  },
+  {
+   "name": "Moon Five Technologies", "legal": "Moon Five Technologies", "city": "Berkeley", "state": "CA",
+   "site": "https://www.moonfive.tech", "founded": 2023, "type": "Debt",
+   "security": "Loan notes ($1.00 par)", "price": 1.0, "minAmount": 250000, "maxAmount": 300000,
+   "deadline": "2026-09-30", "platform": "Climatize", "platformRaw": "CLIMATIZE EARTH SECURITIES LLC",
+   "rev": 78775, "revPrior": 0, "ni": -1230348, "cash": 248965, "assets": 262020,
+   "shortDebt": 2000, "employees": 5, "amended": false, "filed": "2026-07-02", "cik": 2127289,
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2127289/000212728926000004/",
+   "summary": "Moon Five Technologies, based in Berkeley, CA, is raising up to $300K in loan notes on Climatize. It reported $79K in revenue for its most recent fiscal year — its first year with sales — with a net loss of $1.2M. Reported cash ($249K) is below its annual loss ($1.2M), so this raise materially affects its runway.",
+   "flags": ["Per the filing, this offering is made only to Colorado residents.", "Cash on hand covers less than half the most recent annual loss.", "Issuer fee load: 5% origination fee plus 0.5% annual servicing fee to the portal."]
+  }
+ ]
+}
