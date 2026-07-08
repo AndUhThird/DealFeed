@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-08T23:42:08.688Z",
+ "generated": "2026-07-08T23:55:57.080Z",
  "count": 86,
  "deals": [
   {
@@ -271,6 +271,7 @@
    "summary": "Finlete Funding, based in San Diego, CA, is raising up to $215K by selling Preferred Stock at $8.60/share on DealMaker. It reported $13K in revenue for its most recent fiscal year, with a net loss of $316K. Reported cash ($9K) is below its annual loss ($316K), so this raise materially affects its runway.",
    "flags": [
     "Cash on hand covers less than half the most recent annual loss.",
+    "Issuer name suggests a special-purpose entity: what you'd own may track a specific asset, project, or contract rather than the named brand — read the filing to see exactly what the security represents.",
     "Issuer pays 8.5% of the amount raised to DealMaker."
    ]
   },
@@ -476,6 +477,7 @@
    "flags": [
     "Cash on hand covers less than half the most recent annual loss.",
     "Newly formed entity with little or no operating history.",
+    "Issuer name suggests a special-purpose entity: what you'd own may track a specific asset, project, or contract rather than the named brand — read the filing to see exactly what the security represents.",
     "Issuer pays 2.25% of the amount raised to Dalmore."
    ]
   },
@@ -751,6 +753,7 @@
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Newly formed entity with little or no operating history.",
+    "Issuer name suggests a special-purpose entity: what you'd own may track a specific asset, project, or contract rather than the named brand — read the filing to see exactly what the security represents.",
     "Issuer pays 5.00% of the amount raised plus setup/monthly fees to Climatize."
    ]
   },
@@ -889,6 +892,7 @@
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Newly formed entity with little or no operating history.",
+    "Issuer name suggests a special-purpose entity: what you'd own may track a specific asset, project, or contract rather than the named brand — read the filing to see exactly what the security represents.",
     "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
@@ -1994,6 +1998,7 @@
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Newly formed entity with little or no operating history.",
+    "Issuer name suggests a special-purpose entity: what you'd own may track a specific asset, project, or contract rather than the named brand — read the filing to see exactly what the security represents.",
     "Issuer pays 5.00% of the amount raised plus setup/monthly fees to Climatize."
    ]
   },
@@ -2236,6 +2241,7 @@
    "cik": 1867925,
    "summary": "Skybound Holdings, based in Los Angeles, CA, is raising up to $5.0M by selling Common Units of limited liability company membership interests at $12.50/share on DealMaker. It reported $111.8M in revenue for its most recent fiscal year, up 11% year-over-year, with a net loss of $20.1M.",
    "flags": [
+    "Issuer name suggests a special-purpose entity: what you'd own may track a specific asset, project, or contract rather than the named brand — read the filing to see exactly what the security represents.",
     "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
