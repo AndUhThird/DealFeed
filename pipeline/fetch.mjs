@@ -139,6 +139,8 @@ function redFlags(d) {
     f.push(`Short-term debt (${money(d.shortDebt)}) exceeds total assets (${money(d.assets)}).`);
   if (d.founded && new Date().getFullYear() - d.founded < 1)
     f.push("Newly formed entity with little or no operating history.");
+  if (/\b(SPV|CF|Funding|Holdco|Holdings?|Ventures?\s+[IVX\d]+)\b/i.test(d.legal))
+    f.push("Issuer name suggests a special-purpose entity: what you'd own may track a specific asset, project, or contract rather than the named brand — read the filing to see exactly what the security represents.");
   if (d.fees) {
     const pct = d.fees.match(/(\d+(?:\.\d+)?)\s*%/);
     const extras = /monthly|setup|advance|servicing/i.test(d.fees) ? " plus setup/monthly fees" : "";
