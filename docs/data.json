@@ -1,8 +1,9 @@
 {
- "generated": "2026-07-08T23:25:12.660Z",
+ "generated": "2026-07-08T23:42:08.688Z",
  "count": 86,
  "deals": [
   {
+   "sector": "Finance & Fintech",
    "name": "FOI Equity",
    "legal": "FOI Equity, Inc",
    "city": "Dallas",
@@ -16,7 +17,7 @@
    "maxAmount": 1000000,
    "deadline": "2026-12-31",
    "platformRaw": "Invown Funding Portal LLC",
-   "platform": "Invown Funding Portal",
+   "platform": "Invown",
    "fees": "The intermediary will receive 1.5% of the offering proceeds as a commission. The intermediary will also receive a monthly administrative fee in the amount of $1,499 or $999 if paid yearly.",
    "rev": 0,
    "revPrior": 0,
@@ -29,13 +30,14 @@
    "filed": "2026-07-08",
    "filingUrl": "https://www.sec.gov/Archives/edgar/data/2135373/000213537326000002/",
    "cik": 2135373,
-   "summary": "FOI Equity, based in Dallas, TX, is raising up to $1.0M by selling Common Stock at $0.50/share on Invown Funding Portal. The company reported no revenue for its most recent fiscal year.",
+   "summary": "FOI Equity, based in Dallas, TX, is raising up to $1.0M by selling Common Stock at $0.50/share on Invown. The company reported no revenue for its most recent fiscal year.",
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Issuer fee load: The intermediary will receive 1.5% of the offering proceeds as a commission. The intermediary will also receive a monthly administrative fee in the am…"
+    "Issuer pays 1.5% of the amount raised plus setup/monthly fees to Invown."
    ]
   },
   {
+   "sector": "Agriculture",
    "name": "Riley's American Heritage Farms",
    "legal": "Riley's American Heritage Farms",
    "city": "Oak Glen",
@@ -65,10 +67,11 @@
    "summary": "Riley's American Heritage Farms, based in Oak Glen, CA, is raising up to $124K in loan notes on Honeycomb. It reported $3.0M in revenue for its most recent fiscal year, down 2% year-over-year, with a net profit of $122K.",
    "flags": [
     "Revenue declined 2% year-over-year.",
-    "Issuer fee load: 8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Walle…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
+   "sector": "Energy & Climate",
    "name": "Solar Development Group",
    "legal": "Solar Development Group, LLC",
    "city": "Maitland",
@@ -97,10 +100,11 @@
    "cik": 2137687,
    "summary": "Solar Development Group, based in Maitland, FL, is raising up to $196K in loan notes on Climatize. It reported $17.7M in revenue for its most recent fiscal year, up 1% year-over-year, with a net profit of $3.5M.",
    "flags": [
-    "Issuer fee load: An Origination Fee equal to 5.00% of the Offering Amount raised, payable in full on the Issuance Date, plus an annual Servicing Fee of 0.50% for the T…"
+    "Issuer pays 5.00% of the amount raised plus setup/monthly fees to Climatize."
    ]
   },
   {
+   "sector": "Food & Beverage",
    "name": "Classic Coffee and Tea",
    "legal": "Classic Coffee and Tea, LLC",
    "city": "Mechanicsville",
@@ -129,10 +133,11 @@
    "cik": 2143684,
    "summary": "Classic Coffee and Tea, based in Mechanicsville, VA, is raising up to $75K in loan notes on Honeycomb. It reported $206K in revenue for its most recent fiscal year, up 72% year-over-year, with a net profit of $40K.",
    "flags": [
-    "Issuer fee load: 8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Walle…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
+   "sector": "Other",
    "name": "Daebock",
    "legal": "Daebock Inc",
    "city": "Dublin",
@@ -162,10 +167,11 @@
    "summary": "Daebock, based in Dublin, CA, is raising up to $30K in loan notes on Honeycomb. The company reported no revenue for its most recent fiscal year.",
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Issuer fee load: 8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Walle…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
+   "sector": "Other",
    "name": "20Slash20",
    "legal": "20Slash20, Inc.",
    "city": "West Covina",
@@ -179,7 +185,7 @@
    "maxAmount": 124000,
    "deadline": "2026-12-31",
    "platformRaw": "Mr. Crowd",
-   "platform": "Mr. Crowd",
+   "platform": "Mr Crowd",
    "fees": "1) The issuer shall pay the intermediary a fee equal to 5% of the gross amount raised. 2) The issuer shall pay or reimburse all reasonable out-of-pocket third party expenses incurred by the intermediary on behalf of the issuer.",
    "rev": 2911,
    "revPrior": 2347,
@@ -192,13 +198,14 @@
    "filed": "2026-07-06",
    "filingUrl": "https://www.sec.gov/Archives/edgar/data/2140631/000214063126000003/",
    "cik": 2140631,
-   "summary": "20Slash20, based in West Covina, CA, is raising up to $124K by selling Common Stock at $4.25/share on Mr. Crowd. It reported $3K in revenue for its most recent fiscal year, up 24% year-over-year, with a net loss of $164K. Reported cash ($14K) is below its annual loss ($164K), so this raise materially affects its runway.",
+   "summary": "20Slash20, based in West Covina, CA, is raising up to $124K by selling Common Stock at $4.25/share on Mr Crowd. It reported $3K in revenue for its most recent fiscal year, up 24% year-over-year, with a net loss of $164K. Reported cash ($14K) is below its annual loss ($164K), so this raise materially affects its runway.",
    "flags": [
     "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer fee load: 1) The issuer shall pay the intermediary a fee equal to 5% of the gross amount raised. 2) The issuer shall pay or reimburse all reasonable out-of-pock…"
+    "Issuer pays 5% of the amount raised to Mr Crowd."
    ]
   },
   {
+   "sector": "Tech & Software",
    "name": "BIGADO NETWORKS AI",
    "legal": "BIGADO NETWORKS AI INC",
    "city": "Las Vegas",
@@ -212,7 +219,7 @@
    "maxAmount": 50000,
    "deadline": "2026-11-30",
    "platformRaw": "PW Capital, Inc.",
-   "platform": "Pw Capital, .",
+   "platform": "Pw Capital",
    "fees": "These amounts relate to platform access, software tools, educational materials, coaching, offering preparation support, and related services. Planet Wealth does not guarantee fundraising results, investor demand, valuation, timing, or amount capital raise",
    "rev": 0,
    "revPrior": 0,
@@ -225,15 +232,16 @@
    "filed": "2026-07-06",
    "filingUrl": "https://www.sec.gov/Archives/edgar/data/2130354/000213035426000003/",
    "cik": 2130354,
-   "summary": "BIGADO NETWORKS AI, based in Las Vegas, NV, is raising up to $50K in loan notes on Pw Capital, .. The company reported no revenue for its most recent fiscal year. Reported cash ($100) is below its annual loss ($925), so this raise materially affects its runway.",
+   "summary": "BIGADO NETWORKS AI, based in Las Vegas, NV, is raising up to $50K in loan notes on Pw Capital. The company reported no revenue for its most recent fiscal year. Reported cash ($100) is below its annual loss ($925), so this raise materially affects its runway.",
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Cash on hand covers less than half the most recent annual loss.",
     "Newly formed entity with little or no operating history.",
-    "Issuer fee load: These amounts relate to platform access, software tools, educational materials, coaching, offering preparation support, and related services. Planet W…"
+    "Issuer pays fees to Pw Capital — see full fee disclosure."
    ]
   },
   {
+   "sector": "Finance & Fintech",
    "name": "Finlete Funding",
    "legal": "Finlete Funding, Inc.",
    "city": "San Diego",
@@ -263,10 +271,11 @@
    "summary": "Finlete Funding, based in San Diego, CA, is raising up to $215K by selling Preferred Stock at $8.60/share on DealMaker. It reported $13K in revenue for its most recent fiscal year, with a net loss of $316K. Reported cash ($9K) is below its annual loss ($316K), so this raise materially affects its runway.",
    "flags": [
     "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer fee load: 8.5% commission, $1,000 activation fee"
+    "Issuer pays 8.5% of the amount raised to DealMaker."
    ]
   },
   {
+   "sector": "Energy & Climate",
    "name": "Moon Five Technologies",
    "legal": "Moon Five Technologies",
    "city": "Berkeley",
@@ -296,10 +305,11 @@
    "summary": "Moon Five Technologies, based in Berkeley, CA, is raising up to $300K in loan notes on Climatize. It reported $79K in revenue for its most recent fiscal year, with a net loss of $1.2M. Reported cash ($249K) is below its annual loss ($1.2M), so this raise materially affects its runway.",
    "flags": [
     "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer fee load: An Origination Fee equal to 5.00% of the Offering Amount raised, payable in full on the Issuance Date, plus an annual Servicing Fee of 0.50% of the ou…"
+    "Issuer pays 5.00% of the amount raised plus setup/monthly fees to Climatize."
    ]
   },
   {
+   "sector": "Other",
    "name": "Reiturn",
    "legal": "Reiturn Inc.",
    "city": "Pittsburgh",
@@ -330,10 +340,11 @@
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Newly formed entity with little or no operating history.",
-    "Issuer fee load: DealMaker Securities LLC and its affiliates will receive cash compensation of 8.5% of the aggregate amount raised, a one-time advance fee of $47,500, …"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
   {
+   "sector": "Finance & Fintech",
    "name": "Bull Moose Trading Co.",
    "legal": "Bull Moose Trading Co. LLC",
    "city": "Gainesboro",
@@ -364,10 +375,11 @@
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Newly formed entity with little or no operating history.",
-    "Issuer fee load: Commission equaling 6% of the total amount raised payable at each closing."
+    "Issuer pays 6% of the amount raised to Vicinity."
    ]
   },
   {
+   "sector": "Finance & Fintech",
    "name": "CGB Green Liberty Notes",
    "legal": "CGB Green Liberty Notes LLC",
    "city": "Hartford",
@@ -396,10 +408,11 @@
    "cik": 1896328,
    "summary": "CGB Green Liberty Notes, based in Hartford, CT, is raising up to $350K in loan notes on Honeycomb. It reported $237K in revenue for its most recent fiscal year, up 39% year-over-year, with a net profit of $245K.",
    "flags": [
-    "Issuer fee load: 3.75% of the total offering amount upon a successful raise plus a .5% servicing fee. Platform Fee corresponding to selected level of service. 3% inves…"
+    "Issuer pays 3.75% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
+   "sector": "Media & Entertainment",
    "name": "VidAngel Entertainment",
    "legal": "VidAngel Entertainment, Inc.",
    "city": "Lehi",
@@ -413,7 +426,7 @@
    "maxAmount": 4999999.2,
    "deadline": "2026-07-31",
    "platformRaw": "NORTH CAPITAL PRIVATE SECURITIES CORPORATION",
-   "platform": "North Capital Private Securities Corporation",
+   "platform": "North Capital",
    "fees": "5% of the successful offering amount in cash",
    "rev": 14086662,
    "revPrior": 13472244,
@@ -426,12 +439,13 @@
    "filed": "2026-07-01",
    "filingUrl": "https://www.sec.gov/Archives/edgar/data/2126454/000212645426000001/",
    "cik": 2126454,
-   "summary": "VidAngel Entertainment, based in Lehi, UT, is raising up to $5.0M by selling Preferred Stock at $1.23/share on North Capital Private Securities Corporation. It reported $14.1M in revenue for its most recent fiscal year, up 5% year-over-year, with a net loss of $1.3M. Reported cash ($1.0M) is below its annual loss ($1.3M), so this raise materially affects its runway.",
+   "summary": "VidAngel Entertainment, based in Lehi, UT, is raising up to $5.0M by selling Preferred Stock at $1.23/share on North Capital. It reported $14.1M in revenue for its most recent fiscal year, up 5% year-over-year, with a net loss of $1.3M. Reported cash ($1.0M) is below its annual loss ($1.3M), so this raise materially affects its runway.",
    "flags": [
-    "Issuer fee load: 5% of the successful offering amount in cash"
+    "Issuer pays 5% of the amount raised to North Capital."
    ]
   },
   {
+   "sector": "Other",
    "name": "MRH CF",
    "legal": "MRH CF, LLC",
    "city": "Lexington",
@@ -445,7 +459,7 @@
    "maxAmount": 440000,
    "deadline": "2027-04-30",
    "platformRaw": "DALMORE GROUP LLC",
-   "platform": "Dalmore Group",
+   "platform": "Dalmore",
    "fees": "2.25% of the offering. There is a $2,500 additional set up fee that Experiential Squared, Inc., the manager, will cover as part of their organizational and experiential fee.",
    "rev": 364301,
    "revPrior": 29562,
@@ -458,14 +472,15 @@
    "filed": "2026-07-01",
    "filingUrl": "https://www.sec.gov/Archives/edgar/data/2008780/000207002426000028/",
    "cik": 2008780,
-   "summary": "MRH CF, based in Lexington, KY, is raising up to $440K by selling Series LLC Interests at $88.00/share on Dalmore Group. It reported $364K in revenue for its most recent fiscal year, up 1132% year-over-year, with a net loss of $2.2M. Reported cash ($463K) is below its annual loss ($2.2M), so this raise materially affects its runway.",
+   "summary": "MRH CF, based in Lexington, KY, is raising up to $440K by selling Series LLC Interests at $88.00/share on Dalmore. It reported $364K in revenue for its most recent fiscal year, up 1132% year-over-year, with a net loss of $2.2M. Reported cash ($463K) is below its annual loss ($2.2M), so this raise materially affects its runway.",
    "flags": [
     "Cash on hand covers less than half the most recent annual loss.",
     "Newly formed entity with little or no operating history.",
-    "Issuer fee load: 2.25% of the offering. There is a $2,500 additional set up fee that Experiential Squared, Inc., the manager, will cover as part of their organizationa…"
+    "Issuer pays 2.25% of the amount raised to Dalmore."
    ]
   },
   {
+   "sector": "Other",
    "name": "Avadain",
    "legal": "Avadain, Inc.",
    "city": "Eads",
@@ -495,10 +510,11 @@
    "summary": "Avadain, based in Eads, TN, is raising up to $3.8M by selling Common Stock at $12.50/share on Netcapital. The company reported no revenue for its most recent fiscal year.",
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Issuer fee load: Up to 4.9% of amount raised for a successful offering and a listing fee of up to $10,000"
+    "Issuer pays 4.9% of the amount raised to Netcapital."
    ]
   },
   {
+   "sector": "Other",
    "name": "Cognivix",
    "legal": "Cognivix Inc.",
    "city": "San Francisco",
@@ -528,10 +544,11 @@
    "summary": "Cognivix, based in San Francisco, CA, is raising up to $1.2M by selling SAFE (Simple Agreement for Future Equity) at $1.00/share on Republic. The company reported no revenue for its most recent fiscal year.",
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Issuer fee load: Issuer shall pay the Intermediary a non-refundable $5,000 onboarding fee. Additionally, Issuer shall pay a cash fee equal to the greater of $15,000 or…"
+    "Issuer pays 6% of the amount raised to Republic."
    ]
   },
   {
+   "sector": "Health & Bio",
    "name": "Barricade Therapeutics",
    "legal": "Barricade Therapeutics Corp.",
    "city": "Fort Worth",
@@ -545,7 +562,7 @@
    "maxAmount": 1235000,
    "deadline": "2026-09-28",
    "platformRaw": "StartEngine Primary, LLC",
-   "platform": "Startengine Primary,",
+   "platform": "StartEngine",
    "fees": "7 - 13 percent",
    "rev": 810102,
    "revPrior": 249853,
@@ -558,13 +575,14 @@
    "filed": "2026-06-29",
    "filingUrl": "https://www.sec.gov/Archives/edgar/data/2090859/000209085926000010/",
    "cik": 2090859,
-   "summary": "Barricade Therapeutics, based in Fort Worth, TX, is raising up to $1.2M by selling Convertible Note on Startengine Primary,. It reported $810K in revenue for its most recent fiscal year, up 224% year-over-year, with a net loss of $437K.",
+   "summary": "Barricade Therapeutics, based in Fort Worth, TX, is raising up to $1.2M by selling Convertible Note on StartEngine. It reported $810K in revenue for its most recent fiscal year, up 224% year-over-year, with a net loss of $437K.",
    "flags": [
     "Short-term debt ($863K) exceeds total assets ($508K).",
-    "Issuer fee load: 7 - 13 percent"
+    "Issuer pays fees to StartEngine — see full fee disclosure."
    ]
   },
   {
+   "sector": "Other",
    "name": "Rentberry",
    "legal": "Rentberry Inc.",
    "city": "San Francisco",
@@ -593,10 +611,11 @@
    "cik": 1657493,
    "summary": "Rentberry, based in San Francisco, CA, is raising up to $5.0M by selling Common Stock at $1.85/share on Republic. It reported $1.7M in revenue for its most recent fiscal year, up 110% year-over-year, with a net loss of $4.8M.",
    "flags": [
-    "Issuer fee load: At the close of the Offering, Issuer shall pay the Intermediary the greater of (A) $0 or (B) 0% of amounts raised to $1,000,000 from certain pre-ident…"
+    "Issuer pays 0% of the amount raised to Republic."
    ]
   },
   {
+   "sector": "Tech & Software",
    "name": "IOTTY Smart Home",
    "legal": "IOTTY Smart Home, Inc.",
    "city": "Westwood",
@@ -628,10 +647,11 @@
     "Revenue declined 50% year-over-year.",
     "Cash on hand covers less than half the most recent annual loss.",
     "Short-term debt ($2.8M) exceeds total assets ($63K).",
-    "Issuer fee load: The Issuer will pay to DealMaker Securities LLC a fee of 8.5% cash commission based on the dollar amount of Securities sold in the Offering. There is …"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
   {
+   "sector": "Food & Beverage",
    "name": "Coqui Sucre Fusion Patisserie",
    "legal": "Coqui Sucre Fusion Patisserie, LLC",
    "city": "Rio Grande",
@@ -662,10 +682,11 @@
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Newly formed entity with little or no operating history.",
-    "Issuer fee load: 8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Walle…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
+   "sector": "Food & Beverage",
    "name": "Chattooga Brewing",
    "legal": "Chattooga Brewing LLC",
    "city": "Trion",
@@ -695,10 +716,11 @@
    "summary": "Chattooga Brewing, based in Trion, GA, is raising up to $25K in loan notes on Honeycomb. It reported $13K in revenue for its most recent fiscal year, with a net loss of $18K. Reported cash ($5K) is below its annual loss ($18K), so this raise materially affects its runway.",
    "flags": [
     "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer fee load: 8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Walle…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
+   "sector": "Energy & Climate",
    "name": "Social Impact Solar HoldCo",
    "legal": "Social Impact Solar HoldCo LLC",
    "city": "Lexington",
@@ -729,10 +751,11 @@
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Newly formed entity with little or no operating history.",
-    "Issuer fee load: An Origination Fee equal to 5.00% of the Offering Amount raised, payable in full on the Issuance Date, plus an annual Servicing Fee of 0.50% for the T…"
+    "Issuer pays 5.00% of the amount raised plus setup/monthly fees to Climatize."
    ]
   },
   {
+   "sector": "Energy & Climate",
    "name": "Solar Faithful",
    "legal": "Solar Faithful",
    "city": "Muskegon",
@@ -762,10 +785,11 @@
    "summary": "Solar Faithful, based in Muskegon, MI, is raising up to $88K in loan notes on Honeycomb. The company reported no revenue for its most recent fiscal year.",
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Issuer fee load: 5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Wallet:…"
+    "Issuer pays 5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
+   "sector": "Hospitality & Travel",
    "name": "AutoCamp Hospitality Group",
    "legal": "AutoCamp Hospitality Group Inc.",
    "city": "San Francisco",
@@ -795,10 +819,11 @@
    "summary": "AutoCamp Hospitality Group, based in San Francisco, CA, is raising up to $5.0M by selling Class B Common Stock at $9.10/share on DealMaker. It reported $4.3M in revenue for its most recent fiscal year, up 2% year-over-year, with a net loss of $859K.",
    "flags": [
     "Newly formed entity with little or no operating history.",
-    "Issuer fee load: The Company will pay DealMaker Securities LLC a cash fee of 8.5% commission based on the dollar amount of Securities sold in the Offering. A $32,500 a…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
   {
+   "sector": "Energy & Climate",
    "name": "HighTide Energy",
    "legal": "HighTide Energy Inc.",
    "city": "Scottsdale",
@@ -812,7 +837,7 @@
    "maxAmount": 1000000,
    "deadline": "2027-06-17",
    "platformRaw": "Fundify Portal, LLC",
-   "platform": "Fundify Portal,",
+   "platform": "Fundify Portal",
    "fees": "8.5%",
    "rev": 77533,
    "revPrior": 8000,
@@ -825,14 +850,15 @@
    "filed": "2026-06-24",
    "filingUrl": "https://www.sec.gov/Archives/edgar/data/2130313/000178877726000013/",
    "cik": 2130313,
-   "summary": "HighTide Energy, based in Scottsdale, AZ, is raising up to $1.0M by selling (SAFE) Simple Agreement for Future Equity at $1.00/share on Fundify Portal,. It reported $78K in revenue for its most recent fiscal year, up 869% year-over-year, with a net loss of $2.4M. Reported cash ($4K) is below its annual loss ($2.4M), so this raise materially affects its runway.",
+   "summary": "HighTide Energy, based in Scottsdale, AZ, is raising up to $1.0M by selling (SAFE) Simple Agreement for Future Equity at $1.00/share on Fundify Portal. It reported $78K in revenue for its most recent fiscal year, up 869% year-over-year, with a net loss of $2.4M. Reported cash ($4K) is below its annual loss ($2.4M), so this raise materially affects its runway.",
    "flags": [
     "Cash on hand covers less than half the most recent annual loss.",
     "Short-term debt ($723K) exceeds total assets ($38K).",
-    "Issuer fee load: 8.5%"
+    "Issuer pays 8.5% of the amount raised to Fundify Portal."
    ]
   },
   {
+   "sector": "Hospitality & Travel",
    "name": "LOST BOY HOSPITALITY VENTURES I",
    "legal": "LOST BOY HOSPITALITY VENTURES I, INC.",
    "city": "Miami",
@@ -863,10 +889,11 @@
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Newly formed entity with little or no operating history.",
-    "Issuer fee load: The Issuer will pay DealMaker Securities LLC a fee of 8.5% cash commission based on the dollar amount of the Securities sold in the Offering. There is…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
   {
+   "sector": "Other",
    "name": "Hexxco",
    "legal": "Hexxco, Inc.",
    "city": "Lambertville",
@@ -897,10 +924,11 @@
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer fee load: Up to 4.9% of amount raised for a successful offering and a listing fee of up to $10,000"
+    "Issuer pays 4.9% of the amount raised to Netcapital."
    ]
   },
   {
+   "sector": "Other",
    "name": "CliqRex",
    "legal": "CliqRex Inc.",
    "city": "Cincinnati",
@@ -932,10 +960,11 @@
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Cash on hand covers less than half the most recent annual loss.",
     "Short-term debt ($106K) exceeds total assets ($2K).",
-    "Issuer fee load: Up to 4.9% of amount raised for a successful offering and a listing fee of up to $10,000"
+    "Issuer pays 4.9% of the amount raised to Netcapital."
    ]
   },
   {
+   "sector": "Tech & Software",
    "name": "Boss Tech",
    "legal": "Boss Tech, Inc",
    "city": "Philadelphia",
@@ -949,7 +978,7 @@
    "maxAmount": 4000000,
    "deadline": "2027-04-30",
    "platformRaw": "GP NURMENKARI INC.",
-   "platform": "Gp Nurmenkari .",
+   "platform": "Gp Nurmenkari",
    "fees": "7% of gross proceeds (1% Broker of Record + 6% Placement Fee); max $280,000 if $4M raised; min $3,500 if $50K raised. Other fees: $500/mo hosting; $5-$35/investor compliance; transaction processing fees; counsel fees capped at $25,000.",
    "rev": 26,
    "revPrior": 0,
@@ -962,13 +991,14 @@
    "filed": "2026-06-23",
    "filingUrl": "https://www.sec.gov/Archives/edgar/data/1955205/000195520526000008/",
    "cik": 1955205,
-   "summary": "Boss Tech, based in Philadelphia, PA, is raising up to $4.0M by selling Membership Interests / SPV Units at $1.00/share on Gp Nurmenkari .. It reported $26 in revenue for its most recent fiscal year, with a net loss of $2.5M. Reported cash ($28K) is below its annual loss ($2.5M), so this raise materially affects its runway.",
+   "summary": "Boss Tech, based in Philadelphia, PA, is raising up to $4.0M by selling Membership Interests / SPV Units at $1.00/share on Gp Nurmenkari. It reported $26 in revenue for its most recent fiscal year, with a net loss of $2.5M. Reported cash ($28K) is below its annual loss ($2.5M), so this raise materially affects its runway.",
    "flags": [
     "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer fee load: 7% of gross proceeds (1% Broker of Record + 6% Placement Fee); max $280,000 if $4M raised; min $3,500 if $50K raised. Other fees: $500/mo hosting; $5-…"
+    "Issuer pays 7% of the amount raised to Gp Nurmenkari."
    ]
   },
   {
+   "sector": "Other",
    "name": "MAGFAST",
    "legal": "MAGFAST, LLC",
    "city": "Cornwall on Hudson",
@@ -999,10 +1029,11 @@
    "flags": [
     "Revenue declined 24% year-over-year.",
     "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer fee load: Up to 4.9% of amount raised for a successful offering and a listing fee of up to $10,000"
+    "Issuer pays 4.9% of the amount raised to Netcapital."
    ]
   },
   {
+   "sector": "Other",
    "name": "Pathfinder Resources",
    "legal": "Pathfinder Resources, Inc.",
    "city": "Eagle",
@@ -1016,7 +1047,7 @@
    "maxAmount": 5000000,
    "deadline": "2027-06-22",
    "platformRaw": "TEXTURE CAPITAL, INC.",
-   "platform": "Texture Capital, .",
+   "platform": "Texture Capital",
    "fees": "Issuer shall pay to Texture, in cash, an amount equal to 3.5% of the value of Securities purchased by Investors in the Offering from the proceeds of the Offering (the \"Compensation\") at each applicable closing of the Offering (a \"Closing).",
    "rev": 0,
    "revPrior": 0,
@@ -1029,15 +1060,16 @@
    "filed": "2026-06-23",
    "filingUrl": "https://www.sec.gov/Archives/edgar/data/2136523/000213652326000002/",
    "cik": 2136523,
-   "summary": "Pathfinder Resources, based in Eagle, ID, is raising up to $5.0M by selling Preferred Stock at $10.00/share on Texture Capital, .. The company reported no revenue for its most recent fiscal year. Reported cash ($0) is below its annual loss ($18K), so this raise materially affects its runway.",
+   "summary": "Pathfinder Resources, based in Eagle, ID, is raising up to $5.0M by selling Preferred Stock at $10.00/share on Texture Capital. The company reported no revenue for its most recent fiscal year. Reported cash ($0) is below its annual loss ($18K), so this raise materially affects its runway.",
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Cash on hand covers less than half the most recent annual loss.",
     "Newly formed entity with little or no operating history.",
-    "Issuer fee load: Issuer shall pay to Texture, in cash, an amount equal to 3.5% of the value of Securities purchased by Investors in the Offering from the proceeds of t…"
+    "Issuer pays 3.5% of the amount raised to Texture Capital."
    ]
   },
   {
+   "sector": "Consumer & Retail",
    "name": "AJ Skin Studio",
    "legal": "AJ Skin Studio",
    "city": "La Verne",
@@ -1067,10 +1099,11 @@
    "summary": "AJ Skin Studio, based in La Verne, CA, is raising up to $25K in loan notes on Honeycomb. The company reported no revenue for its most recent fiscal year.",
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Issuer fee load: 8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Walle…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
+   "sector": "Other",
    "name": "Last Call for Redemption",
    "legal": "Last Call for Redemption LLC",
    "city": "Sunland",
@@ -1101,10 +1134,11 @@
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Newly formed entity with little or no operating history.",
-    "Issuer fee load: Up to 4.9% of amount raised for a successful offering and a listing fee of up to $10,000"
+    "Issuer pays 4.9% of the amount raised to Netcapital."
    ]
   },
   {
+   "sector": "Finance & Fintech",
    "name": "Quasar Markets",
    "legal": "Quasar Markets Inc.",
    "city": "Wesley Chapel",
@@ -1135,10 +1169,11 @@
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer fee load: The Issuer will pay DealMaker Securities LLC a fee of 8.5% cash commission based on the dollar amount of the Securities sold in the Offering. DealMake…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
   {
+   "sector": "Agriculture",
    "name": "Ranchers Storefront",
    "legal": "Ranchers Storefront LLC",
    "city": "Amarillo",
@@ -1167,10 +1202,11 @@
    "cik": 2141544,
    "summary": "Ranchers Storefront, based in Amarillo, TX, is raising up to $124K in loan notes on Honeycomb. It reported $2.7M in revenue for its most recent fiscal year, with a net profit of $250K.",
    "flags": [
-    "Issuer fee load: 8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Walle…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
+   "sector": "Transportation & Aerospace",
    "name": "Orbit Beyond",
    "legal": "Orbit Beyond, Inc.",
    "city": "Bridgewater",
@@ -1184,7 +1220,7 @@
    "maxAmount": 4999999,
    "deadline": "2026-12-31",
    "platformRaw": "Equifund Crowd Funding Portal Inc.",
-   "platform": "Equifund Crowd Funding Portal .",
+   "platform": "Equifund",
    "fees": "Issuer will pay Intermediary an 8% commission on gross Offering proceeds, a one-time $35,000 onboarding fee, and Common Stock equal to 2% of shares sold at each closing.",
    "rev": 0,
    "revPrior": 0,
@@ -1197,15 +1233,16 @@
    "filed": "2026-06-17",
    "filingUrl": "https://www.sec.gov/Archives/edgar/data/2140358/000121390026069548/",
    "cik": 2140358,
-   "summary": "Orbit Beyond, based in Bridgewater, NJ, is raising up to $5.0M by selling Common Stock at $2.32/share on Equifund Crowd Funding Portal .. The company reported no revenue for its most recent fiscal year. Reported cash ($451) is below its annual loss ($488K), so this raise materially affects its runway.",
+   "summary": "Orbit Beyond, based in Bridgewater, NJ, is raising up to $5.0M by selling Common Stock at $2.32/share on Equifund. The company reported no revenue for its most recent fiscal year. Reported cash ($451) is below its annual loss ($488K), so this raise materially affects its runway.",
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Cash on hand covers less than half the most recent annual loss.",
     "Short-term debt ($2.0M) exceeds total assets ($451).",
-    "Issuer fee load: Issuer will pay Intermediary an 8% commission on gross Offering proceeds, a one-time $35,000 onboarding fee, and Common Stock equal to 2% of shares so…"
+    "Issuer pays 8% of the amount raised to Equifund."
    ]
   },
   {
+   "sector": "Consumer & Retail",
    "name": "Giant Baby Bottle",
    "legal": "Giant Baby Bottle LLC",
    "city": "Gainesville",
@@ -1235,10 +1272,11 @@
    "summary": "Giant Baby Bottle, based in Gainesville, FL, is raising up to $124K in loan notes on Honeycomb. It reported $89K in revenue for its most recent fiscal year, with a net loss of $3K. Reported cash ($2K) is below its annual loss ($3K), so this raise materially affects its runway.",
    "flags": [
     "Short-term debt ($32K) exceeds total assets ($2K).",
-    "Issuer fee load: 8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Walle…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
+   "sector": "Tech & Software",
    "name": "Leben & Cerne",
    "legal": "Leben & Cerne Corp",
    "city": "Los Angeles",
@@ -1252,7 +1290,7 @@
    "maxAmount": 1235000,
    "deadline": "2027-06-10",
    "platformRaw": "Fundify Portal, LLC",
-   "platform": "Fundify Portal,",
+   "platform": "Fundify Portal",
    "fees": "8.5% ; 4.0% >$350,000",
    "rev": 133301,
    "revPrior": 162501,
@@ -1265,15 +1303,16 @@
    "filed": "2026-06-16",
    "filingUrl": "https://www.sec.gov/Archives/edgar/data/1792086/000178877726000011/",
    "cik": 1792086,
-   "summary": "Leben & Cerne, based in Los Angeles, CA, is raising up to $1.2M by selling SAFE (Simple Agreement for Future Equity) at $1.00/share on Fundify Portal,. It reported $133K in revenue for its most recent fiscal year, down 18% year-over-year, with a net loss of $516K. Reported cash ($27K) is below its annual loss ($516K), so this raise materially affects its runway.",
+   "summary": "Leben & Cerne, based in Los Angeles, CA, is raising up to $1.2M by selling SAFE (Simple Agreement for Future Equity) at $1.00/share on Fundify Portal. It reported $133K in revenue for its most recent fiscal year, down 18% year-over-year, with a net loss of $516K. Reported cash ($27K) is below its annual loss ($516K), so this raise materially affects its runway.",
    "flags": [
     "Revenue declined 18% year-over-year.",
     "Cash on hand covers less than half the most recent annual loss.",
     "Short-term debt ($507K) exceeds total assets ($58K).",
-    "Issuer fee load: 8.5% ; 4.0% >$350,000"
+    "Issuer pays 8.5% of the amount raised to Fundify Portal."
    ]
   },
   {
+   "sector": "Food & Beverage",
    "name": "Owl Spoon Water Kefir Co",
    "legal": "Owl Spoon Water Kefir Co LLC",
    "city": "Midlothian",
@@ -1305,10 +1344,11 @@
     "Revenue declined 0% year-over-year.",
     "Cash on hand covers less than half the most recent annual loss.",
     "Short-term debt ($125K) exceeds total assets ($102K).",
-    "Issuer fee load: 8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Walle…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
+   "sector": "Other",
    "name": "Jordan Hill",
    "legal": "Jordan Hill, LLC",
    "city": "Plattsburgh",
@@ -1339,10 +1379,11 @@
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Newly formed entity with little or no operating history.",
-    "Issuer fee load: 8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Walle…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
+   "sector": "Tech & Software",
    "name": "Tap Systems",
    "legal": "Tap Systems Inc.",
    "city": "Pasadena",
@@ -1374,10 +1415,11 @@
     "Revenue declined 44% year-over-year.",
     "Cash on hand covers less than half the most recent annual loss.",
     "Short-term debt ($398K) exceeds total assets ($360K).",
-    "Issuer fee load: The Company will pay DealMaker Securities LLC a cash fee of 8.5% based on the dollar amount of Securities sold in the Offering. There is also a $42,50…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
   {
+   "sector": "Other",
    "name": "UgenticAI",
    "legal": "UgenticAI, Inc.",
    "city": "Rockville",
@@ -1391,7 +1433,7 @@
    "maxAmount": 4300000,
    "deadline": "2027-04-30",
    "platformRaw": "Jumpstart Micro, Inc dba Issuance Express",
-   "platform": "Jumpstart Micro,  Dba Issuance Express",
+   "platform": "Jumpstart Micro Dba Issuance Express",
    "fees": "A cash-based success fee of 7.0% of the amount raised in the Offering after each successful closing, including intermediary closings. Jumpstart Micro, Inc dba Issuance Express",
    "rev": 2210988,
    "revPrior": 67294,
@@ -1404,13 +1446,14 @@
    "filed": "2026-06-15",
    "filingUrl": "https://www.sec.gov/Archives/edgar/data/2070943/000149315226028596/",
    "cik": 2070943,
-   "summary": "UgenticAI, based in Rockville, MD, is raising up to $4.3M by selling Common Stock at $0.10/share on Jumpstart Micro,  Dba Issuance Express. It reported $2.2M in revenue for its most recent fiscal year, up 3186% year-over-year, with a net loss of $2.9M. Reported cash ($1.4M) is below its annual loss ($2.9M), so this raise materially affects its runway.",
+   "summary": "UgenticAI, based in Rockville, MD, is raising up to $4.3M by selling Common Stock at $0.10/share on Jumpstart Micro Dba Issuance Express. It reported $2.2M in revenue for its most recent fiscal year, up 3186% year-over-year, with a net loss of $2.9M. Reported cash ($1.4M) is below its annual loss ($2.9M), so this raise materially affects its runway.",
    "flags": [
     "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer fee load: A cash-based success fee of 7.0% of the amount raised in the Offering after each successful closing, including intermediary closings. Jumpstart Micro,…"
+    "Issuer pays 7.0% of the amount raised to Jumpstart Micro Dba Issuance Express."
    ]
   },
   {
+   "sector": "Other",
    "name": "Musaffa",
    "legal": "Musaffa, Inc.",
    "city": "New York",
@@ -1440,10 +1483,11 @@
    "summary": "Musaffa, based in New York, NY, is raising up to $1.2M by selling Class B Common Stock at $3.00/share on DealMaker. It reported $281K in revenue for its most recent fiscal year, up 64% year-over-year, with a net loss of $2.9M. Reported cash ($83K) is below its annual loss ($2.9M), so this raise materially affects its runway.",
    "flags": [
     "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer fee load: The issuer shall pay a fee of 7.5% of the amount raised in the offering to the Intermediary. There is also a $2,000 monthly fee payable to DealMaker S…"
+    "Issuer pays 7.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
   {
+   "sector": "Food & Beverage",
    "name": "Sojourner Mobile Coffee",
    "legal": "Sojourner Mobile Coffee LLC",
    "city": "Avondale Estates",
@@ -1474,10 +1518,11 @@
    "flags": [
     "Revenue declined 5% year-over-year.",
     "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer fee load: 8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Walle…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
+   "sector": "Food & Beverage",
    "name": "Gheelicious",
    "legal": "Gheelicious, LLC",
    "city": "Houston",
@@ -1507,10 +1552,11 @@
    "summary": "Gheelicious, based in Houston, TX, is raising up to $30K in loan notes on Honeycomb. The company reported no revenue for its most recent fiscal year.",
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Issuer fee load: 8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Walle…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
+   "sector": "Finance & Fintech",
    "name": "BLUE MAHOE CAPITAL CARIBBEAN",
    "legal": "BLUE MAHOE CAPITAL CARIBBEAN, INC.",
    "city": "Orlando",
@@ -1524,7 +1570,7 @@
    "maxAmount": 5000000,
    "deadline": "2027-05-01",
    "platformRaw": "SILICON PRAIRIE CAPITAL PARTNERS, LLC",
-   "platform": "Silicon Prairie Capital Partners,",
+   "platform": "Silicon Prairie Capital Partners",
    "fees": "$3,500 listing fee plus commissions of 5% of the first $1,000,000 sold, 4% of the second $1,000,000 sold, and 3% of amounts sold between $2,000,000.01 and $5,000,000 (total compensation of $5,000 at the target offering amount and $183,500 at the maximum).",
    "rev": 0,
    "revPrior": 0,
@@ -1537,13 +1583,14 @@
    "filed": "2026-06-11",
    "filingUrl": "https://www.sec.gov/Archives/edgar/data/2137869/000109991026000209/",
    "cik": 2137869,
-   "summary": "BLUE MAHOE CAPITAL CARIBBEAN, based in Orlando, FL, is raising up to $5.0M by selling Common Stock at $10.00/share on Silicon Prairie Capital Partners,. The company reported no revenue for its most recent fiscal year.",
+   "summary": "BLUE MAHOE CAPITAL CARIBBEAN, based in Orlando, FL, is raising up to $5.0M by selling Common Stock at $10.00/share on Silicon Prairie Capital Partners. The company reported no revenue for its most recent fiscal year.",
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Issuer fee load: $3,500 listing fee plus commissions of 5% of the first $1,000,000 sold, 4% of the second $1,000,000 sold, and 3% of amounts sold between $2,000,000.01…"
+    "Issuer pays 5% of the amount raised to Silicon Prairie Capital Partners."
    ]
   },
   {
+   "sector": "Health & Bio",
    "name": "Eliaz Therapeutics",
    "legal": "Eliaz Therapeutics Inc.",
    "city": "Santa Rosa",
@@ -1572,10 +1619,11 @@
    "cik": 2042609,
    "summary": "Eliaz Therapeutics, based in Santa Rosa, CA, is raising up to $3.0M by selling Class B Common Stock at $5.56/share on DealMaker. It reported $332K in revenue for its most recent fiscal year, up 10% year-over-year, with a net loss of $1.7M.",
    "flags": [
-    "Issuer fee load: The Issuer will pay DealMaker Securities LLC an 8.5% cash commission fee based on the dollar amount of the Securities sold in the Offering. There is a…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
   {
+   "sector": "Consumer & Retail",
    "name": "Bunny Bradley Designs",
    "legal": "Bunny Bradley Designs LLC",
    "city": "Houston",
@@ -1604,10 +1652,11 @@
    "cik": 2139990,
    "summary": "Bunny Bradley Designs, based in Houston, TX, is raising up to $25K in loan notes on Honeycomb. It reported $117K in revenue for its most recent fiscal year, up 12% year-over-year, with a net profit of $0.",
    "flags": [
-    "Issuer fee load: 8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Walle…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
+   "sector": "Energy & Climate",
    "name": "Haley Pike Solar",
    "legal": "Haley Pike Solar LLC",
    "city": "Lexington",
@@ -1638,10 +1687,11 @@
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Newly formed entity with little or no operating history.",
-    "Issuer fee load: An Origination Fee equal to 5.00% of the Offering Amount raised, payable in full on the Issuance Date, plus an annual Servicing Fee of 0.50% for the T…"
+    "Issuer pays 5.00% of the amount raised plus setup/monthly fees to Climatize."
    ]
   },
   {
+   "sector": "Transportation & Aerospace",
    "name": "Aircar Aviation",
    "legal": "Aircar Aviation, Inc.",
    "city": "Dover",
@@ -1671,10 +1721,11 @@
    "summary": "Aircar Aviation, based in Dover, DE, is raising up to $5.0M by selling Class B Common Stock at $1.00/share on DealMaker. The company reported no revenue for its most recent fiscal year.",
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Issuer fee load: The Issuer will pay DealMaker Securities LLC a fee of 8.5% cash commission based on the dollar amount of the Securities sold in the Offering. A $38,50…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
   {
+   "sector": "Other",
    "name": "The Upper Crust 2.0",
    "legal": "The Upper Crust 2.0, LLC",
    "city": "Washington",
@@ -1704,10 +1755,11 @@
    "summary": "The Upper Crust 2.0, based in Washington, PA, is raising up to $49K in loan notes on Honeycomb. The company reported no revenue for its most recent fiscal year.",
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Issuer fee load: 8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Walle…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
+   "sector": "Tech & Software",
    "name": "PlayersTV Digital",
    "legal": "PlayersTV Digital, Inc.",
    "city": "Dallas",
@@ -1738,10 +1790,11 @@
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer fee load: As compensation for the services provided by DealMaker Securities LLC and its affiliates, the Issuer is required to pay to DealMaker Securities LLC a …"
+    "Issuer pays 8.5% of the amount raised to DealMaker."
    ]
   },
   {
+   "sector": "Other",
    "name": "NanoNest",
    "legal": "NanoNest Corp",
    "city": "Carlsbad",
@@ -1771,10 +1824,11 @@
    "summary": "NanoNest, based in Carlsbad, CA, is raising up to $1.2M by selling Class B Common Stock at $1.00/share on DealMaker. It reported $11.1M in revenue for its most recent fiscal year, down 3% year-over-year, with a net profit of $1.0M.",
    "flags": [
     "Revenue declined 3% year-over-year.",
-    "Issuer fee load: The Issuer will pay DealMaker Securities LLC a fee of 8.5% cash commission based on the dollar amount of the Securities sold in the Offering. Issuer w…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
   {
+   "sector": "Other",
    "name": "Vanity Glam Philadelphia",
    "legal": "Vanity Glam Philadelphia LLC",
    "city": "Philadelphia",
@@ -1804,10 +1858,11 @@
    "summary": "Vanity Glam Philadelphia, based in Philadelphia, PA, is raising up to $75K in loan notes on Honeycomb. It reported $176K in revenue for its most recent fiscal year, down 30% year-over-year, with a net profit of $0.",
    "flags": [
     "Revenue declined 30% year-over-year.",
-    "Issuer fee load: 8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Walle…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
+   "sector": "Other",
    "name": "Really Awesome Brands",
    "legal": "Really Awesome Brands Inc.",
    "city": "Oakland",
@@ -1836,10 +1891,11 @@
    "cik": 2137524,
    "summary": "Really Awesome Brands, based in Oakland, CA, is raising up to $50K in loan notes on Honeycomb. It reported $4.7M in revenue for its most recent fiscal year, up 4511% year-over-year, with a net profit of $425K.",
    "flags": [
-    "Issuer fee load: 8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Walle…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
+   "sector": "Other",
    "name": "NeuroGym",
    "legal": "NeuroGym LLC",
    "city": "Solana Beach",
@@ -1870,10 +1926,11 @@
    "flags": [
     "Revenue declined 48% year-over-year.",
     "Short-term debt ($2.8M) exceeds total assets ($868K).",
-    "Issuer fee load: The Issuer will pay DealMaker Securities LLC a 8.5% cash commission fee based on the dollar amount of the Securities sold in the Offering. There is al…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
   {
+   "sector": "Other",
    "name": "TOKYOPOP",
    "legal": "TOKYOPOP INC",
    "city": "Culver City",
@@ -1902,10 +1959,11 @@
    "cik": 2111984,
    "summary": "TOKYOPOP, based in Culver City, CA, is raising up to $1.2M by selling Class B Common Stock at $5.00/share on DealMaker. It reported $16.0M in revenue for its most recent fiscal year, up 8% year-over-year, with a net loss of $998K.",
    "flags": [
-    "Issuer fee load: The Issuer will pay DealMaker Securities LLC a fee of 8.5% cash commission based on the dollar amount of Securities sold in the Offering. There is als…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
   {
+   "sector": "Energy & Climate",
    "name": "CESL Energy HoldCo",
    "legal": "CESL Energy HoldCo LLC",
    "city": "Lake Forest",
@@ -1936,10 +1994,11 @@
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Newly formed entity with little or no operating history.",
-    "Issuer fee load: An Origination Fee equal to 5.00% of the Offering Amount raised, payable in full on the Issuance Date, plus an annual Servicing Fee of 0.50% for the T…"
+    "Issuer pays 5.00% of the amount raised plus setup/monthly fees to Climatize."
    ]
   },
   {
+   "sector": "Other",
    "name": "Paj Turnervision Production",
    "legal": "Paj Turnervision Production LLC",
    "city": "Chicago",
@@ -1953,7 +2012,7 @@
    "maxAmount": 5000000,
    "deadline": "2026-11-26",
    "platformRaw": "CineBlockFilms, LLC",
-   "platform": "Cineblockfilms,",
+   "platform": "Cineblockfilms",
    "fees": "The Issuer will pay a $3,500 onboarding fee.. At the conclusion of the Offering, the Issuer shall pay the Intermediary a fee equal to 6% of the dollar amount raised in the Offering, and 2% of the total number of securities sold in the Offering.",
    "rev": 0,
    "revPrior": 0,
@@ -1966,13 +2025,14 @@
    "filed": "2026-06-02",
    "filingUrl": "https://www.sec.gov/Archives/edgar/data/2129208/000212920826000001/",
    "cik": 2129208,
-   "summary": "Paj Turnervision Production, based in Chicago, IL, is raising up to $5.0M by selling Revenue Participation Units at $200.00/share on Cineblockfilms,. The company reported no revenue for its most recent fiscal year.",
+   "summary": "Paj Turnervision Production, based in Chicago, IL, is raising up to $5.0M by selling Revenue Participation Units at $200.00/share on Cineblockfilms. The company reported no revenue for its most recent fiscal year.",
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Issuer fee load: The Issuer will pay a $3,500 onboarding fee.. At the conclusion of the Offering, the Issuer shall pay the Intermediary a fee equal to 6% of the dollar…"
+    "Issuer pays 6% of the amount raised to Cineblockfilms."
    ]
   },
   {
+   "sector": "Energy & Climate",
    "name": "American Power Gen Co.",
    "legal": "American Power Gen Co.",
    "city": "Houston",
@@ -2003,10 +2063,11 @@
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer fee load: The Issuer shall pay a fee of 8.5% of the dollar amount raised in the Offering to the Intermediary. The Issuer has also agreed to pay to the Intermedi…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
   {
+   "sector": "Transportation & Aerospace",
    "name": "Saleen Automotive",
    "legal": "Saleen Automotive, Inc.",
    "city": "Corona",
@@ -2020,7 +2081,7 @@
    "maxAmount": 124000,
    "deadline": "2026-07-31",
    "platformRaw": "Invown Funding Portal LLC",
-   "platform": "Invown Funding Portal",
+   "platform": "Invown",
    "fees": "The Issuer will pay Invown Funding Portal, LLC a one-time administrative fee of $999, ongoing monthly platform subscription fees of $1,299 (or $999 if prepaid annually), and a success fee equal to 1.5% of the gross proceeds raised.",
    "rev": 2844890,
    "revPrior": 3646746,
@@ -2033,15 +2094,16 @@
    "filed": "2026-06-01",
    "filingUrl": "https://www.sec.gov/Archives/edgar/data/1528098/000152809826000007/",
    "cik": 1528098,
-   "summary": "Saleen Automotive, based in Corona, CA, is raising up to $124K by selling Common Stock at $1.50/share on Invown Funding Portal. It reported $2.8M in revenue for its most recent fiscal year, down 22% year-over-year, with a net loss of $4.7M. Reported cash ($51K) is below its annual loss ($4.7M), so this raise materially affects its runway.",
+   "summary": "Saleen Automotive, based in Corona, CA, is raising up to $124K by selling Common Stock at $1.50/share on Invown. It reported $2.8M in revenue for its most recent fiscal year, down 22% year-over-year, with a net loss of $4.7M. Reported cash ($51K) is below its annual loss ($4.7M), so this raise materially affects its runway.",
    "flags": [
     "Revenue declined 22% year-over-year.",
     "Cash on hand covers less than half the most recent annual loss.",
     "Short-term debt ($12.6M) exceeds total assets ($4.3M).",
-    "Issuer fee load: The Issuer will pay Invown Funding Portal, LLC a one-time administrative fee of $999, ongoing monthly platform subscription fees of $1,299 (or $999 if…"
+    "Issuer pays 1.5% of the amount raised plus setup/monthly fees to Invown."
    ]
   },
   {
+   "sector": "Other",
    "name": "BELLA RIO CONSULTING",
    "legal": "BELLA RIO CONSULTING, INC",
    "city": "Belvidere",
@@ -2072,10 +2134,11 @@
    "flags": [
     "Revenue declined 10% year-over-year.",
     "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer fee load: 8.5%"
+    "Issuer pays 8.5% of the amount raised to DealMaker."
    ]
   },
   {
+   "sector": "Other",
    "name": "1000 Hawthorn Crossings",
    "legal": "1000 Hawthorn Crossings LLC",
    "city": "Chicago",
@@ -2089,7 +2152,7 @@
    "maxAmount": 1000000,
    "deadline": "2026-07-31",
    "platformRaw": "NSSC Funding Portal, LLC",
-   "platform": "Nssc Funding Portal,",
+   "platform": "Nssc Funding Portal",
    "fees": "$10K onboarding + 7% success fee less $5,000 credit",
    "rev": 0,
    "revPrior": 0,
@@ -2102,14 +2165,15 @@
    "filed": "2026-05-29",
    "filingUrl": "https://www.sec.gov/Archives/edgar/data/2133509/000213350926000001/",
    "cik": 2133509,
-   "summary": "1000 Hawthorn Crossings, based in Chicago, IL, is raising up to $1.0M by selling Preferred Stock at $1.00/share on Nssc Funding Portal,. The company reported no revenue for its most recent fiscal year.",
+   "summary": "1000 Hawthorn Crossings, based in Chicago, IL, is raising up to $1.0M by selling Preferred Stock at $1.00/share on Nssc Funding Portal. The company reported no revenue for its most recent fiscal year.",
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Newly formed entity with little or no operating history.",
-    "Issuer fee load: $10K onboarding + 7% success fee less $5,000 credit"
+    "Issuer pays 7% of the amount raised to Nssc Funding Portal."
    ]
   },
   {
+   "sector": "Real Estate & Construction",
    "name": "Mustard Seed Realty Funds",
    "legal": "Mustard Seed Realty Funds LLC",
    "city": "Lima,",
@@ -2123,7 +2187,7 @@
    "maxAmount": 1235000,
    "deadline": "2027-05-28",
    "platformRaw": "ANDES CAPITAL GROUP, LLC",
-   "platform": "Andes Capital Group,",
+   "platform": "Andes Capital Group",
    "fees": "Intermediary received an Expense Fee in amount of $2,500 for expenses anticipated to be incurred by Intermediary in connection with Offering. At each periodic Closing, Intermediary shall receive 3.0% of the specific amount raised between relevant Closings.",
    "rev": 0,
    "revPrior": 0,
@@ -2136,13 +2200,14 @@
    "filed": "2026-05-29",
    "filingUrl": "https://www.sec.gov/Archives/edgar/data/2131083/000213108326000002/",
    "cik": 2131083,
-   "summary": "Mustard Seed Realty Funds, based in Lima,, OH, is raising up to $1.2M in loan notes on Andes Capital Group,. The company reported no revenue for its most recent fiscal year.",
+   "summary": "Mustard Seed Realty Funds, based in Lima,, OH, is raising up to $1.2M in loan notes on Andes Capital Group. The company reported no revenue for its most recent fiscal year.",
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Issuer fee load: Intermediary received an Expense Fee in amount of $2,500 for expenses anticipated to be incurred by Intermediary in connection with Offering. At each …"
+    "Issuer pays 3.0% of the amount raised to Andes Capital Group."
    ]
   },
   {
+   "sector": "Other",
    "name": "Skybound Holdings",
    "legal": "Skybound Holdings LLC",
    "city": "Los Angeles",
@@ -2171,10 +2236,11 @@
    "cik": 1867925,
    "summary": "Skybound Holdings, based in Los Angeles, CA, is raising up to $5.0M by selling Common Units of limited liability company membership interests at $12.50/share on DealMaker. It reported $111.8M in revenue for its most recent fiscal year, up 11% year-over-year, with a net loss of $20.1M.",
    "flags": [
-    "Issuer fee load: We will pay DealMaker Securities a total of 8.5% of gross proceeds raised in this offering. We will also pa (i) an Activation/Setup Fee of $20,000 and…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
   {
+   "sector": "Real Estate & Construction",
    "name": "Kinexx Modular Construction",
    "legal": "Kinexx Modular Construction, LLC",
    "city": "Chicago",
@@ -2207,10 +2273,11 @@
     "Cash on hand covers less than half the most recent annual loss.",
     "Short-term debt ($3.8M) exceeds total assets ($903K).",
     "Newly formed entity with little or no operating history.",
-    "Issuer fee load: As compensation for the services provided by DealMaker Securities LLC, the Issuer is required to pay to DealMaker Securities LLC a fee consisting of a…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
   {
+   "sector": "Other",
    "name": "Keepers US",
    "legal": "Keepers US Inc",
    "city": "Lafayette",
@@ -2224,7 +2291,7 @@
    "maxAmount": 1500000,
    "deadline": "2027-05-03",
    "platformRaw": "Fundify Portal, LLC",
-   "platform": "Fundify Portal,",
+   "platform": "Fundify Portal",
    "fees": "8.5%",
    "rev": 602290,
    "revPrior": 336507,
@@ -2237,14 +2304,15 @@
    "filed": "2026-05-22",
    "filingUrl": "https://www.sec.gov/Archives/edgar/data/1971980/000178877726000007/",
    "cik": 1971980,
-   "summary": "Keepers US, based in Lafayette, LA, is raising up to $1.5M by selling SAFE (Simple Agreement for Future Equity) at $1.00/share on Fundify Portal,. It reported $602K in revenue for its most recent fiscal year, up 79% year-over-year, with a net loss of $610K. Reported cash ($5K) is below its annual loss ($610K), so this raise materially affects its runway.",
+   "summary": "Keepers US, based in Lafayette, LA, is raising up to $1.5M by selling SAFE (Simple Agreement for Future Equity) at $1.00/share on Fundify Portal. It reported $602K in revenue for its most recent fiscal year, up 79% year-over-year, with a net loss of $610K. Reported cash ($5K) is below its annual loss ($610K), so this raise materially affects its runway.",
    "flags": [
     "Cash on hand covers less than half the most recent annual loss.",
     "Short-term debt ($24K) exceeds total assets ($15K).",
-    "Issuer fee load: 8.5%"
+    "Issuer pays 8.5% of the amount raised to Fundify Portal."
    ]
   },
   {
+   "sector": "Other",
    "name": "Whooshh Innovations",
    "legal": "Whooshh Innovations, Inc.",
    "city": "Seattle",
@@ -2275,10 +2343,11 @@
    "flags": [
     "Cash on hand covers less than half the most recent annual loss.",
     "Short-term debt ($9.0M) exceeds total assets ($762K).",
-    "Issuer fee load: The intermediary will receive cash compensation equal to 4.9% of the value of the securities sold from $0-$500k, 4.25% of the value of the securities …"
+    "Issuer pays 4.9% of the amount raised to Picmii Crowdfunding."
    ]
   },
   {
+   "sector": "Other",
    "name": "VISPIRI",
    "legal": "VISPIRI Inc.",
    "city": "Cleveland",
@@ -2309,10 +2378,11 @@
    "flags": [
     "Revenue declined 14% year-over-year.",
     "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer fee load: Intermediary will receive 4.9% of the final raised funds and receive out-of-pocket expenses incurred from setting up the offering."
+    "Issuer pays 4.9% of the amount raised to Picmii Crowdfunding."
    ]
   },
   {
+   "sector": "Food & Beverage",
    "name": "American Rebel Licensing NIL I",
    "legal": "American Rebel Licensing NIL I, Inc.",
    "city": "Nashville",
@@ -2344,10 +2414,11 @@
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Short-term debt ($183K) exceeds total assets ($174K).",
     "Newly formed entity with little or no operating history.",
-    "Issuer fee load: The Issuer will pay DealMaker Securities LLC a fee of 8.5% cash commission based on the dollar amount of Securities sold in the Offering. There is als…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
   {
+   "sector": "Other",
    "name": "Fisher Wallace Laboratories",
    "legal": "Fisher Wallace Laboratories, Inc.",
    "city": "Brooklyn",
@@ -2379,10 +2450,11 @@
     "Revenue declined 28% year-over-year.",
     "Cash on hand covers less than half the most recent annual loss.",
     "Short-term debt ($591K) exceeds total assets ($145K).",
-    "Issuer fee load: Up to 8.5%"
+    "Issuer pays 8.5% of the amount raised to DealMaker."
    ]
   },
   {
+   "sector": "Energy & Climate",
    "name": "Adaptive Infrastructure",
    "legal": "Adaptive Infrastructure, Inc.",
    "city": "Germantown",
@@ -2412,10 +2484,11 @@
    "summary": "Adaptive Infrastructure, based in Germantown, CA, is raising up to $850K in loan notes on Climatize. It reported $93K in revenue for its most recent fiscal year, with a net loss of $38K. Reported cash ($0) is below its annual loss ($38K), so this raise materially affects its runway.",
    "flags": [
     "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer fee load: An Origination Fee equal to 5.00% of the Offering Amount raised, payable in full on the Issuance Date, plus an annual Servicing Fee of 0.50% for the T…"
+    "Issuer pays 5.00% of the amount raised plus setup/monthly fees to Climatize."
    ]
   },
   {
+   "sector": "Tech & Software",
    "name": "Standard Carbon Technology",
    "legal": "Standard Carbon Technology Inc.",
    "city": "New York",
@@ -2446,10 +2519,11 @@
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer fee load: The Company will pay DealMaker Securities LLC a cash fee of 8.5% commission based on the dollar amount of Securities sold in the Offering. There is al…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
   {
+   "sector": "Health & Bio",
    "name": "Mylo Medical Supplies",
    "legal": "Mylo Medical Supplies LLC",
    "city": "Willoughby",
@@ -2479,10 +2553,11 @@
    "summary": "Mylo Medical Supplies, based in Willoughby, OH, is raising up to $750K by selling Membership Interest Units at $1.00/share on Netcapital. The company reported no revenue for its most recent fiscal year. Reported cash ($25K) is below its annual loss ($27K), so this raise materially affects its runway.",
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Issuer fee load: Up to 4.9% of amount raised for a successful offering and a listing fee of up to $10,000"
+    "Issuer pays 4.9% of the amount raised to Netcapital."
    ]
   },
   {
+   "sector": "Energy & Climate",
    "name": "Gridwater",
    "legal": "Gridwater Inc",
    "city": "Sherman",
@@ -2496,7 +2571,7 @@
    "maxAmount": null,
    "deadline": "2027-05-05",
    "platformRaw": "ANDES CAPITAL GROUP, LLC",
-   "platform": "Andes Capital Group,",
+   "platform": "Andes Capital Group",
    "fees": "Andes Capital Group, LLC will receive a 3.0% cash success fee on gross proceeds raised, plus approximately $750 in onboarding and platform fees. No securities or other compensation will be issued.",
    "rev": 0,
    "revPrior": 0,
@@ -2509,14 +2584,15 @@
    "filed": "2026-05-19",
    "filingUrl": "https://www.sec.gov/Archives/edgar/data/2133095/000109690626000831/",
    "cik": 2133095,
-   "summary": "Gridwater, based in Sherman, TX, is raising up to — by selling Custom Reg CF SAFE Convertible into Class B Preferred Stock - Reg CF Tier at $100.00/share on Andes Capital Group,. The company reported no revenue for its most recent fiscal year.",
+   "summary": "Gridwater, based in Sherman, TX, is raising up to — by selling Custom Reg CF SAFE Convertible into Class B Preferred Stock - Reg CF Tier at $100.00/share on Andes Capital Group. The company reported no revenue for its most recent fiscal year.",
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Newly formed entity with little or no operating history.",
-    "Issuer fee load: Andes Capital Group, LLC will receive a 3.0% cash success fee on gross proceeds raised, plus approximately $750 in onboarding and platform fees. No se…"
+    "Issuer pays 3.0% of the amount raised to Andes Capital Group."
    ]
   },
   {
+   "sector": "Health & Bio",
    "name": "Valley Center Wellness",
    "legal": "Valley Center Wellness Corp.",
    "city": "Newark",
@@ -2546,10 +2622,11 @@
    "summary": "Valley Center Wellness, based in Newark, DE, is raising up to $4.0M by selling Common Stock at $2.90/share on Picmii Crowdfunding. The company reported no revenue for its most recent fiscal year. Reported cash ($197K) is below its annual loss ($259K), so this raise materially affects its runway.",
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Issuer fee load: Intermediary will receive 4.9% of the final raised funds and $3,000 listing fee."
+    "Issuer pays 4.9% of the amount raised to Picmii Crowdfunding."
    ]
   },
   {
+   "sector": "Media & Entertainment",
    "name": "GFL Sports & Entertainment",
    "legal": "GFL Sports & Entertainment Inc.",
    "city": "Las Vegas",
@@ -2579,10 +2656,11 @@
    "summary": "GFL Sports & Entertainment, based in Las Vegas, NV, is raising up to $1.2M by selling Series BB Preferred Stock at $1.00/share on DealMaker. It reported $100K in revenue for its most recent fiscal year, with a net loss of $622K. Reported cash ($500K) is below its annual loss ($622K), so this raise materially affects its runway.",
    "flags": [
     "Short-term debt ($720K) exceeds total assets ($501K).",
-    "Issuer fee load: The Issuer will pay DealMaker Securities LLC a fee of 8.5% cash commission based on the dollar amount of the Securities sold in the Offering. There is…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
   {
+   "sector": "Other",
    "name": "R&I Management Diversified",
    "legal": "R&I Management Diversified, Inc",
    "city": "Pleasanton",
@@ -2596,7 +2674,7 @@
    "maxAmount": 1235000,
    "deadline": "2027-04-30",
    "platformRaw": "ANDES CAPITAL GROUP, LLC",
-   "platform": "Andes Capital Group,",
+   "platform": "Andes Capital Group",
    "fees": "At the conclusion of the Offering, the Issuer shall pay a fee of three percent (3%) of the amount raised in the Offering to the Intermediary.",
    "rev": 194185,
    "revPrior": 202352,
@@ -2609,14 +2687,15 @@
    "filed": "2026-05-19",
    "filingUrl": "https://www.sec.gov/Archives/edgar/data/2128990/000212899026000003/",
    "cik": 2128990,
-   "summary": "R&I Management Diversified, based in Pleasanton, CA, is raising up to $1.2M by selling Common Stock at $10.00/share on Andes Capital Group,. It reported $194K in revenue for its most recent fiscal year, down 4% year-over-year, with a net profit of $125K.",
+   "summary": "R&I Management Diversified, based in Pleasanton, CA, is raising up to $1.2M by selling Common Stock at $10.00/share on Andes Capital Group. It reported $194K in revenue for its most recent fiscal year, down 4% year-over-year, with a net profit of $125K.",
    "flags": [
     "Revenue declined 4% year-over-year.",
     "Short-term debt ($338K) exceeds total assets ($291K).",
-    "Issuer fee load: At the conclusion of the Offering, the Issuer shall pay a fee of three percent (3%) of the amount raised in the Offering to the Intermediary."
+    "Issuer pays 3% of the amount raised to Andes Capital Group."
    ]
   },
   {
+   "sector": "Other",
    "name": "Nico Ventures",
    "legal": "Nico Ventures, Inc.",
    "city": "Palm City",
@@ -2647,10 +2726,11 @@
    "flags": [
     "Revenue declined 38% year-over-year.",
     "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer fee load: Intermediary will receive 4.9% of the final raised funds and a $2,500 listing fee."
+    "Issuer pays 4.9% of the amount raised to Picmii Crowdfunding."
    ]
   },
   {
+   "sector": "Media & Entertainment",
    "name": "Mathom House",
    "legal": "Mathom House LLC",
    "city": "Greenville",
@@ -2679,10 +2759,11 @@
    "cik": 2108821,
    "summary": "Mathom House, based in Greenville, SC, is raising up to $124K by selling Revenue Sharing Unit at $100.00/share on Vicinity. It reported $7K in revenue for its most recent fiscal year, with a net profit of $6K.",
    "flags": [
-    "Issuer fee load: Commission equalling 6% of the total amount raised payable at each closing"
+    "Issuer pays 6% of the amount raised to Vicinity."
    ]
   },
   {
+   "sector": "Other",
    "name": "United States Tungsten",
    "legal": "United States Tungsten, LLC",
    "city": "Miami",
@@ -2714,10 +2795,11 @@
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Cash on hand covers less than half the most recent annual loss.",
     "Short-term debt ($194K) exceeds total assets ($58K).",
-    "Issuer fee load: The Issuer will pay DealMaker Securities LLC an 8.5% cash commission fee based on the dollar amount of the Securities sold in the Offering. There is a…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
   {
+   "sector": "Other",
    "name": "Dirty Dill",
    "legal": "Dirty Dill LLC",
    "city": "Denver",
@@ -2747,10 +2829,11 @@
    "summary": "Dirty Dill, based in Denver, CO, is raising up to $500K by selling Class B Units at $6.50/share on Picmii Crowdfunding. It reported $753K in revenue for its most recent fiscal year, up 142% year-over-year, with a net loss of $234K. Reported cash ($69K) is below its annual loss ($234K), so this raise materially affects its runway.",
    "flags": [
     "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer fee load: Intermediary will receive cash compensation equal to 4.9% of the value of the securities sold through the Regulation CF, and a $5,000 listing fee paid…"
+    "Issuer pays 4.9% of the amount raised to Picmii Crowdfunding."
    ]
   },
   {
+   "sector": "Other",
    "name": "TheFirehouseDetroit",
    "legal": "TheFirehouseDetroit, LLC",
    "city": "Detroit",
@@ -2764,7 +2847,7 @@
    "maxAmount": 800000,
    "deadline": "2026-09-30",
    "platformRaw": "NSSC Funding Portal, LLC",
-   "platform": "Nssc Funding Portal,",
+   "platform": "Nssc Funding Portal",
    "fees": "$10,000 admin with a $5,000 credit towards 5% success fee",
    "rev": 0,
    "revPrior": 0,
@@ -2777,14 +2860,15 @@
    "filed": "2026-05-11",
    "filingUrl": "https://www.sec.gov/Archives/edgar/data/2129569/000212956926000001/",
    "cik": 2129569,
-   "summary": "TheFirehouseDetroit, based in Detroit, MI, is raising up to $800K in loan notes on Nssc Funding Portal,. The company reported no revenue for its most recent fiscal year. Reported cash ($2K) is below its annual loss ($4K), so this raise materially affects its runway.",
+   "summary": "TheFirehouseDetroit, based in Detroit, MI, is raising up to $800K in loan notes on Nssc Funding Portal. The company reported no revenue for its most recent fiscal year. Reported cash ($2K) is below its annual loss ($4K), so this raise materially affects its runway.",
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer fee load: $10,000 admin with a $5,000 credit towards 5% success fee"
+    "Issuer pays 5% of the amount raised to Nssc Funding Portal."
    ]
   },
   {
+   "sector": "Other",
    "name": "Flow Society Authentic Gear",
    "legal": "Flow Society Authentic Gear Inc.",
    "city": "Union City",
@@ -2814,10 +2898,11 @@
    "summary": "Flow Society Authentic Gear, based in Union City, NJ, is raising up to $1.5M by selling Class B Non-Voting Common Stock at $0.50/share on DealMaker. The company reported no revenue for its most recent fiscal year. Reported cash ($1K) is below its annual loss ($1K), so this raise materially affects its runway.",
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Issuer fee load: The Issuer will pay DealMaker Securities LLC a fee of 8.5% cash commission based on the dollar amount of Securities sold in the Offering. There is als…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
   {
+   "sector": "Media & Entertainment",
    "name": "Legion M Film Fund - 1099",
    "legal": "Legion M Film Fund - 1099, LLC",
    "city": "Los Angeles",
@@ -2848,10 +2933,11 @@
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer fee load: The Company will pay DealMaker Securities LLC a cash fee of 8.5% commission based on the dollar amount of Securities sold in the Offering; and a $5,00…"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
   {
+   "sector": "Food & Beverage",
    "name": "5 Generation Bakers",
    "legal": "5 Generation Bakers, LLC",
    "city": "Mckees Rocks",
@@ -2880,7 +2966,7 @@
    "cik": 1751259,
    "summary": "5 Generation Bakers, based in Mckees Rocks, PA, is raising up to $618K in loan notes on Honeycomb. It reported $9.0M in revenue for its most recent fiscal year, up 53% year-over-year, with a net loss of $4K.",
    "flags": [
-    "Issuer fee load: Applied at marginal rate based upon amount of total offering: up to $100,000 = 8.5%, $100,001+ = 7.5%. $500 Platform Fee. 3% investment fee capped at …"
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   }
  ]
