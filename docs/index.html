@@ -49,8 +49,8 @@
   .ai .lab{font-size:10.5px;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:.6px;display:block;margin-bottom:4px}
   .flags{font-size:12px;color:var(--amber);margin:2px 0 10px;padding-left:2px}
   .flags div{margin-bottom:3px}
-  .actions{display:flex;gap:8px;margin-top:10px}
-  .btn{flex:1;text-align:center;padding:10px 4px;border-radius:11px;font-size:13px;font-weight:600;cursor:pointer;user-select:none;text-decoration:none;border:1px solid var(--line);color:var(--text);background:var(--card2)}
+  .actions{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+  .btn{flex:1;min-width:100px;text-align:center;padding:10px 4px;border-radius:11px;font-size:13px;font-weight:600;cursor:pointer;user-select:none;text-decoration:none;border:1px solid var(--line);color:var(--text);background:var(--card2)}
   .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
   .btn.saved{color:var(--green);border-color:rgba(62,207,142,.4)}
   .meta{font-size:11px;color:var(--muted);margin-top:10px}
@@ -171,6 +171,7 @@ function render(){
         ${d.flags&&d.flags.length?`<div class="flags">${d.flags.map(f=>`<div>&#9888;&#65039; ${esc(f)}</div>`).join("")}</div>`:""}
         <div class="actions">
           <div class="btn ${saved.has(d.key)?"saved":""}" data-save="${d.key}">${saved.has(d.key)?"&#9733; Saved":"&#9734; Save"}</div>
+          ${d.site?`<a class="btn" href="${d.site.startsWith("http")?d.site:"https://"+d.site}" target="_blank" rel="noopener">Website</a>`:""}
           <a class="btn" href="${d.filingUrl}" target="_blank" rel="noopener">SEC Filing</a>
           ${investUrl(d)?`<a class="btn primary" href="${investUrl(d)}" target="_blank" rel="noopener">Invest &rarr;</a>`:""}
         </div>
