@@ -49,6 +49,9 @@
   .ai .lab{font-size:10.5px;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:.6px;display:block;margin-bottom:4px}
   .flags{font-size:12px;color:var(--amber);margin:2px 0 10px;padding-left:2px}
   .flags div{margin-bottom:3px}
+  .feedet{font-size:11.5px;color:var(--muted);margin:0 0 10px}
+  .feedet summary{cursor:pointer;color:var(--accent);font-weight:600;user-select:none}
+  .feedet[open]{background:var(--card2);border-radius:10px;padding:9px 12px}
   .actions{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
   .btn{flex:1;min-width:100px;text-align:center;padding:10px 4px;border-radius:11px;font-size:13px;font-weight:600;cursor:pointer;user-select:none;text-decoration:none;border:1px solid var(--line);color:var(--text);background:var(--card2)}
   .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
@@ -71,6 +74,7 @@
       <div class="chipf on" data-f="all">All</div>
       <div class="chipf" data-f="Equity">Equity</div>
       <div class="chipf" data-f="Debt">Debt</div>
+      <select id="sectorSel"><option value="all">All sectors</option></select>
       <select id="platformSel"><option value="all">All platforms</option></select>
       <select id="stateSel"><option value="all">All states</option></select>
       <select id="sortSel">
@@ -95,12 +99,24 @@
 </div>
 
 <script>
-let DEALS=[], typeF="all", platF="all", stateF="all", sortF="filed", query="", watchOnly=false;
+let DEALS=[], typeF="all", platF="all", stateF="all", sectorF="all", sortF="filed", query="", watchOnly=false;
 const saved = new Set(JSON.parse(localStorage.getItem("dealfeed_watchlist")||"[]"));
 
-const GRADS=[["#1d4ed8","#0e7490"],["#9d174d","#c2410c"],["#b45309","#ca8a04"],["#1e40af","#5b21b6"],
-  ["#be123c","#7c3aed"],["#0f766e","#155e75"],["#065f46","#0e7490"],["#334155","#065f46"]];
-function grad(name){let h=0;for(const c of name)h=(h*31+c.charCodeAt(0))>>>0;const g=GRADS[h%GRADS.length];return `linear-gradient(120deg,${g[0]},${g[1]})`;}
+const SECTOR_GRADS={
+  "Tech & Software":["#4f46e5","#7c3aed"],
+  "Health & Bio":["#059669","#0d9488"],
+  "Food & Beverage":["#b45309","#dc2626"],
+  "Energy & Climate":["#15803d","#4d7c0f"],
+  "Real Estate & Construction":["#a16207","#78716c"],
+  "Finance & Fintech":["#1d4ed8","#0e7490"],
+  "Media & Entertainment":["#be123c","#7c3aed"],
+  "Transportation & Aerospace":["#0369a1","#334155"],
+  "Agriculture":["#4d7c0f","#a16207"],
+  "Hospitality & Travel":["#c2410c","#9d174d"],
+  "Consumer & Retail":["#db2777","#9333ea"],
+  "Other":["#475569","#1e40af"]
+};
+function grad(d){const g=SECTOR_GRADS[d.sector]||SECTOR_GRADS["Other"];return `linear-gradient(120deg,${g[0]},${g[1]})`;}
 function fmt(n){if(n===null||n===undefined||isNaN(n))return "—";const a=Math.abs(n);
   const s=a>=1e6?(a/1e6).toFixed(1)+"M":a>=1e3?Math.round(a/1e3)+"K":a.toFixed(0);return (n<0?"-$":"$")+s;}
 function daysLeft(d){return d?Math.ceil((new Date(d)-new Date())/86400000):null;}
@@ -132,8 +148,9 @@ function render(){
     (typeF==="all"||d.type===typeF) &&
     (platF==="all"||d.platform===platF) &&
     (stateF==="all"||d.state===stateF) &&
+    (sectorF==="all"||d.sector===sectorF) &&
     (!watchOnly||saved.has(d.key)) &&
-    (!query||(d.name+" "+(d.city||"")+" "+(d.security||"")).toLowerCase().includes(query))
+    (!query||(d.name+" "+(d.city||"")+" "+(d.security||"")+" "+(d.sector||"")).toLowerCase().includes(query))
   );
   list.sort((a,b)=>{
     if(sortF==="deadline")return (a.deadline||"9999").localeCompare(b.deadline||"9999");
@@ -146,13 +163,14 @@ function render(){
     const growth=(d.revPrior&&d.rev)?Math.round((d.rev-d.revPrior)/d.revPrior*100):null;
     const card=document.createElement("div");card.className="card";
     card.innerHTML=`
-      <div class="banner" style="background:${grad(d.name)}">
+      <div class="banner" style="background:${grad(d)}">
         <div class="avatar">${esc(d.name[0]||"?")}</div>
         <div><div class="co">${esc(d.name)}</div><div class="loc">${esc(d.city)}${d.city&&d.state?", ":""}${esc(d.state)}${d.founded?` &middot; est. ${d.founded}`:""}</div></div>
       </div>
       <div class="body">
         <div class="tags">
           <span class="tag ${d.type.toLowerCase()}">${d.type}</span>
+          ${d.sector?`<span class="tag">${esc(d.sector)}</span>`:""}
           <span class="tag">${esc(d.platform)}</span>
           ${d.amended?'<span class="tag">Amended filing</span>':""}
           ${d.filed&&(new Date()-new Date(d.filed))/86400000<21?'<span class="tag" style="color:var(--accent);border-color:rgba(79,140,255,.35)">Just filed — may not be live on the platform yet</span>':""}
@@ -170,6 +188,7 @@ function render(){
         </div>
         <div class="ai"><span class="lab">&#10024; Plain-English summary</span>${esc(d.summary)}</div>
         ${d.flags&&d.flags.length?`<div class="flags">${d.flags.map(f=>`<div>&#9888;&#65039; ${esc(f)}</div>`).join("")}</div>`:""}
+        ${d.fees?`<details class="feedet"><summary>Full fee disclosure</summary>${esc(d.fees)}</details>`:""}
         <div class="actions">
           <div class="btn ${saved.has(d.key)?"saved":""}" data-save="${d.key}">${saved.has(d.key)?"&#9733; Saved":"&#9734; Save"}</div>
           ${d.site?`<a class="btn" href="${d.site.startsWith("http")?d.site:"https://"+d.site}" target="_blank" rel="noopener">Website</a>`:""}
@@ -192,6 +211,7 @@ document.querySelectorAll(".chipf").forEach(c=>{
   c.onclick=()=>{document.querySelectorAll(".chipf").forEach(x=>x.classList.remove("on"));c.classList.add("on");typeF=c.dataset.f;render();};
 });
 document.getElementById("platformSel").onchange=e=>{platF=e.target.value;render();};
+document.getElementById("sectorSel").onchange=e=>{sectorF=e.target.value;render();};
 document.getElementById("stateSel").onchange=e=>{stateF=e.target.value;render();};
 document.getElementById("sortSel").onchange=e=>{sortF=e.target.value;render();};
 document.getElementById("q").oninput=e=>{query=e.target.value.toLowerCase();render();};
@@ -201,6 +221,7 @@ fetch("data.json").then(r=>r.json()).then(j=>{
   DEALS=(j.deals||[]).map(d=>({...d,key:String(d.cik||d.name)}));
   options("platformSel",DEALS.map(d=>d.platform));
   options("stateSel",DEALS.map(d=>d.state));
+  options("sectorSel",DEALS.map(d=>d.sector));
   render();
   const g=new Date(j.generated);
   document.getElementById("count").textContent+=` · updated ${g.toLocaleDateString()}`;
