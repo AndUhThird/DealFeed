@@ -106,6 +106,18 @@ function fmt(n){if(n===null||n===undefined||isNaN(n))return "—";const a=Math.a
 function daysLeft(d){return d?Math.ceil((new Date(d)-new Date())/86400000):null;}
 function esc(s){return (s||"").replace(/</g,"&lt;");}
 function persist(){localStorage.setItem("dealfeed_watchlist",JSON.stringify([...saved]));}
+function investUrl(d){
+  const n=encodeURIComponent(d.name);
+  const site=d.site?(d.site.startsWith("http")?d.site:"https://"+d.site):null;
+  switch(d.platform){
+    case "Wefunder": return "https://wefunder.com/search?q="+n;
+    case "StartEngine": return "https://www.startengine.com/explore?search="+n;
+    case "Republic": return "https://republic.com/companies?search="+n;
+    case "Honeycomb": return "https://invest.honeycombcredit.com/";
+    case "Climatize": return "https://climatize.earth/";
+    default: return site; // DealMaker & similar are white-label: the campaign runs on the issuer's own site
+  }
+}
 
 function options(sel, values, label){
   const s=document.getElementById(sel);
@@ -160,7 +172,7 @@ function render(){
         <div class="actions">
           <div class="btn ${saved.has(d.key)?"saved":""}" data-save="${d.key}">${saved.has(d.key)?"&#9733; Saved":"&#9734; Save"}</div>
           <a class="btn" href="${d.filingUrl}" target="_blank" rel="noopener">SEC Filing</a>
-          ${d.site?`<a class="btn primary" href="${d.site.startsWith("http")?d.site:"https://"+d.site}" target="_blank" rel="noopener">Company &rarr;</a>`:""}
+          ${investUrl(d)?`<a class="btn primary" href="${investUrl(d)}" target="_blank" rel="noopener">Invest &rarr;</a>`:""}
         </div>
         <div class="meta">Invest via ${esc(d.platform)} &middot; filed ${d.filed||"—"} &middot; ${esc(d.legal)}</div>
       </div>`;
