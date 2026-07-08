@@ -113,7 +113,7 @@ function investUrl(d){
     case "Wefunder": return "https://wefunder.com/search?q="+n;
     case "StartEngine": return "https://www.startengine.com/explore?search="+n;
     case "Republic": return "https://republic.com/companies?search="+n;
-    case "Honeycomb": return "https://invest.honeycombcredit.com/";
+    case "Honeycomb": return "https://app.honeycombcredit.com/projects";
     case "Climatize": return "https://climatize.earth/";
     default: return site; // DealMaker & similar are white-label: the campaign runs on the issuer's own site
   }
@@ -155,6 +155,7 @@ function render(){
           <span class="tag ${d.type.toLowerCase()}">${d.type}</span>
           <span class="tag">${esc(d.platform)}</span>
           ${d.amended?'<span class="tag">Amended filing</span>':""}
+          ${d.filed&&(new Date()-new Date(d.filed))/86400000<21?'<span class="tag" style="color:var(--accent);border-color:rgba(79,140,255,.35)">Just filed — may not be live on the platform yet</span>':""}
         </div>
         <div class="terms">
           <div class="term"><div class="l">Security</div><div class="v">${esc(d.security||d.type)}${d.type==="Equity"&&d.price?`<br>$${d.price.toFixed(2)}/share`:""}</div></div>
