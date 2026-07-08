@@ -54,6 +54,16 @@ const PLATFORMS = {
   "WEFUNDER PORTAL LLC": "Wefunder",
   "STARTENGINE CAPITAL LLC": "StartEngine",
   "STARTENGINE CAPITAL, LLC": "StartEngine",
+  "STARTENGINE PRIMARY LLC": "StartEngine",
+  "STARTENGINE PRIMARY, LLC": "StartEngine",
+  "DALMORE GROUP LLC": "Dalmore",
+  "NORTH CAPITAL PRIVATE SECURITIES CORPORATION": "North Capital",
+  "TEXTURE CAPITAL INC": "Texture Capital",
+  "JUMPSTART MICRO INC DBA ISSUANCE EXPRESS": "Issuance Express",
+  "EQUIFUND CROWD FUNDING PORTAL INC": "Equifund",
+  "FUNDIFY PORTAL LLC": "Fundify",
+  "MR CROWD LLC": "Mr. Crowd",
+  "INVOWN FUNDING PORTAL LLC": "Invown",
   "CLIMATIZE EARTH SECURITIES LLC": "Climatize",
   "HONEYCOMB PORTAL LLC": "Honeycomb",
   "SMBX INC": "SMBX",
@@ -66,10 +76,32 @@ const PLATFORMS = {
 };
 function platformName(raw) {
   if (!raw) return "Unknown platform";
-  const key = raw.toUpperCase().replace(/\./g, "").trim();
+  const key = raw.toUpperCase().replace(/\./g, "").replace(/\s+/g, " ").trim();
   if (PLATFORMS[key]) return PLATFORMS[key];
-  return raw.replace(/\b(LLC|INC|CORP|L\.L\.C\.|,)\b/gi, "").trim()
+  return raw.replace(/\b(LLC|INC|CORP|CORPORATION|COMPANY|L\.?L\.?C\.?)\b/gi, "")
+            .replace(/[,.]+/g, " ").replace(/\s+/g, " ").trim()
             .toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+// ---------- sector classification (keyword-based, no AI needed) ----------
+const SECTORS = [
+  ["Energy & Climate", /solar|energy|power|renewab|climat|batter|charg|wind\b|hydro|grid/],
+  ["Health & Bio", /therapeut|pharma|\bbio|health|medic|clinic|dental|wellness|gene\b|vaccin|surg/],
+  ["Agriculture", /farm|agricul|ranch|harvest|orchard|crop/],
+  ["Food & Beverage", /coffee|\btea\b|brew|beer|wine|spirit|distill|kitchen|food|restaurant|cafe|baker|patisser|kefir|ghee|snack|juice|chocolat|pizza|burger|eatery|sucre/],
+  ["Transportation & Aerospace", /aviation|\baero|aircraft|aircar|space|orbit|mobilit|automotive|motors|fleet|drone|logistic/],
+  ["Hospitality & Travel", /hotel|hospitality|resort|travel|\bcamp\b|lodge|venue|tour/],
+  ["Consumer & Retail", /design|apparel|beauty|\bskin\b|cosmetic|jewel|\bshop|store|goods|boutique|\btoy|baby|\bpet\b|cloth|fashion/],
+  ["Media & Entertainment", /media|entertain|studio|film|game|gaming|music|publish|comic|manga|podcast|\bsports?\b|\btv\b/],
+  ["Tech & Software", /tech|software|\ba\.?i\b|\bapp\b|data|cyber|robot|smart|digital|cloud|system|\blabs\b|network|platform/],
+  ["Real Estate & Construction", /construct|modular|real ?estate|realty|propert|housing|\bhomes?\b|storage/],
+  ["Finance & Fintech", /capital|\bfund|invest|financ|credit|insur|bank|trading|market|equity|wealth/],
+];
+function classifySector(name, site, platform) {
+  if (platform === "Climatize") return "Energy & Climate"; // climate-only portal
+  const t = `${name} ${site || ""}`.toLowerCase();
+  for (const [s, re] of SECTORS) if (re.test(t)) return s;
+  return "Other";
 }
 
 // ---------- template summary + red flags (no AI needed) ----------
@@ -107,7 +139,13 @@ function redFlags(d) {
     f.push(`Short-term debt (${money(d.shortDebt)}) exceeds total assets (${money(d.assets)}).`);
   if (d.founded && new Date().getFullYear() - d.founded < 1)
     f.push("Newly formed entity with little or no operating history.");
-  if (d.fees) f.push(`Issuer fee load: ${d.fees.length > 150 ? d.fees.slice(0, 150) + "…" : d.fees}`);
+  if (d.fees) {
+    const pct = d.fees.match(/(\d+(?:\.\d+)?)\s*%/);
+    const extras = /monthly|setup|advance|servicing/i.test(d.fees) ? " plus setup/monthly fees" : "";
+    f.push(pct
+      ? `Issuer pays ${pct[1]}% of the amount raised${extras} to ${d.platform}.`
+      : `Issuer pays fees to ${d.platform} — see full fee disclosure.`);
+  }
   return f;
 }
 
@@ -125,12 +163,15 @@ function parseFormC(xml, meta = {}) {
   if (!name) return null;
 
   const incDate = usDate(tag(issuerBlock, "dateIncorporation"));
+  const platform = platformName(tag(xml, "companyName"));
+  const site = tag(issuerBlock, "issuerWebsite");
   return {
+    sector: classifySector(name, site, platform),
     name: name.replace(/,?\s+(INC|LLC|CORP)\.?$/i, "").trim(),
     legal: name,
     city: (tag(issuerBlock, "city") || "").replace(/\b\w+/g, w => w[0] + w.slice(1).toLowerCase()),
     state: tag(issuerBlock, "stateOrCountry"),
-    site: tag(issuerBlock, "issuerWebsite"),
+    site,
     founded: incDate ? parseInt(incDate.slice(0, 4)) : null,
     type: secType === "Debt" ? "Debt" : "Equity",
     security: tag(xml, "securityOfferedOtherDesc") || secType,
@@ -139,7 +180,7 @@ function parseFormC(xml, meta = {}) {
     maxAmount: num(xml, "maximumOfferingAmount"),
     deadline,
     platformRaw: tag(xml, "companyName"),
-    platform: platformName(tag(xml, "companyName")),
+    platform,
     fees: tag(xml, "compensationAmount"),
     rev: num(xml, "revenueMostRecentFiscalYear"),
     revPrior: num(xml, "revenuePriorFiscalYear"),
