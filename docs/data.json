@@ -1,6 +1,6 @@
 {
- "generated": "2026-07-09T18:16:15.650Z",
- "count": 86,
+ "generated": "2026-07-10T08:32:41.694Z",
+ "count": 84,
  "deals": [
   {
    "sector": "Finance & Fintech",
@@ -1867,39 +1867,6 @@
   },
   {
    "sector": "Other",
-   "name": "Really Awesome Brands",
-   "legal": "Really Awesome Brands Inc.",
-   "city": "Oakland",
-   "state": "CA",
-   "site": "https://reallyawesomebrands.framer.website/",
-   "founded": 2022,
-   "type": "Debt",
-   "security": "Debt",
-   "price": 1,
-   "minAmount": 10000,
-   "maxAmount": 50000,
-   "deadline": "2026-07-10",
-   "platformRaw": "Honeycomb Portal LLC",
-   "platform": "Honeycomb",
-   "fees": "8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Wallet: 0%; Hybrid (HW + ACH): 2%, capped at $30. A Loan Servicing Fee of .25% assessed monthly.",
-   "rev": 4702826,
-   "revPrior": 102000,
-   "ni": 425214,
-   "cash": 285000,
-   "assets": 711290,
-   "shortDebt": 45000,
-   "employees": 6,
-   "amended": false,
-   "filed": "2026-06-08",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2137524/000213752426000001/",
-   "cik": 2137524,
-   "summary": "Really Awesome Brands, based in Oakland, CA, is raising up to $50K in loan notes on Honeycomb. It reported $4.7M in revenue for its most recent fiscal year, up 4511% year-over-year, with a net profit of $425K.",
-   "flags": [
-    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
-   ]
-  },
-  {
-   "sector": "Other",
    "name": "NeuroGym",
    "legal": "NeuroGym LLC",
    "city": "Solana Beach",
@@ -2940,39 +2907,6 @@
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Cash on hand covers less than half the most recent annual loss.",
     "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
-   ]
-  },
-  {
-   "sector": "Food & Beverage",
-   "name": "5 Generation Bakers",
-   "legal": "5 Generation Bakers, LLC",
-   "city": "Mckees Rocks",
-   "state": "PA",
-   "site": "https://jennyleeswirlbread.com",
-   "founded": 2009,
-   "type": "Debt",
-   "security": "Debt",
-   "price": 1,
-   "minAmount": 100000,
-   "maxAmount": 618000,
-   "deadline": "2026-07-10",
-   "platformRaw": "Honeycomb Portal LLC",
-   "platform": "Honeycomb",
-   "fees": "Applied at marginal rate based upon amount of total offering: up to $100,000 = 8.5%, $100,001+ = 7.5%. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; A Loan Servicing Fee of .25% assessed monthly.",
-   "rev": 8964079.66,
-   "revPrior": 5853826.62,
-   "ni": -4430.36,
-   "cash": 166547.51,
-   "assets": 2904060.43,
-   "shortDebt": 1071817.32,
-   "employees": 45,
-   "amended": false,
-   "filed": "2026-05-11",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1751259/000175125926000005/",
-   "cik": 1751259,
-   "summary": "5 Generation Bakers, based in Mckees Rocks, PA, is raising up to $618K in loan notes on Honeycomb. It reported $9.0M in revenue for its most recent fiscal year, up 53% year-over-year, with a net loss of $4K.",
-   "flags": [
-    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   }
  ]
