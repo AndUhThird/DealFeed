@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-18T14:41:14.611Z",
+ "generated": "2026-07-19T14:44:14.678Z",
  "count": 82,
  "deals": [
   {
@@ -1246,6 +1246,40 @@
    ]
   },
   {
+   "sector": "Food & Beverage",
+   "name": "Chattooga Brewing",
+   "legal": "Chattooga Brewing LLC",
+   "city": "Trion",
+   "state": "GA",
+   "site": "https://chattoogabrewco.com",
+   "founded": 2023,
+   "type": "Debt",
+   "security": "Debt",
+   "price": 1,
+   "minAmount": 10000,
+   "maxAmount": 25000,
+   "deadline": "2026-08-07",
+   "platformRaw": "Honeycomb Portal LLC",
+   "platform": "Honeycomb",
+   "fees": "8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Wallet: 0%; Hybrid (HW + ACH): 2%, capped at $30. A Loan Servicing Fee of .25% assessed monthly.",
+   "rev": 12771,
+   "revPrior": 0,
+   "ni": -17966,
+   "cash": 5171,
+   "assets": 6061,
+   "shortDebt": 27,
+   "employees": 1,
+   "amended": false,
+   "filed": "2026-06-26",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2141550/000214155026000001/",
+   "cik": 2141550,
+   "summary": "Chattooga Brewing, based in Trion, GA, is raising up to $25K in loan notes on Honeycomb. It reported $13K in revenue for its most recent fiscal year, with a net loss of $18K. Reported cash ($5K) is below its annual loss ($18K), so this raise materially affects its runway.",
+   "flags": [
+    "Cash on hand covers less than half the most recent annual loss.",
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
+   ]
+  },
+  {
    "sector": "Energy & Climate",
    "name": "Social Impact Solar HoldCo",
    "legal": "Social Impact Solar HoldCo LLC",
@@ -1698,6 +1732,40 @@
     "Cash on hand covers less than half the most recent annual loss.",
     "Short-term debt ($2.0M) exceeds total assets ($451).",
     "Issuer pays 8% of the amount raised to Equifund."
+   ]
+  },
+  {
+   "sector": "Consumer & Retail",
+   "name": "Giant Baby Bottle",
+   "legal": "Giant Baby Bottle LLC",
+   "city": "Gainesville",
+   "state": "FL",
+   "site": "https://Www.giantbabybottle.com",
+   "founded": 2025,
+   "type": "Debt",
+   "security": "Debt",
+   "price": 1,
+   "minAmount": 75000,
+   "maxAmount": 124000,
+   "deadline": "2026-07-27",
+   "platformRaw": "Honeycomb Portal LLC",
+   "platform": "Honeycomb",
+   "fees": "8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Wallet: 0%; Hybrid (HW + ACH): 2%, capped at $30. A Loan Servicing Fee of .25% assessed monthly.",
+   "rev": 89080,
+   "revPrior": 0,
+   "ni": -3184,
+   "cash": 2171,
+   "assets": 2171,
+   "shortDebt": 32349,
+   "employees": 4,
+   "amended": false,
+   "filed": "2026-06-17",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2141033/000214103326000001/",
+   "cik": 2141033,
+   "summary": "Giant Baby Bottle, based in Gainesville, FL, is raising up to $124K in loan notes on Honeycomb. It reported $89K in revenue for its most recent fiscal year, with a net loss of $3K. Reported cash ($2K) is below its annual loss ($3K), so this raise materially affects its runway.",
+   "flags": [
+    "Short-term debt ($32K) exceeds total assets ($2K).",
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
@@ -2776,75 +2844,6 @@
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Issuer pays 4.9% of the amount raised to Netcapital."
-   ]
-  },
-  {
-   "sector": "Health & Bio",
-   "name": "Valley Center Wellness",
-   "legal": "Valley Center Wellness Corp.",
-   "city": "Newark",
-   "state": "DE",
-   "site": "https://www.valleywellnesstreatment.com/",
-   "founded": 2025,
-   "type": "Equity",
-   "security": "Common Stock",
-   "price": 2.9,
-   "minAmount": 9999.2,
-   "maxAmount": 4028097.1,
-   "deadline": "2026-10-31",
-   "platformRaw": "PicMii Crowdfunding LLC",
-   "platform": "Picmii Crowdfunding",
-   "fees": "Intermediary will receive 4.9% of the final raised funds and $3,000 listing fee.",
-   "rev": 0,
-   "revPrior": 0,
-   "ni": -259092,
-   "cash": 196848,
-   "assets": 216632,
-   "shortDebt": 0,
-   "employees": 3,
-   "amended": false,
-   "filed": "2026-05-19",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2069656/000206965626000002/",
-   "cik": 2069656,
-   "summary": "Valley Center Wellness, based in Newark, DE, is raising up to $4.0M by selling Common Stock at $2.90/share on Picmii Crowdfunding. The company reported no revenue for its most recent fiscal year. Reported cash ($197K) is below its annual loss ($259K), so this raise materially affects its runway.",
-   "flags": [
-    "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Issuer pays 4.9% of the amount raised to Picmii Crowdfunding."
-   ]
-  },
-  {
-   "sector": "Other",
-   "name": "R&I Management Diversified",
-   "legal": "R&I Management Diversified, Inc",
-   "city": "Pleasanton",
-   "state": "CA",
-   "site": "www.rimanagement.co",
-   "founded": 2024,
-   "type": "Equity",
-   "security": "Common Stock",
-   "price": 10,
-   "minAmount": 5000,
-   "maxAmount": 1235000,
-   "deadline": "2027-04-30",
-   "platformRaw": "ANDES CAPITAL GROUP, LLC",
-   "platform": "Andes Capital Group",
-   "fees": "At the conclusion of the Offering, the Issuer shall pay a fee of three percent (3%) of the amount raised in the Offering to the Intermediary.",
-   "rev": 194185,
-   "revPrior": 202352,
-   "ni": 125288,
-   "cash": 14310,
-   "assets": 291153,
-   "shortDebt": 338139,
-   "employees": 60,
-   "amended": true,
-   "filed": "2026-05-19",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2128990/000212899026000003/",
-   "cik": 2128990,
-   "summary": "R&I Management Diversified, based in Pleasanton, CA, is raising up to $1.2M by selling Common Stock at $10.00/share on Andes Capital Group. It reported $194K in revenue for its most recent fiscal year, down 4% year-over-year, with a net profit of $125K.",
-   "flags": [
-    "Revenue declined 4% year-over-year.",
-    "Short-term debt ($338K) exceeds total assets ($291K).",
-    "Issuer pays 3% of the amount raised to Andes Capital Group."
    ]
   }
  ]
