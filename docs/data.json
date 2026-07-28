@@ -1,7 +1,40 @@
 {
- "generated": "2026-07-27T17:23:31.904Z",
+ "generated": "2026-07-28T16:57:19.585Z",
  "count": 83,
  "deals": [
+  {
+   "sector": "Other",
+   "name": "UgenticAI",
+   "legal": "UgenticAI, Inc.",
+   "city": "Rockville",
+   "state": "MD",
+   "site": "www.ugenticai.com",
+   "founded": 2025,
+   "type": "Equity",
+   "security": "Common Stock",
+   "price": 0.1,
+   "minAmount": 10000,
+   "maxAmount": 4300000,
+   "deadline": "2027-04-30",
+   "platformRaw": "Jumpstart Micro, Inc dba Issuance Express",
+   "platform": "Jumpstart Micro Dba Issuance Express",
+   "fees": "A cash-based success fee of 7.0% of the amount raised in the Offering after each successful closing, including intermediary closings. Jumpstart Micro, Inc dba Issuance Express",
+   "rev": 2210988,
+   "revPrior": 67294,
+   "ni": 2929480,
+   "cash": 1437734,
+   "assets": 2236758,
+   "shortDebt": 529377,
+   "employees": 19,
+   "amended": true,
+   "filed": "2026-07-28",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2070943/000149315226034883/",
+   "cik": 2070943,
+   "summary": "UgenticAI, based in Rockville, MD, is raising up to $4.3M by selling Common Stock at $0.10/share on Jumpstart Micro Dba Issuance Express. It reported $2.2M in revenue for its most recent fiscal year, up 3186% year-over-year, with a net profit of $2.9M.",
+   "flags": [
+    "Issuer pays 7.0% of the amount raised to Jumpstart Micro Dba Issuance Express."
+   ]
+  },
   {
    "sector": "Other",
    "name": "Attorney Shield",
@@ -2419,40 +2452,6 @@
     "Cash on hand covers less than half the most recent annual loss.",
     "Short-term debt ($398K) exceeds total assets ($360K).",
     "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
-   ]
-  },
-  {
-   "sector": "Other",
-   "name": "UgenticAI",
-   "legal": "UgenticAI, Inc.",
-   "city": "Rockville",
-   "state": "MD",
-   "site": "www.ugenticai.com",
-   "founded": 2025,
-   "type": "Equity",
-   "security": "Common Stock",
-   "price": 0.1,
-   "minAmount": 10000,
-   "maxAmount": 4300000,
-   "deadline": "2027-04-30",
-   "platformRaw": "Jumpstart Micro, Inc dba Issuance Express",
-   "platform": "Jumpstart Micro Dba Issuance Express",
-   "fees": "A cash-based success fee of 7.0% of the amount raised in the Offering after each successful closing, including intermediary closings. Jumpstart Micro, Inc dba Issuance Express",
-   "rev": 2210988,
-   "revPrior": 67294,
-   "ni": -2929480,
-   "cash": 1437734,
-   "assets": 2236758,
-   "shortDebt": 529377,
-   "employees": 19,
-   "amended": true,
-   "filed": "2026-06-15",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2070943/000149315226028596/",
-   "cik": 2070943,
-   "summary": "UgenticAI, based in Rockville, MD, is raising up to $4.3M by selling Common Stock at $0.10/share on Jumpstart Micro Dba Issuance Express. It reported $2.2M in revenue for its most recent fiscal year, up 3186% year-over-year, with a net loss of $2.9M. Reported cash ($1.4M) is below its annual loss ($2.9M), so this raise materially affects its runway.",
-   "flags": [
-    "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer pays 7.0% of the amount raised to Jumpstart Micro Dba Issuance Express."
    ]
   },
   {
