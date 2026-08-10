@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-09T11:46:50.098Z",
+ "generated": "2026-08-10T12:00:22.819Z",
  "count": 81,
  "deals": [
   {
@@ -1422,6 +1422,39 @@
    ]
   },
   {
+   "sector": "Other",
+   "name": "NJ TRADERS",
+   "legal": "NJ TRADERS LLC",
+   "city": "Gaithersburg",
+   "state": "MD",
+   "site": "https://www.anwathreads.com",
+   "founded": 2016,
+   "type": "Debt",
+   "security": "Debt",
+   "price": 1,
+   "minAmount": 30000,
+   "maxAmount": 124000,
+   "deadline": "2026-09-01",
+   "platformRaw": "Honeycomb Portal LLC",
+   "platform": "Honeycomb",
+   "fees": "8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Wallet: 0%; Hybrid (HW + ACH): 2%, capped at $30. A Loan Servicing Fee of .25% assessed monthly.",
+   "rev": 488801,
+   "revPrior": 365204,
+   "ni": 11292,
+   "cash": 34648,
+   "assets": 274144,
+   "shortDebt": 111699,
+   "employees": 1,
+   "amended": false,
+   "filed": "2026-07-23",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2146989/000214698926000001/",
+   "cik": 2146989,
+   "summary": "NJ TRADERS, based in Gaithersburg, MD, is raising up to $124K in loan notes on Honeycomb. It reported $489K in revenue for its most recent fiscal year, up 34% year-over-year, with a net profit of $11K.",
+   "flags": [
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
+   ]
+  },
+  {
    "sector": "Energy & Climate",
    "name": "Qnetic",
    "legal": "Qnetic Corp",
@@ -2774,39 +2807,6 @@
    "flags": [
     "Cash on hand covers less than half the most recent annual loss.",
     "Issuer pays 7.0% of the amount raised to Jumpstart Micro Dba Issuance Express."
-   ]
-  },
-  {
-   "sector": "Health & Bio",
-   "name": "Eliaz Therapeutics",
-   "legal": "Eliaz Therapeutics Inc.",
-   "city": "Santa Rosa",
-   "state": "CA",
-   "site": "https://www.eliaztherapeutics.com",
-   "founded": 2015,
-   "type": "Equity",
-   "security": "Class B Common Stock",
-   "price": 5.56,
-   "minAmount": 10004.72,
-   "maxAmount": 2999995.63,
-   "deadline": "2027-04-15",
-   "platformRaw": "DEALMAKER SECURITIES LLC",
-   "platform": "DealMaker",
-   "fees": "The Issuer will pay DealMaker Securities LLC an 8.5% cash commission fee based on the dollar amount of the Securities sold in the Offering. There is also a one-time $38,000 fee and a $15,000 monthly fee payable to DealMaker Securities LLC or its affiliates",
-   "rev": 332235,
-   "revPrior": 302481,
-   "ni": -1745041,
-   "cash": 1799510,
-   "assets": 2589276,
-   "shortDebt": 1796731,
-   "employees": 2,
-   "amended": false,
-   "filed": "2026-06-10",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2042609/000187285626000220/",
-   "cik": 2042609,
-   "summary": "Eliaz Therapeutics, based in Santa Rosa, CA, is raising up to $3.0M by selling Class B Common Stock at $5.56/share on DealMaker. It reported $332K in revenue for its most recent fiscal year, up 10% year-over-year, with a net loss of $1.7M.",
-   "flags": [
-    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   }
  ]
