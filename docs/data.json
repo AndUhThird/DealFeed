@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-14T11:59:07.088Z",
+ "generated": "2026-08-15T11:35:52.957Z",
  "count": 79,
  "deals": [
   {
@@ -137,6 +137,41 @@
    "flags": [
     "Cash on hand covers less than half the most recent annual loss.",
     "Issuer pays 8.5% of the amount raised to DealMaker."
+   ]
+  },
+  {
+   "sector": "Other",
+   "name": "Kristenhtc",
+   "legal": "Kristenhtc LLC",
+   "city": "Murfreesboro",
+   "state": "TN",
+   "site": "https://Headturningcrochet.com",
+   "founded": 2020,
+   "type": "Debt",
+   "security": "Debt",
+   "price": 1,
+   "minAmount": 10000,
+   "maxAmount": 25000,
+   "deadline": "2026-09-17",
+   "platformRaw": "Honeycomb Portal LLC",
+   "platform": "Honeycomb",
+   "fees": "8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Wallet: 0%; Hybrid (HW + ACH): 2%, capped at $30. A Loan Servicing Fee of .25% assessed monthly.",
+   "rev": 2897,
+   "revPrior": 2927,
+   "ni": -1553,
+   "cash": 308,
+   "assets": 308,
+   "shortDebt": 0,
+   "employees": 2,
+   "amended": false,
+   "filed": "2026-08-12",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2149812/000214981226000001/",
+   "cik": 2149812,
+   "summary": "Kristenhtc, based in Murfreesboro, TN, is raising up to $25K in loan notes on Honeycomb. It reported $3K in revenue for its most recent fiscal year, down 1% year-over-year, with a net loss of $2K. Reported cash ($308) is below its annual loss ($2K), so this raise materially affects its runway.",
+   "flags": [
+    "Revenue declined 1% year-over-year.",
+    "Cash on hand covers less than half the most recent annual loss.",
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
@@ -2711,42 +2746,6 @@
     "Cash on hand covers less than half the most recent annual loss.",
     "Short-term debt ($507K) exceeds total assets ($58K).",
     "Issuer pays 8.5% of the amount raised to Fundify Portal."
-   ]
-  },
-  {
-   "sector": "Tech & Software",
-   "name": "Tap Systems",
-   "legal": "Tap Systems Inc.",
-   "city": "Pasadena",
-   "state": "CA",
-   "site": "https://tapwithus.com",
-   "founded": 2015,
-   "type": "Equity",
-   "security": "Common Stock",
-   "price": 5,
-   "minAmount": 10003.28,
-   "maxAmount": 4999997.03,
-   "deadline": "2026-11-30",
-   "platformRaw": "DEALMAKER SECURITIES LLC",
-   "platform": "DealMaker",
-   "fees": "The Company will pay DealMaker Securities LLC a cash fee of 8.5% based on the dollar amount of Securities sold in the Offering. There is also a $42,500 advance setup fee and a $15,000 monthly fee payable to DealMaker Securities LLC and/or its affiliates.",
-   "rev": 172568,
-   "revPrior": 306454,
-   "ni": -2351050,
-   "cash": 180944,
-   "assets": 360278,
-   "shortDebt": 397635,
-   "employees": 11,
-   "amended": false,
-   "filed": "2026-06-15",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1674153/000187285626000223/",
-   "cik": 1674153,
-   "summary": "Tap Systems, based in Pasadena, CA, is raising up to $5.0M by selling Common Stock at $5.00/share on DealMaker. It reported $173K in revenue for its most recent fiscal year, down 44% year-over-year, with a net loss of $2.4M. Reported cash ($181K) is below its annual loss ($2.4M), so this raise materially affects its runway.",
-   "flags": [
-    "Revenue declined 44% year-over-year.",
-    "Cash on hand covers less than half the most recent annual loss.",
-    "Short-term debt ($398K) exceeds total assets ($360K).",
-    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   }
  ]
