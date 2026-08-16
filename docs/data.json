@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-15T11:35:52.957Z",
+ "generated": "2026-08-16T11:35:31.394Z",
  "count": 79,
  "deals": [
   {
@@ -448,6 +448,39 @@
     "Cash on hand covers less than half the most recent annual loss.",
     "Issuer name suggests a special-purpose entity: what you'd own may track a specific asset, project, or contract rather than the named brand — read the filing to see exactly what the security represents.",
     "Issuer pays 8.5% of the amount raised to DealMaker."
+   ]
+  },
+  {
+   "sector": "Food & Beverage",
+   "name": "The Bearded Brewer",
+   "legal": "The Bearded Brewer LLC",
+   "city": "Middletown",
+   "state": "OH",
+   "site": "https://sites.google.com/gravelroadbrewing.com/gravelroadbrewingco/head-brewer",
+   "founded": 2023,
+   "type": "Debt",
+   "security": "Debt",
+   "price": 1,
+   "minAmount": 25000,
+   "maxAmount": 50000,
+   "deadline": "2026-09-18",
+   "platformRaw": "Honeycomb Portal LLC",
+   "platform": "Honeycomb",
+   "fees": "8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Wallet: 0%; Hybrid (HW + ACH): 2%, capped at $30. A Loan Servicing Fee of .25% assessed monthly.",
+   "rev": 116737,
+   "revPrior": 98695,
+   "ni": -3994,
+   "cash": 6868,
+   "assets": 164145,
+   "shortDebt": 76833,
+   "employees": 2,
+   "amended": false,
+   "filed": "2026-08-07",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2149415/000214941526000001/",
+   "cik": 2149415,
+   "summary": "The Bearded Brewer, based in Middletown, OH, is raising up to $50K in loan notes on Honeycomb. It reported $117K in revenue for its most recent fiscal year, up 18% year-over-year, with a net loss of $4K.",
+   "flags": [
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
@@ -2710,42 +2743,6 @@
     "Cash on hand covers less than half the most recent annual loss.",
     "Short-term debt ($2.0M) exceeds total assets ($451).",
     "Issuer pays 8% of the amount raised to Equifund."
-   ]
-  },
-  {
-   "sector": "Tech & Software",
-   "name": "Leben & Cerne",
-   "legal": "Leben & Cerne Corp",
-   "city": "Los Angeles",
-   "state": "CA",
-   "site": "https://xrossworld.ai",
-   "founded": 2018,
-   "type": "Equity",
-   "security": "SAFE (Simple Agreement for Future Equity)",
-   "price": 1,
-   "minAmount": 100000,
-   "maxAmount": 1235000,
-   "deadline": "2027-06-10",
-   "platformRaw": "Fundify Portal, LLC",
-   "platform": "Fundify Portal",
-   "fees": "8.5% ; 4.0% >$350,000",
-   "rev": 133301,
-   "revPrior": 162501,
-   "ni": -516034,
-   "cash": 26769,
-   "assets": 57702,
-   "shortDebt": 506502,
-   "employees": 1,
-   "amended": true,
-   "filed": "2026-06-16",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1792086/000178877726000011/",
-   "cik": 1792086,
-   "summary": "Leben & Cerne, based in Los Angeles, CA, is raising up to $1.2M by selling SAFE (Simple Agreement for Future Equity) at $1.00/share on Fundify Portal. It reported $133K in revenue for its most recent fiscal year, down 18% year-over-year, with a net loss of $516K. Reported cash ($27K) is below its annual loss ($516K), so this raise materially affects its runway.",
-   "flags": [
-    "Revenue declined 18% year-over-year.",
-    "Cash on hand covers less than half the most recent annual loss.",
-    "Short-term debt ($507K) exceeds total assets ($58K).",
-    "Issuer pays 8.5% of the amount raised to Fundify Portal."
    ]
   }
  ]
