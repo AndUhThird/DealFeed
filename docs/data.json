@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-16T11:35:31.394Z",
- "count": 79,
+ "generated": "2026-08-17T11:43:11.424Z",
+ "count": 78,
  "deals": [
   {
    "sector": "Food & Beverage",
@@ -345,6 +345,40 @@
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Newly formed entity with little or no operating history.",
     "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
+   ]
+  },
+  {
+   "sector": "Food & Beverage",
+   "name": "Demitasse Specialty Coffee",
+   "legal": "Demitasse Specialty Coffee LLC",
+   "city": "Woodbury",
+   "state": "CT",
+   "site": "https://demitassecafe.com",
+   "founded": 2010,
+   "type": "Debt",
+   "security": "Debt",
+   "price": 1,
+   "minAmount": 75000,
+   "maxAmount": 124000,
+   "deadline": "2026-09-15",
+   "platformRaw": "Honeycomb Portal LLC",
+   "platform": "Honeycomb",
+   "fees": "8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Wallet: 0%; Hybrid (HW + ACH): 2%, capped at $30. A Loan Servicing Fee of .25% assessed monthly.",
+   "rev": 466376,
+   "revPrior": 608079,
+   "ni": -38840,
+   "cash": 378096,
+   "assets": 753638,
+   "shortDebt": 26844,
+   "employees": 3,
+   "amended": false,
+   "filed": "2026-08-11",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2149777/000214977726000001/",
+   "cik": 2149777,
+   "summary": "Demitasse Specialty Coffee, based in Woodbury, CT, is raising up to $124K in loan notes on Honeycomb. It reported $466K in revenue for its most recent fiscal year, down 23% year-over-year, with a net loss of $39K.",
+   "flags": [
+    "Revenue declined 23% year-over-year.",
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
@@ -2151,43 +2185,6 @@
    ]
   },
   {
-   "sector": "Agriculture",
-   "name": "Waffles INCaffeinated Franchising Group",
-   "legal": "Waffles INCaffeinated Franchising Group, LLC",
-   "city": "Beaver",
-   "state": "PA",
-   "site": "https://winc-franchise.com/",
-   "founded": 2026,
-   "type": "Debt",
-   "security": "Debt",
-   "price": 1,
-   "minAmount": 25000,
-   "maxAmount": 50000,
-   "deadline": "2026-08-17",
-   "platformRaw": "Honeycomb Portal LLC",
-   "platform": "Honeycomb",
-   "fees": "8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Wallet: 0%; Hybrid (HW + ACH): 2%, capped at $30. A Loan Servicing Fee of .25% assessed monthly.",
-   "rev": 4365173,
-   "revPrior": 5102478,
-   "ni": -105789,
-   "cash": -288363,
-   "assets": 1687473,
-   "shortDebt": 2156201,
-   "employees": 7,
-   "amended": false,
-   "filed": "2026-07-10",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2093530/000209353026000002/",
-   "cik": 2093530,
-   "summary": "Waffles INCaffeinated Franchising Group, based in Beaver, PA, is raising up to $50K in loan notes on Honeycomb. It reported $4.4M in revenue for its most recent fiscal year, down 14% year-over-year, with a net loss of $106K. Reported cash (-$288K) is below its annual loss ($106K), so this raise materially affects its runway.",
-   "flags": [
-    "Revenue declined 14% year-over-year.",
-    "Cash on hand covers less than half the most recent annual loss.",
-    "Short-term debt ($2.2M) exceeds total assets ($1.7M).",
-    "Newly formed entity with little or no operating history.",
-    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
-   ]
-  },
-  {
    "sector": "Finance & Fintech",
    "name": "FOI Equity",
    "legal": "FOI Equity, Inc",
@@ -2707,42 +2704,6 @@
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Cash on hand covers less than half the most recent annual loss.",
     "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
-   ]
-  },
-  {
-   "sector": "Transportation & Aerospace",
-   "name": "Orbit Beyond",
-   "legal": "Orbit Beyond, Inc.",
-   "city": "Bridgewater",
-   "state": "NJ",
-   "site": "https://www.orbitbeyond.com",
-   "founded": 2018,
-   "type": "Equity",
-   "security": "Common Stock",
-   "price": 2.32,
-   "minAmount": 20001,
-   "maxAmount": 4999999,
-   "deadline": "2026-12-31",
-   "platformRaw": "Equifund Crowd Funding Portal Inc.",
-   "platform": "Equifund",
-   "fees": "Issuer will pay Intermediary an 8% commission on gross Offering proceeds, a one-time $35,000 onboarding fee, and Common Stock equal to 2% of shares sold at each closing.",
-   "rev": 0,
-   "revPrior": 0,
-   "ni": -487798,
-   "cash": 451,
-   "assets": 451,
-   "shortDebt": 1958395,
-   "employees": 23,
-   "amended": false,
-   "filed": "2026-06-17",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2140358/000121390026069548/",
-   "cik": 2140358,
-   "summary": "Orbit Beyond, based in Bridgewater, NJ, is raising up to $5.0M by selling Common Stock at $2.32/share on Equifund. The company reported no revenue for its most recent fiscal year. Reported cash ($451) is below its annual loss ($488K), so this raise materially affects its runway.",
-   "flags": [
-    "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Cash on hand covers less than half the most recent annual loss.",
-    "Short-term debt ($2.0M) exceeds total assets ($451).",
-    "Issuer pays 8% of the amount raised to Equifund."
    ]
   }
  ]
