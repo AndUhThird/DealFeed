@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-22T11:36:42.859Z",
+ "generated": "2026-08-23T11:36:34.078Z",
  "count": 78,
  "deals": [
   {
@@ -412,6 +412,41 @@
    "flags": [
     "Cash on hand covers less than half the most recent annual loss.",
     "Issuer pays 8.5% of the amount raised to DealMaker."
+   ]
+  },
+  {
+   "sector": "Other",
+   "name": "Kristenhtc",
+   "legal": "Kristenhtc LLC",
+   "city": "Murfreesboro",
+   "state": "TN",
+   "site": "https://Headturningcrochet.com",
+   "founded": 2020,
+   "type": "Debt",
+   "security": "Debt",
+   "price": 1,
+   "minAmount": 10000,
+   "maxAmount": 25000,
+   "deadline": "2026-09-17",
+   "platformRaw": "Honeycomb Portal LLC",
+   "platform": "Honeycomb",
+   "fees": "8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Wallet: 0%; Hybrid (HW + ACH): 2%, capped at $30. A Loan Servicing Fee of .25% assessed monthly.",
+   "rev": 2897,
+   "revPrior": 2927,
+   "ni": -1553,
+   "cash": 308,
+   "assets": 308,
+   "shortDebt": 0,
+   "employees": 2,
+   "amended": false,
+   "filed": "2026-08-12",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2149812/000214981226000001/",
+   "cik": 2149812,
+   "summary": "Kristenhtc, based in Murfreesboro, TN, is raising up to $25K in loan notes on Honeycomb. It reported $3K in revenue for its most recent fiscal year, down 1% year-over-year, with a net loss of $2K. Reported cash ($308) is below its annual loss ($2K), so this raise materially affects its runway.",
+   "flags": [
+    "Revenue declined 1% year-over-year.",
+    "Cash on hand covers less than half the most recent annual loss.",
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
@@ -2670,40 +2705,6 @@
     "Cash on hand covers less than half the most recent annual loss.",
     "Short-term debt ($106K) exceeds total assets ($2K).",
     "Issuer pays 4.9% of the amount raised to Netcapital."
-   ]
-  },
-  {
-   "sector": "Tech & Software",
-   "name": "Boss Tech",
-   "legal": "Boss Tech, Inc",
-   "city": "Philadelphia",
-   "state": "PA",
-   "site": "https://boss.tech",
-   "founded": 2022,
-   "type": "Equity",
-   "security": "Membership Interests / SPV Units",
-   "price": 1,
-   "minAmount": 50000,
-   "maxAmount": 4000000,
-   "deadline": "2027-04-30",
-   "platformRaw": "GP NURMENKARI INC.",
-   "platform": "Gp Nurmenkari",
-   "fees": "7% of gross proceeds (1% Broker of Record + 6% Placement Fee); max $280,000 if $4M raised; min $3,500 if $50K raised. Other fees: $500/mo hosting; $5-$35/investor compliance; transaction processing fees; counsel fees capped at $25,000.",
-   "rev": 26,
-   "revPrior": 0,
-   "ni": -2493911,
-   "cash": 28456,
-   "assets": 108782,
-   "shortDebt": 0,
-   "employees": 27,
-   "amended": false,
-   "filed": "2026-06-23",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1955205/000195520526000008/",
-   "cik": 1955205,
-   "summary": "Boss Tech, based in Philadelphia, PA, is raising up to $4.0M by selling Membership Interests / SPV Units at $1.00/share on Gp Nurmenkari. It reported $26 in revenue for its most recent fiscal year, with a net loss of $2.5M. Reported cash ($28K) is below its annual loss ($2.5M), so this raise materially affects its runway.",
-   "flags": [
-    "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer pays 7% of the amount raised to Gp Nurmenkari."
    ]
   }
  ]
