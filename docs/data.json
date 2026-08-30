@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-29T15:40:34.952Z",
- "count": 78,
+ "generated": "2026-08-30T15:22:07.093Z",
+ "count": 79,
  "deals": [
   {
    "sector": "Tech & Software",
@@ -1173,6 +1173,42 @@
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Newly formed entity with little or no operating history.",
     "Issuer pays 6% of the amount raised to Wefunder."
+   ]
+  },
+  {
+   "sector": "Other",
+   "name": "SANTIAGO GROCER HOLDINGS",
+   "legal": "SANTIAGO GROCER HOLDINGS LLC",
+   "city": "Fort Lauderdale",
+   "state": "FL",
+   "site": "https://www.gogrocerchicago.com",
+   "founded": 2026,
+   "type": "Debt",
+   "security": "Debt",
+   "price": 1,
+   "minAmount": 10000,
+   "maxAmount": 25000,
+   "deadline": "2026-09-10",
+   "platformRaw": "Honeycomb Portal LLC",
+   "platform": "Honeycomb",
+   "fees": "8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Wallet: 0%; Hybrid (HW + ACH): 2%, capped at $30. A Loan Servicing Fee of .25% assessed monthly.",
+   "rev": 0,
+   "revPrior": 0,
+   "ni": 0,
+   "cash": 0,
+   "assets": 0,
+   "shortDebt": 0,
+   "employees": 5,
+   "amended": false,
+   "filed": "2026-08-05",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2148137/000214813726000001/",
+   "cik": 2148137,
+   "summary": "SANTIAGO GROCER HOLDINGS, based in Fort Lauderdale, FL, is raising up to $25K in loan notes on Honeycomb. The company reported no revenue for its most recent fiscal year.",
+   "flags": [
+    "Pre-revenue: no sales reported in the most recent fiscal year.",
+    "Newly formed entity with little or no operating history.",
+    "Issuer name suggests a special-purpose entity: what you'd own may track a specific asset, project, or contract rather than the named brand — read the filing to see exactly what the security represents.",
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
