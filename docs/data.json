@@ -1,7 +1,42 @@
 {
- "generated": "2026-09-03T15:01:46.262Z",
- "count": 75,
+ "generated": "2026-09-04T14:59:26.011Z",
+ "count": 76,
  "deals": [
+  {
+   "sector": "Energy & Climate",
+   "name": "American Power Gen Co.",
+   "legal": "American Power Gen Co.",
+   "city": "Houston",
+   "state": "TX",
+   "site": "www.americanpowergen.com",
+   "founded": 2025,
+   "type": "Equity",
+   "security": "Class B Common Stock",
+   "price": 2.5,
+   "minAmount": 100001.7,
+   "maxAmount": 4999999.61,
+   "deadline": "2026-12-31",
+   "platformRaw": "DEALMAKER SECURITIES LLC",
+   "platform": "DealMaker",
+   "fees": "The Issuer shall pay a fee of 8.5% of the dollar amount raised in the Offering to the Intermediary. The Issuer has also agreed to pay to the Intermediary and/or its affiliates a monthly fee of $15,000.00 and a one-time set-up fee of $50,000.00.",
+   "rev": 0,
+   "revPrior": 0,
+   "ni": -112200,
+   "cash": 1000,
+   "assets": 1000,
+   "shortDebt": 0,
+   "employees": 2,
+   "amended": true,
+   "filed": "2026-09-03",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2109055/000187285626000293/",
+   "cik": 2109055,
+   "summary": "American Power Gen Co., based in Houston, TX, is raising up to $5.0M by selling Class B Common Stock at $2.50/share on DealMaker. The company reported no revenue for its most recent fiscal year. Reported cash ($1K) is below its annual loss ($112K), so this raise materially affects its runway.",
+   "flags": [
+    "Pre-revenue: no sales reported in the most recent fiscal year.",
+    "Cash on hand covers less than half the most recent annual loss.",
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
+   ]
+  },
   {
    "sector": "Food & Beverage",
    "name": "Legally Addictive Foods",
@@ -311,40 +346,6 @@
    "summary": "Jordan Energy & Food Enterprises, based in Troy, NY, is raising up to $124K in loan notes on Honeycomb. It reported $13.0M in revenue for its most recent fiscal year, up 44% year-over-year, with a net loss of $22K.",
    "flags": [
     "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
-   ]
-  },
-  {
-   "sector": "Other",
-   "name": "UgenticAI",
-   "legal": "UgenticAI, Inc.",
-   "city": "Rockville",
-   "state": "MD",
-   "site": "www.ugenticai.com",
-   "founded": 2025,
-   "type": "Equity",
-   "security": "Class B Common Stock",
-   "price": 0.1,
-   "minAmount": 10000,
-   "maxAmount": 4300000,
-   "deadline": "2027-04-30",
-   "platformRaw": "Jumpstart Micro, Inc dba Issuance Express",
-   "platform": "Jumpstart Micro Dba Issuance Express",
-   "fees": "A cash-based success fee of 7.0% of the amount raised in the Offering after each successful closing, including intermediary closings. Jumpstart Micro, Inc dba Issuance Express",
-   "rev": 2210988,
-   "revPrior": 67294,
-   "ni": -2929480,
-   "cash": 1437734,
-   "assets": 2236758,
-   "shortDebt": 529377,
-   "employees": 19,
-   "amended": true,
-   "filed": "2026-08-28",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2070943/000149315226040530/",
-   "cik": 2070943,
-   "summary": "UgenticAI, based in Rockville, MD, is raising up to $4.3M by selling Class B Common Stock at $0.10/share on Jumpstart Micro Dba Issuance Express. It reported $2.2M in revenue for its most recent fiscal year, up 3186% year-over-year, with a net loss of $2.9M. Reported cash ($1.4M) is below its annual loss ($2.9M), so this raise materially affects its runway.",
-   "flags": [
-    "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer pays 7.0% of the amount raised to Jumpstart Micro Dba Issuance Express."
    ]
   },
   {
@@ -692,6 +693,40 @@
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Newly formed entity with little or no operating history.",
     "Issuer pays 10% of the amount raised to Gigastar Portal."
+   ]
+  },
+  {
+   "sector": "Other",
+   "name": "UgenticAI",
+   "legal": "UgenticAI, Inc.",
+   "city": "Rockville",
+   "state": "MD",
+   "site": "www.ugenticai.com",
+   "founded": 2025,
+   "type": "Equity",
+   "security": "Class B Common Stock",
+   "price": 0.1,
+   "minAmount": 10000,
+   "maxAmount": 4300000,
+   "deadline": "2027-04-30",
+   "platformRaw": "Jumpstart Micro, Inc dba Issuance Express",
+   "platform": "Jumpstart Micro Dba Issuance Express",
+   "fees": "A cash-based success fee of 7.0% of the amount raised in the Offering after each successful closing, including intermediary closings. Jumpstart Micro, Inc dba Issuance Express",
+   "rev": 2210988,
+   "revPrior": 67294,
+   "ni": -2929480,
+   "cash": 1437734,
+   "assets": 2236758,
+   "shortDebt": 529377,
+   "employees": 19,
+   "amended": true,
+   "filed": "2026-08-18",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2070943/000149315226038871/",
+   "cik": 2070943,
+   "summary": "UgenticAI, based in Rockville, MD, is raising up to $4.3M by selling Class B Common Stock at $0.10/share on Jumpstart Micro Dba Issuance Express. It reported $2.2M in revenue for its most recent fiscal year, up 3186% year-over-year, with a net loss of $2.9M. Reported cash ($1.4M) is below its annual loss ($2.9M), so this raise materially affects its runway.",
+   "flags": [
+    "Cash on hand covers less than half the most recent annual loss.",
+    "Issuer pays 7.0% of the amount raised to Jumpstart Micro Dba Issuance Express."
    ]
   },
   {
