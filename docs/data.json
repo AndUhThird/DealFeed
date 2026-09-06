@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-05T13:53:06.728Z",
- "count": 75,
+ "generated": "2026-09-06T14:13:13.222Z",
+ "count": 76,
  "deals": [
   {
    "sector": "Tech & Software",
@@ -2009,6 +2009,39 @@
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Newly formed entity with little or no operating history.",
     "Issuer pays 7.0% of the amount raised to Jumpstart Micro."
+   ]
+  },
+  {
+   "sector": "Other",
+   "name": "Bliss and Bles",
+   "legal": "Bliss and Bles LLC",
+   "city": "San Diego",
+   "state": "CA",
+   "site": "https://Lindseybles.com",
+   "founded": 2025,
+   "type": "Debt",
+   "security": "Debt",
+   "price": 1,
+   "minAmount": 12000,
+   "maxAmount": 70000,
+   "deadline": "2026-09-07",
+   "platformRaw": "Honeycomb Portal LLC",
+   "platform": "Honeycomb",
+   "fees": "8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Wallet: 0%; Hybrid (HW + ACH): 2%, capped at $30. A Loan Servicing Fee of .25% assessed monthly.",
+   "rev": 128500,
+   "revPrior": 0,
+   "ni": 37603,
+   "cash": 40772,
+   "assets": 40772,
+   "shortDebt": 0,
+   "employees": 9,
+   "amended": false,
+   "filed": "2026-07-28",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2147548/000214754826000001/",
+   "cik": 2147548,
+   "summary": "Bliss and Bles, based in San Diego, CA, is raising up to $70K in loan notes on Honeycomb. It reported $129K in revenue for its most recent fiscal year, with a net profit of $38K.",
+   "flags": [
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
   },
   {
