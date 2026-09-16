@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-15T15:35:29.003Z",
- "count": 76,
+ "generated": "2026-09-16T15:26:36.293Z",
+ "count": 77,
  "deals": [
   {
    "sector": "Tech & Software",
@@ -938,6 +938,42 @@
    ]
   },
   {
+   "sector": "Tech & Software",
+   "name": "ProShotX",
+   "legal": "ProShotX, LLC",
+   "city": "Greenwood Village",
+   "state": "CO",
+   "site": "https://proshotx.ai/",
+   "founded": 2019,
+   "type": "Equity",
+   "security": "Class A Membership Units",
+   "price": 10,
+   "minAmount": 10000,
+   "maxAmount": 1234991.45,
+   "deadline": "2027-04-30",
+   "platformRaw": "DEALMAKER SECURITIES LLC",
+   "platform": "DealMaker",
+   "fees": "The Company will pay DealMaker Securities LLC a cash fee of 8.5% commission based on the dollar amount of Securities sold in the Offering. There is also a $47,500 advance setup fee and $15,000 monthly fee payable to DealMaker and/or its affiliates.",
+   "rev": 0,
+   "revPrior": 0,
+   "ni": -362816,
+   "cash": 19952,
+   "assets": 19952,
+   "shortDebt": 214700,
+   "employees": 6,
+   "amended": true,
+   "filed": "2026-08-26",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2110429/000187285626000284/",
+   "cik": 2110429,
+   "summary": "ProShotX, based in Greenwood Village, CO, is raising up to $1.2M by selling Class A Membership Units at $10.00/share on DealMaker. The company reported no revenue for its most recent fiscal year. Reported cash ($20K) is below its annual loss ($363K), so this raise materially affects its runway.",
+   "flags": [
+    "Pre-revenue: no sales reported in the most recent fiscal year.",
+    "Cash on hand covers less than half the most recent annual loss.",
+    "Short-term debt ($215K) exceeds total assets ($20K).",
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
+   ]
+  },
+  {
    "sector": "Food & Beverage",
    "name": "American Rebel Licensing NIL I",
    "legal": "American Rebel Licensing NIL I, Inc.",
@@ -1554,6 +1590,39 @@
    "filingUrl": "https://www.sec.gov/Archives/edgar/data/2149415/000214941526000001/",
    "cik": 2149415,
    "summary": "The Bearded Brewer, based in Middletown, OH, is raising up to $50K in loan notes on Honeycomb. It reported $117K in revenue for its most recent fiscal year, up 18% year-over-year, with a net loss of $4K.",
+   "flags": [
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
+   ]
+  },
+  {
+   "sector": "Other",
+   "name": "Chateau Whatever",
+   "legal": "Chateau Whatever LLC",
+   "city": "Los Angeles",
+   "state": "CA",
+   "site": "www.chainsawla.com",
+   "founded": 2019,
+   "type": "Debt",
+   "security": "Debt",
+   "price": 1,
+   "minAmount": 75000,
+   "maxAmount": 124000,
+   "deadline": "2026-09-17",
+   "platformRaw": "Honeycomb Portal LLC",
+   "platform": "Honeycomb",
+   "fees": "8.5% of the total offering amount upon a successful raise. $500 Platform Fee. 3% investment fee capped at $75. Credit Card: 5.5% + $2; Honeycomb Wallet: 0%; Hybrid (HW + ACH): 2%, capped at $30. A Loan Servicing Fee of .25% assessed monthly.",
+   "rev": 297724,
+   "revPrior": 205707,
+   "ni": 32194,
+   "cash": 26243,
+   "assets": 170007,
+   "shortDebt": 90043,
+   "employees": 15,
+   "amended": false,
+   "filed": "2026-08-07",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2074293/000207429326000001/",
+   "cik": 2074293,
+   "summary": "Chateau Whatever, based in Los Angeles, CA, is raising up to $124K in loan notes on Honeycomb. It reported $298K in revenue for its most recent fiscal year, up 45% year-over-year, with a net profit of $32K.",
    "flags": [
     "Issuer pays 8.5% of the amount raised plus setup/monthly fees to Honeycomb."
    ]
@@ -2597,41 +2666,6 @@
    "summary": "Sunpath Consulting, based in Atlanta, GA, is raising up to $124K in loan notes on Honeycomb. It reported $4.6M in revenue for its most recent fiscal year, up 121% year-over-year, with a net profit of $304K.",
    "flags": [
     "Issuer pays 5% of the amount raised plus setup/monthly fees to Honeycomb."
-   ]
-  },
-  {
-   "sector": "Other",
-   "name": "Last Call for Redemption",
-   "legal": "Last Call for Redemption LLC",
-   "city": "Sunland",
-   "state": "CA",
-   "site": "https://lastcallforredemption.com/",
-   "founded": 2026,
-   "type": "Equity",
-   "security": "Class B Membership Units",
-   "price": 2.1,
-   "minAmount": 10000.2,
-   "maxAmount": 210000,
-   "deadline": "2026-09-19",
-   "platformRaw": "NetCapital Funding Portal Inc.",
-   "platform": "Netcapital",
-   "fees": "Up to 4.9% of amount raised for a successful offering and a listing fee of up to $10,000",
-   "rev": 0,
-   "revPrior": 0,
-   "ni": -6000,
-   "cash": 6500,
-   "assets": 6500,
-   "shortDebt": 0,
-   "employees": 0,
-   "amended": true,
-   "filed": "2026-07-17",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2123549/000166919126000222/",
-   "cik": 2123549,
-   "summary": "Last Call for Redemption, based in Sunland, CA, is raising up to $210K by selling Class B Membership Units at $2.10/share on Netcapital. The company reported no revenue for its most recent fiscal year.",
-   "flags": [
-    "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Newly formed entity with little or no operating history.",
-    "Issuer pays 4.9% of the amount raised to Netcapital."
    ]
   }
  ]
