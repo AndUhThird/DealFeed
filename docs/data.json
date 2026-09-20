@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-19T14:27:56.201Z",
+ "generated": "2026-09-20T14:43:24.557Z",
  "count": 74,
  "deals": [
   {
@@ -805,6 +805,42 @@
    ]
   },
   {
+   "sector": "Health & Bio",
+   "name": "Sherpa Healthy",
+   "legal": "Sherpa Healthy Inc.",
+   "city": "Santa Monica",
+   "state": "CA",
+   "site": "https://www.sherpahealthy.com",
+   "founded": 2022,
+   "type": "Equity",
+   "security": "SAFE (Simple Agreement for Future Equity)",
+   "price": 1,
+   "minAmount": 75000,
+   "maxAmount": 5000000,
+   "deadline": "2026-12-01",
+   "platformRaw": "OpenDeal Portal LLC",
+   "platform": "Republic",
+   "fees": "Issuer must pay the Intermediary a cash fee at the end of the Offering equal to the greater of: $15K, or 6% of the amount raised above $100K, up to $5M. No percentage fee applies to the first $100K raised.Issuer must pay a non-refundable $5K onboarding fee",
+   "rev": 0,
+   "revPrior": 0,
+   "ni": -378481,
+   "cash": 2653,
+   "assets": 2653,
+   "shortDebt": 5400,
+   "employees": 0,
+   "amended": false,
+   "filed": "2026-09-02",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2143343/000214334326000001/",
+   "cik": 2143343,
+   "summary": "Sherpa Healthy, based in Santa Monica, CA, is raising up to $5.0M by selling SAFE (Simple Agreement for Future Equity) at $1.00/share on Republic. The company reported no revenue for its most recent fiscal year. Reported cash ($3K) is below its annual loss ($378K), so this raise materially affects its runway.",
+   "flags": [
+    "Pre-revenue: no sales reported in the most recent fiscal year.",
+    "Cash on hand covers less than half the most recent annual loss.",
+    "Short-term debt ($5K) exceeds total assets ($3K).",
+    "Issuer pays 6% of the amount raised to Republic."
+   ]
+  },
+  {
    "sector": "Media & Entertainment",
    "name": "Monarch Game Studios",
    "legal": "Monarch Game Studios, Inc.",
@@ -1109,6 +1145,42 @@
    "flags": [
     "Revenue declined 13% year-over-year.",
     "Issuer pays 4.75% of the amount raised to Vicinity."
+   ]
+  },
+  {
+   "sector": "Tech & Software",
+   "name": "ProShotX",
+   "legal": "ProShotX, LLC",
+   "city": "Greenwood Village",
+   "state": "CO",
+   "site": "https://proshotx.ai/",
+   "founded": 2019,
+   "type": "Equity",
+   "security": "Class A Membership Units",
+   "price": 10,
+   "minAmount": 10000,
+   "maxAmount": 1234991.45,
+   "deadline": "2027-04-30",
+   "platformRaw": "DEALMAKER SECURITIES LLC",
+   "platform": "DealMaker",
+   "fees": "The Company will pay DealMaker Securities LLC a cash fee of 8.5% commission based on the dollar amount of Securities sold in the Offering. There is also a $47,500 advance setup fee and $15,000 monthly fee payable to DealMaker and/or its affiliates.",
+   "rev": 0,
+   "revPrior": 0,
+   "ni": -362816,
+   "cash": 19952,
+   "assets": 19952,
+   "shortDebt": 214700,
+   "employees": 6,
+   "amended": true,
+   "filed": "2026-08-26",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2110429/000187285626000284/",
+   "cik": 2110429,
+   "summary": "ProShotX, based in Greenwood Village, CO, is raising up to $1.2M by selling Class A Membership Units at $10.00/share on DealMaker. The company reported no revenue for its most recent fiscal year. Reported cash ($20K) is below its annual loss ($363K), so this raise materially affects its runway.",
+   "flags": [
+    "Pre-revenue: no sales reported in the most recent fiscal year.",
+    "Cash on hand covers less than half the most recent annual loss.",
+    "Short-term debt ($215K) exceeds total assets ($20K).",
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
   {
@@ -2496,74 +2568,6 @@
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
-   ]
-  },
-  {
-   "sector": "Food & Beverage",
-   "name": "Culpepper Arlington Restaurant",
-   "legal": "Culpepper Arlington Restaurant, LLC",
-   "city": "Dallas",
-   "state": "TX",
-   "site": "https://www.culpeppercattleco.com/",
-   "founded": 2025,
-   "type": "Debt",
-   "security": "Debt",
-   "price": 1,
-   "minAmount": 50000,
-   "maxAmount": 1235000,
-   "deadline": "2026-10-31",
-   "platformRaw": "PicMii Crowdfunding LLC",
-   "platform": "Picmii Crowdfunding",
-   "fees": "Intermediary will receive cash compensation equal to 4.9% of the first $500,000 of the value of the securities sold through Regulation CF, 4.25% of the value of the securities sold above $500,000, and a $2,000 onboarding fee.",
-   "rev": 0,
-   "revPrior": 0,
-   "ni": 0,
-   "cash": 0,
-   "assets": 0,
-   "shortDebt": 0,
-   "employees": 0,
-   "amended": false,
-   "filed": "2026-07-21",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2129036/000212903626000001/",
-   "cik": 2129036,
-   "summary": "Culpepper Arlington Restaurant, based in Dallas, TX, is raising up to $1.2M in loan notes on Picmii Crowdfunding. The company reported no revenue for its most recent fiscal year.",
-   "flags": [
-    "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Issuer pays 4.9% of the amount raised to Picmii Crowdfunding."
-   ]
-  },
-  {
-   "sector": "Other",
-   "name": "Finlete",
-   "legal": "Finlete, Inc.",
-   "city": "San Diego",
-   "state": "CA",
-   "site": "www.finlete.com",
-   "founded": 2021,
-   "type": "Equity",
-   "security": "SAFE (Simple Agreement for Future Equity)",
-   "price": 1,
-   "minAmount": 25000,
-   "maxAmount": 500000,
-   "deadline": "2027-07-21",
-   "platformRaw": "DEALMAKER SECURITIES LLC",
-   "platform": "DealMaker",
-   "fees": "8.5% commission, $1,000 activation fee",
-   "rev": 12880,
-   "revPrior": 2935,
-   "ni": -922579,
-   "cash": 15499,
-   "assets": 218241,
-   "shortDebt": 0,
-   "employees": 2,
-   "amended": false,
-   "filed": "2026-07-21",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1967761/000187285626000247/",
-   "cik": 1967761,
-   "summary": "Finlete, based in San Diego, CA, is raising up to $500K by selling SAFE (Simple Agreement for Future Equity) at $1.00/share on DealMaker. It reported $13K in revenue for its most recent fiscal year, up 339% year-over-year, with a net loss of $923K. Reported cash ($15K) is below its annual loss ($923K), so this raise materially affects its runway.",
-   "flags": [
-    "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer pays 8.5% of the amount raised to DealMaker."
    ]
   }
  ]
