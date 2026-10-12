@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-11T16:40:13.422Z",
- "count": 87,
+ "generated": "2026-10-12T20:19:05.333Z",
+ "count": 89,
  "deals": [
   {
    "sector": "Other",
@@ -556,6 +556,41 @@
     "Revenue declined 89% year-over-year.",
     "Cash on hand covers less than half the most recent annual loss.",
     "Issuer pays 8% of the amount raised to DealMaker."
+   ]
+  },
+  {
+   "sector": "Media & Entertainment",
+   "name": "Banjo Media",
+   "legal": "Banjo Media, Inc.",
+   "city": "Boston",
+   "state": "MA",
+   "site": "https://www.banjo.media/",
+   "founded": 2024,
+   "type": "Equity",
+   "security": "Simple Agreement for Future Equity (SAFE)",
+   "price": 1,
+   "minAmount": 50000,
+   "maxAmount": 1235000,
+   "deadline": "2027-04-30",
+   "platformRaw": "Wefunder Portal LLC",
+   "platform": "Wefunder",
+   "fees": "7.9% of the offering amount upon a successful fundraise, and be entitled to reimbursement for out-of-pocket third party expenses it pays or incurs on behalf of the Issuer in connection with the offering.",
+   "rev": 0,
+   "revPrior": 0,
+   "ni": -131346,
+   "cash": 0,
+   "assets": 143529,
+   "shortDebt": 0,
+   "employees": 1,
+   "amended": true,
+   "filed": "2026-09-30",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2145130/000214513026000003/",
+   "cik": 2145130,
+   "summary": "Banjo Media, based in Boston, MA, is raising up to $1.2M by selling Simple Agreement for Future Equity (SAFE) at $1.00/share on Wefunder. The company reported no revenue for its most recent fiscal year. Reported cash ($0) is below its annual loss ($131K), so this raise materially affects its runway.",
+   "flags": [
+    "Pre-revenue: no sales reported in the most recent fiscal year.",
+    "Cash on hand covers less than half the most recent annual loss.",
+    "Issuer pays 7.9% of the amount raised to Wefunder."
    ]
   },
   {
@@ -1834,6 +1869,40 @@
   },
   {
    "sector": "Other",
+   "name": "Oravanti Ventures",
+   "legal": "Oravanti Ventures Inc",
+   "city": "North Miami Beach",
+   "state": "FL",
+   "site": "https://oravanti.com",
+   "founded": 2025,
+   "type": "Equity",
+   "security": "Simple Agreement for Future Equity (SAFE)",
+   "price": 1,
+   "minAmount": 50000,
+   "maxAmount": 1235000,
+   "deadline": "2027-04-30",
+   "platformRaw": "Wefunder Portal LLC",
+   "platform": "Wefunder",
+   "fees": "7.9% of the offering amount upon a successful fundraise, and be entitled to reimbursement for out-of-pocket third party expenses it pays or incurs on behalf of the Issuer in connection with the offering.",
+   "rev": 75,
+   "revPrior": 0,
+   "ni": -25366.58,
+   "cash": 0,
+   "assets": 348.42,
+   "shortDebt": 0,
+   "employees": 2,
+   "amended": true,
+   "filed": "2026-09-14",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2152721/000215272126000003/",
+   "cik": 2152721,
+   "summary": "Oravanti Ventures, based in North Miami Beach, FL, is raising up to $1.2M by selling Simple Agreement for Future Equity (SAFE) at $1.00/share on Wefunder. It reported $75 in revenue for its most recent fiscal year, with a net loss of $25K. Reported cash ($0) is below its annual loss ($25K), so this raise materially affects its runway.",
+   "flags": [
+    "Cash on hand covers less than half the most recent annual loss.",
+    "Issuer pays 7.9% of the amount raised to Wefunder."
+   ]
+  },
+  {
+   "sector": "Other",
    "name": "Reiturn",
    "legal": "Reiturn Inc.",
    "city": "Pittsburgh",
@@ -2110,6 +2179,39 @@
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Cash on hand covers less than half the most recent annual loss.",
     "Issuer pays 2% of the amount raised to Icon Capital Group."
+   ]
+  },
+  {
+   "sector": "Other",
+   "name": "DermaSensor",
+   "legal": "DermaSensor, Inc",
+   "city": "Miami",
+   "state": "FL",
+   "site": "https://www.dermasensor.com/",
+   "founded": 2009,
+   "type": "Equity",
+   "security": "Preferred Stock",
+   "price": 0.15686,
+   "minAmount": 50000,
+   "maxAmount": 1235000,
+   "deadline": "2027-04-30",
+   "platformRaw": "Wefunder Portal LLC",
+   "platform": "Wefunder",
+   "fees": "6.9% of the offering amount upon a successful fundraise, and be entitled to reimbursement for out-of-pocket third party expenses it pays or incurs on behalf of the Issuer in connection with the offering.",
+   "rev": 418596,
+   "revPrior": 107717,
+   "ni": -6699957,
+   "cash": 5383305,
+   "assets": 6408531,
+   "shortDebt": 1254856,
+   "employees": 17,
+   "amended": true,
+   "filed": "2026-09-08",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1761384/000176138426000006/",
+   "cik": 1761384,
+   "summary": "DermaSensor, based in Miami, FL, is raising up to $1.2M by selling Preferred Stock at $0.16/share on Wefunder. It reported $419K in revenue for its most recent fiscal year, up 289% year-over-year, with a net loss of $6.7M. Reported cash ($5.4M) is below its annual loss ($6.7M), so this raise materially affects its runway.",
+   "flags": [
+    "Issuer pays 6.9% of the amount raised to Wefunder."
    ]
   },
   {
@@ -2731,41 +2833,6 @@
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Cash on hand covers less than half the most recent annual loss.",
     "Issuer pays 7.9% of the amount raised to Wefunder."
-   ]
-  },
-  {
-   "sector": "Energy & Climate",
-   "name": "CESL SITE 1",
-   "legal": "CESL SITE 1 LLC",
-   "city": "Lake Forest",
-   "state": "IL",
-   "site": "https://eaststlouissolarproject.com/",
-   "founded": 2026,
-   "type": "Debt",
-   "security": "Debt",
-   "price": 1,
-   "minAmount": 350000,
-   "maxAmount": 500000,
-   "deadline": "2026-10-12",
-   "platformRaw": "CLIMATIZE EARTH SECURITIES LLC",
-   "platform": "Climatize",
-   "fees": "An Origination Fee equal to 5.00% of the Offering Amount raised, payable in full on the Issuance Date, plus an annual Servicing Fee of 0.50% for the Term of Loan. Other filing fees or third-party fees may apply.",
-   "rev": 0,
-   "revPrior": 0,
-   "ni": 0,
-   "cash": 0,
-   "assets": 0,
-   "shortDebt": 0,
-   "employees": 0,
-   "amended": true,
-   "filed": "2026-08-19",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2133091/000213309126000003/",
-   "cik": 2133091,
-   "summary": "CESL SITE 1, based in Lake Forest, IL, is raising up to $500K in loan notes on Climatize. The company reported no revenue for its most recent fiscal year.",
-   "flags": [
-    "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Newly formed entity with little or no operating history.",
-    "Issuer pays 5.00% of the amount raised plus setup/monthly fees to Climatize."
    ]
   },
   {
