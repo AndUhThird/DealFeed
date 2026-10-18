@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-17T14:14:10.668Z",
- "count": 85,
+ "generated": "2026-10-18T14:37:13.845Z",
+ "count": 86,
  "deals": [
   {
    "sector": "Other",
@@ -591,6 +591,40 @@
    "flags": [
     "Cash on hand covers less than half the most recent annual loss.",
     "Issuer pays 8.5% of the amount raised to DealMaker."
+   ]
+  },
+  {
+   "sector": "Other",
+   "name": "Arbela Laboratories",
+   "legal": "Arbela Laboratories, Inc.",
+   "city": "Randolph",
+   "state": "NJ",
+   "site": "https://avaianutrition.com/",
+   "founded": 2020,
+   "type": "Equity",
+   "security": "Simple Agreement for Future Equity (SAFE)",
+   "price": 1,
+   "minAmount": 50000,
+   "maxAmount": 124000,
+   "deadline": "2027-04-30",
+   "platformRaw": "Wefunder Portal LLC",
+   "platform": "Wefunder",
+   "fees": "7.9% of the offering amount upon a successful fundraise, and be entitled to reimbursement for out-of-pocket third party expenses it pays or incurs on behalf of the Issuer in connection with the offering.",
+   "rev": 11280.18,
+   "revPrior": 0,
+   "ni": -496465.24,
+   "cash": 133679.46,
+   "assets": 701561.32,
+   "shortDebt": 0,
+   "employees": 1,
+   "amended": false,
+   "filed": "2026-10-08",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2013446/000201344626000003/",
+   "cik": 2013446,
+   "summary": "Arbela Laboratories, based in Randolph, NJ, is raising up to $124K by selling Simple Agreement for Future Equity (SAFE) at $1.00/share on Wefunder. It reported $11K in revenue for its most recent fiscal year, with a net loss of $496K. Reported cash ($134K) is below its annual loss ($496K), so this raise materially affects its runway.",
+   "flags": [
+    "Cash on hand covers less than half the most recent annual loss.",
+    "Issuer pays 7.9% of the amount raised to Wefunder."
    ]
   },
   {
