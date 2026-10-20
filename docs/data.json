@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-19T17:30:14.988Z",
- "count": 86,
+ "generated": "2026-10-20T15:40:36.550Z",
+ "count": 87,
  "deals": [
   {
    "sector": "Energy & Climate",
@@ -34,6 +34,75 @@
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
+   ]
+  },
+  {
+   "sector": "Other",
+   "name": "Moxie For Kids",
+   "legal": "Moxie For Kids, Inc.",
+   "city": "Denver",
+   "state": "CO",
+   "site": "www.moxieforkids.com",
+   "founded": 2023,
+   "type": "Equity",
+   "security": "Crowd SAFE (Simple Agreement for Future Equity)",
+   "price": 1,
+   "minAmount": 300000,
+   "maxAmount": 1200000,
+   "deadline": "2027-07-01",
+   "platformRaw": "SILICON PRAIRIE CAPITAL PARTNERS, LLC",
+   "platform": "Silicon Prairie Capital Partners",
+   "fees": "Silicon Prairie Capital Partners, LLC receives a $5,000 onboarding fee, 6% of gross offering proceeds, and applicable transaction costs. The $500 fee for this amendment has been waived.",
+   "rev": 0,
+   "revPrior": 0,
+   "ni": -6407.74,
+   "cash": 0,
+   "assets": 0,
+   "shortDebt": 6407.74,
+   "employees": 2,
+   "amended": true,
+   "filed": "2026-10-19",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2142322/000214232226000003/",
+   "cik": 2142322,
+   "summary": "Moxie For Kids, based in Denver, CO, is raising up to $1.2M by selling Crowd SAFE (Simple Agreement for Future Equity) at $1.00/share on Silicon Prairie Capital Partners. The company reported no revenue for its most recent fiscal year. Reported cash ($0) is below its annual loss ($6K), so this raise materially affects its runway.",
+   "flags": [
+    "Pre-revenue: no sales reported in the most recent fiscal year.",
+    "Cash on hand covers less than half the most recent annual loss.",
+    "Issuer pays 6% of the amount raised to Silicon Prairie Capital Partners."
+   ]
+  },
+  {
+   "sector": "Other",
+   "name": "Dothan FC",
+   "legal": "Dothan FC, LLC",
+   "city": "Dothan",
+   "state": "AL",
+   "site": "https://www.dothanunitedsoccer.com",
+   "founded": 2023,
+   "type": "Equity",
+   "security": "Non-voting Preferred Units or Common Units",
+   "price": 10,
+   "minAmount": 150000,
+   "maxAmount": 1000000,
+   "deadline": "2026-11-22",
+   "platformRaw": "Vicinity LLC",
+   "platform": "Vicinity",
+   "fees": "Commission equalling 6% of the total amount raised payable at each closing.",
+   "rev": 409482,
+   "revPrior": 313190,
+   "ni": -168591,
+   "cash": 17871,
+   "assets": 53320,
+   "shortDebt": 5677,
+   "employees": 10,
+   "amended": true,
+   "filed": "2026-10-19",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2148936/000182198226000036/",
+   "cik": 2148936,
+   "summary": "Dothan FC, based in Dothan, AL, is raising up to $1.0M by selling Non-voting Preferred Units or Common Units at $10.00/share on Vicinity. It reported $409K in revenue for its most recent fiscal year, up 31% year-over-year, with a net loss of $169K. Reported cash ($18K) is below its annual loss ($169K), so this raise materially affects its runway.",
+   "flags": [
+    "Cash on hand covers less than half the most recent annual loss.",
+    "Issuer pays 6% of the amount raised to Vicinity."
    ]
   },
   {
@@ -1630,40 +1699,6 @@
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Cash on hand covers less than half the most recent annual loss.",
     "Issuer pays 4.9% of the amount raised to Netcapital."
-   ]
-  },
-  {
-   "sector": "Hospitality & Travel",
-   "name": "Red Planet Resorts",
-   "legal": "Red Planet Resorts LLC",
-   "city": "New Britain",
-   "state": "CT",
-   "site": "https://www.redplanetresorts.com",
-   "founded": 2024,
-   "type": "Equity",
-   "security": "Class C Units",
-   "price": 2000,
-   "minAmount": 50000,
-   "maxAmount": 1000000,
-   "deadline": "2027-04-30",
-   "platformRaw": "Wefunder Portal LLC",
-   "platform": "Wefunder",
-   "fees": "7.9% of the offering amount upon a successful fundraise, and be entitled to reimbursement for out-of-pocket third party expenses it pays or incurs on behalf of the Issuer in connection with the offering.",
-   "rev": 29856,
-   "revPrior": 2534,
-   "ni": -65716,
-   "cash": 2098,
-   "assets": 34437,
-   "shortDebt": 0,
-   "employees": 1,
-   "amended": false,
-   "filed": "2026-09-22",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2155658/000215565826000001/",
-   "cik": 2155658,
-   "summary": "Red Planet Resorts, based in New Britain, CT, is raising up to $1.0M by selling Class C Units at $2000.00/share on Wefunder. It reported $30K in revenue for its most recent fiscal year, up 1078% year-over-year, with a net loss of $66K. Reported cash ($2K) is below its annual loss ($66K), so this raise materially affects its runway.",
-   "flags": [
-    "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer pays 7.9% of the amount raised to Wefunder."
    ]
   },
   {
