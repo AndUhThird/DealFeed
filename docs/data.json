@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-24T14:35:37.778Z",
- "count": 86,
+ "generated": "2026-10-25T14:58:39.816Z",
+ "count": 88,
  "deals": [
   {
    "sector": "Energy & Climate",
@@ -877,6 +877,41 @@
   },
   {
    "sector": "Other",
+   "name": "Perkins Crossing",
+   "legal": "Perkins Crossing LLC",
+   "city": "Blue Eye",
+   "state": "MO",
+   "site": "https://perkinscrossing.com/",
+   "founded": 2026,
+   "type": "Debt",
+   "security": "Debt",
+   "price": 1,
+   "minAmount": 50000,
+   "maxAmount": 1220600,
+   "deadline": "2027-04-30",
+   "platformRaw": "Wefunder Portal LLC",
+   "platform": "Wefunder",
+   "fees": "7.9% of the offering amount upon a successful fundraise, and be entitled to reimbursement for out-of-pocket third party expenses it pays or incurs on behalf of the Issuer in connection with the offering.",
+   "rev": 0,
+   "revPrior": 0,
+   "ni": -464,
+   "cash": 6300,
+   "assets": 6300,
+   "shortDebt": 0,
+   "employees": 1,
+   "amended": false,
+   "filed": "2026-10-15",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2157751/000215775126000001/",
+   "cik": 2157751,
+   "summary": "Perkins Crossing, based in Blue Eye, MO, is raising up to $1.2M in loan notes on Wefunder. The company reported no revenue for its most recent fiscal year.",
+   "flags": [
+    "Pre-revenue: no sales reported in the most recent fiscal year.",
+    "Newly formed entity with little or no operating history.",
+    "Issuer pays 7.9% of the amount raised to Wefunder."
+   ]
+  },
+  {
+   "sector": "Other",
    "name": "Shark Wheel",
    "legal": "Shark Wheel, Inc.",
    "city": "Mission Viejo",
@@ -1224,6 +1259,39 @@
    "flags": [
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Issuer pays 7.5% of the amount raised to Wefunder."
+   ]
+  },
+  {
+   "sector": "Food & Beverage",
+   "name": "151 Coffee",
+   "legal": "151 Coffee, LLC",
+   "city": "Irving",
+   "state": "TX",
+   "site": "151coffee.com",
+   "founded": 2017,
+   "type": "Equity",
+   "security": "Class B Non-Voting Shares",
+   "price": 150,
+   "minAmount": 22500,
+   "maxAmount": 2000000,
+   "deadline": "2027-07-01",
+   "platformRaw": "Jumpstart Micro, Inc. d/b/a Issuance Express",
+   "platform": "Jumpstart Micro D/B/A Issuance Express",
+   "fees": "Cash-based success fee equal to 5.0% of the total dollar amount raised in the Offering, payable\nafter each successful closing (including any interim closings).",
+   "rev": 17805016,
+   "revPrior": 13931915,
+   "ni": -843456,
+   "cash": 546111,
+   "assets": 29916629,
+   "shortDebt": 1424825,
+   "employees": 410,
+   "amended": false,
+   "filed": "2026-10-06",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2095665/000209566526000005/",
+   "cik": 2095665,
+   "summary": "151 Coffee, based in Irving, TX, is raising up to $2.0M by selling Class B Non-Voting Shares at $150.00/share on Jumpstart Micro D/B/A Issuance Express. It reported $17.8M in revenue for its most recent fiscal year, up 28% year-over-year, with a net loss of $843K. Reported cash ($546K) is below its annual loss ($843K), so this raise materially affects its runway.",
+   "flags": [
+    "Issuer pays 5.0% of the amount raised to Jumpstart Micro D/B/A Issuance Express."
    ]
   },
   {
