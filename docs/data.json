@@ -1,7 +1,42 @@
 {
- "generated": "2026-10-30T17:02:18.696Z",
- "count": 84,
+ "generated": "2026-10-31T16:08:18.333Z",
+ "count": 85,
  "deals": [
+  {
+   "sector": "Other",
+   "name": "Nico Ventures",
+   "legal": "Nico Ventures, Inc.",
+   "city": "Palm City",
+   "state": "FL",
+   "site": "www.YourNews.com",
+   "founded": 2024,
+   "type": "Equity",
+   "security": "Common Stock",
+   "price": 2,
+   "minAmount": 2000,
+   "maxAmount": 365720,
+   "deadline": "2026-12-31",
+   "platformRaw": "PicMii Crowdfunding LLC",
+   "platform": "Picmii Crowdfunding",
+   "fees": "Intermediary will receive 4.9% of the final raised funds and a $2,500 listing fee.",
+   "rev": 17005,
+   "revPrior": 27310,
+   "ni": -345287,
+   "cash": 44829,
+   "assets": 87143,
+   "shortDebt": 222,
+   "employees": 2,
+   "amended": true,
+   "filed": "2026-10-30",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2008188/000200818826000002/",
+   "cik": 2008188,
+   "summary": "Nico Ventures, based in Palm City, FL, is raising up to $366K by selling Common Stock at $2.00/share on Picmii Crowdfunding. It reported $17K in revenue for its most recent fiscal year, down 38% year-over-year, with a net loss of $345K. Reported cash ($45K) is below its annual loss ($345K), so this raise materially affects its runway.",
+   "flags": [
+    "Revenue declined 38% year-over-year.",
+    "Cash on hand covers less than half the most recent annual loss.",
+    "Issuer pays 4.9% of the amount raised to Picmii Crowdfunding."
+   ]
+  },
   {
    "sector": "Other",
    "name": "Musaffa",
@@ -34,6 +69,40 @@
    "flags": [
     "Cash on hand covers less than half the most recent annual loss.",
     "Issuer pays 7.5% of the amount raised plus setup/monthly fees to DealMaker."
+   ]
+  },
+  {
+   "sector": "Health & Bio",
+   "name": "Valley Center Wellness",
+   "legal": "Valley Center Wellness Corp.",
+   "city": "Newark",
+   "state": "DE",
+   "site": "https://www.valleywellnesstreatment.com/",
+   "founded": 2025,
+   "type": "Equity",
+   "security": "Common Stock",
+   "price": 2.9,
+   "minAmount": 9999.2,
+   "maxAmount": 4028097.1,
+   "deadline": "2026-12-31",
+   "platformRaw": "PicMii Crowdfunding LLC",
+   "platform": "Picmii Crowdfunding",
+   "fees": "Intermediary will receive 4.9% of the final raised funds and $3,000 listing fee.",
+   "rev": 0,
+   "revPrior": 0,
+   "ni": -259092,
+   "cash": 196848,
+   "assets": 216632,
+   "shortDebt": 0,
+   "employees": 3,
+   "amended": true,
+   "filed": "2026-10-30",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2069656/000206965626000003/",
+   "cik": 2069656,
+   "summary": "Valley Center Wellness, based in Newark, DE, is raising up to $4.0M by selling Common Stock at $2.90/share on Picmii Crowdfunding. The company reported no revenue for its most recent fiscal year. Reported cash ($197K) is below its annual loss ($259K), so this raise materially affects its runway.",
+   "flags": [
+    "Pre-revenue: no sales reported in the most recent fiscal year.",
+    "Issuer pays 4.9% of the amount raised to Picmii Crowdfunding."
    ]
   },
   {
@@ -2024,41 +2093,6 @@
    "flags": [
     "Cash on hand covers less than half the most recent annual loss.",
     "Issuer pays 6% of the amount raised to Republic."
-   ]
-  },
-  {
-   "sector": "Other",
-   "name": "OPTIMISTIC PRODUCTIONS",
-   "legal": "OPTIMISTIC PRODUCTIONS LLC",
-   "city": "Santa Monica",
-   "state": "CA",
-   "site": "https://futurevisionxprize.com/",
-   "founded": 2026,
-   "type": "Equity",
-   "security": "Revenue Participation Interests",
-   "price": 1,
-   "minAmount": 75000,
-   "maxAmount": 1000000,
-   "deadline": "2026-12-31",
-   "platformRaw": "OpenDeal Portal LLC",
-   "platform": "Republic",
-   "fees": "The Issuer will pay to the Intermediary a Cash fee of the greater of 1) $15,000 or 2) 7% of the aggregate amount of securities sold; and a 2% securities commission.",
-   "rev": 0,
-   "revPrior": 0,
-   "ni": 0,
-   "cash": 0,
-   "assets": 0,
-   "shortDebt": 0,
-   "employees": 0,
-   "amended": true,
-   "filed": "2026-09-28",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2153237/000215323726000002/",
-   "cik": 2153237,
-   "summary": "OPTIMISTIC PRODUCTIONS, based in Santa Monica, CA, is raising up to $1.0M by selling Revenue Participation Interests at $1.00/share on Republic. The company reported no revenue for its most recent fiscal year.",
-   "flags": [
-    "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Newly formed entity with little or no operating history.",
-    "Issuer pays 7% of the amount raised to Republic."
    ]
   },
   {
