@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-01T17:08:46.405Z",
- "count": 85,
+ "generated": "2026-11-02T20:48:36.064Z",
+ "count": 86,
  "deals": [
   {
    "sector": "Other",
@@ -2436,6 +2436,40 @@
     "Newly formed entity with little or no operating history.",
     "Issuer name suggests a special-purpose entity: what you'd own may track a specific asset, project, or contract rather than the named brand — read the filing to see exactly what the security represents.",
     "Issuer pays 4.9% of the amount raised plus setup/monthly fees to Picmii Crowdfunding."
+   ]
+  },
+  {
+   "sector": "Other",
+   "name": "Fortune Nickel & Gold",
+   "legal": "Fortune Nickel & Gold Inc",
+   "city": "Rye Brook",
+   "state": "SC",
+   "site": "https://www.fortunenickelandgold.com/",
+   "founded": 2020,
+   "type": "Equity",
+   "security": "Common Stock",
+   "price": 0.2,
+   "minAmount": 10000,
+   "maxAmount": 5000000,
+   "deadline": "2026-12-31",
+   "platformRaw": "Silicon Prairie Capital Partners, LLC",
+   "platform": "Silicon Prairie Capital Partners",
+   "fees": "A cash based success fee of 6% of the dollar amount raised in the Offering after each successful closing, including any intermediary closings.",
+   "rev": 213733,
+   "revPrior": 326625,
+   "ni": 1417935,
+   "cash": 117357,
+   "assets": 3189345,
+   "shortDebt": 45594,
+   "employees": 1,
+   "amended": true,
+   "filed": "2026-09-18",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2017998/000201799826000004/",
+   "cik": 2017998,
+   "summary": "Fortune Nickel & Gold, based in Rye Brook, SC, is raising up to $5.0M by selling Common Stock at $0.20/share on Silicon Prairie Capital Partners. It reported $214K in revenue for its most recent fiscal year, down 35% year-over-year, with a net profit of $1.4M.",
+   "flags": [
+    "Revenue declined 35% year-over-year.",
+    "Issuer pays 6% of the amount raised to Silicon Prairie Capital Partners."
    ]
   },
   {
