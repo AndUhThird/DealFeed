@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-03T18:28:45.586Z",
- "count": 86,
+ "generated": "2026-11-04T18:40:50.093Z",
+ "count": 85,
  "deals": [
   {
    "sector": "Other",
@@ -35,6 +35,41 @@
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Newly formed entity with little or no operating history.",
     "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
+   ]
+  },
+  {
+   "sector": "Energy & Climate",
+   "name": "Rad Life Mobility",
+   "legal": "Rad Life Mobility Inc.",
+   "city": "Deerfield Beach",
+   "state": "FL",
+   "site": "https://www.radpowerbikes.com/",
+   "founded": 2026,
+   "type": "Equity",
+   "security": "Common Stock",
+   "price": 1,
+   "minAmount": 10000,
+   "maxAmount": 5000000,
+   "deadline": "2026-12-31",
+   "platformRaw": "PicMii Crowdfunding LLC",
+   "platform": "Picmii Crowdfunding",
+   "fees": "Intermediary will receive cash compensation equal to 4.9% of the dollar amount of the Shares sold through the Offering and a $5,000 up-front fee.",
+   "rev": 7000756,
+   "revPrior": 0,
+   "ni": -2051625,
+   "cash": 599355,
+   "assets": 18641729,
+   "shortDebt": 0,
+   "employees": 104,
+   "amended": true,
+   "filed": "2026-11-03",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2128296/000212829626000006/",
+   "cik": 2128296,
+   "summary": "Rad Life Mobility, based in Deerfield Beach, FL, is raising up to $5.0M by selling Common Stock at $1.00/share on Picmii Crowdfunding. It reported $7.0M in revenue for its most recent fiscal year, with a net loss of $2.1M. Reported cash ($599K) is below its annual loss ($2.1M), so this raise materially affects its runway.",
+   "flags": [
+    "Cash on hand covers less than half the most recent annual loss.",
+    "Newly formed entity with little or no operating history.",
+    "Issuer pays 4.9% of the amount raised to Picmii Crowdfunding."
    ]
   },
   {
@@ -1886,41 +1921,6 @@
    ]
   },
   {
-   "sector": "Energy & Climate",
-   "name": "Rad Life Mobility",
-   "legal": "Rad Life Mobility Inc.",
-   "city": "Deerfield Beach",
-   "state": "FL",
-   "site": "https://www.radpowerbikes.com/",
-   "founded": 2026,
-   "type": "Equity",
-   "security": "Common Stock",
-   "price": 1,
-   "minAmount": 10000,
-   "maxAmount": 5000000,
-   "deadline": "2026-11-30",
-   "platformRaw": "PicMii Crowdfunding LLC",
-   "platform": "Picmii Crowdfunding",
-   "fees": "Intermediary will receive cash compensation equal to 4.9% of the dollar amount of the Shares sold through the Offering and a $5,000 up-front fee.",
-   "rev": 7000756,
-   "revPrior": 0,
-   "ni": -2051625,
-   "cash": 599355,
-   "assets": 18641729,
-   "shortDebt": 0,
-   "employees": 104,
-   "amended": true,
-   "filed": "2026-10-05",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2128296/000212829626000004/",
-   "cik": 2128296,
-   "summary": "Rad Life Mobility, based in Deerfield Beach, FL, is raising up to $5.0M by selling Common Stock at $1.00/share on Picmii Crowdfunding. It reported $7.0M in revenue for its most recent fiscal year, with a net loss of $2.1M. Reported cash ($599K) is below its annual loss ($2.1M), so this raise materially affects its runway.",
-   "flags": [
-    "Cash on hand covers less than half the most recent annual loss.",
-    "Newly formed entity with little or no operating history.",
-    "Issuer pays 4.9% of the amount raised to Picmii Crowdfunding."
-   ]
-  },
-  {
    "sector": "Other",
    "name": "FOSH Live",
    "legal": "FOSH Live, Inc.",
@@ -2958,41 +2958,6 @@
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Cash on hand covers less than half the most recent annual loss.",
     "Issuer pays 2% of the amount raised to Icon Capital Group."
-   ]
-  },
-  {
-   "sector": "Other",
-   "name": "CERLOS(R) Factory I",
-   "legal": "CERLOS(R) Factory I, LLC",
-   "city": "Las Vegas",
-   "state": "NV",
-   "site": "https://www.cerlos.com/",
-   "founded": 2026,
-   "type": "Equity",
-   "security": "Class B Common Units",
-   "price": 1,
-   "minAmount": 10000.17,
-   "maxAmount": 5000000,
-   "deadline": "2027-04-30",
-   "platformRaw": "DEALMAKER SECURITIES LLC",
-   "platform": "DealMaker",
-   "fees": "The Issuer will pay DealMaker Securities LLC an 8.5% cash commission fee based on the dollar amount of Securities sold in the Offering. There is also a $2,000 monthly fee for the use of the platform payable to DealMaker Securities LLC or its affiliates.",
-   "rev": 0,
-   "revPrior": 0,
-   "ni": 0,
-   "cash": 0,
-   "assets": 0,
-   "shortDebt": 0,
-   "employees": 0,
-   "amended": true,
-   "filed": "2026-09-04",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2147324/000187285626000296/",
-   "cik": 2147324,
-   "summary": "CERLOS(R) Factory I, based in Las Vegas, NV, is raising up to $5.0M by selling Class B Common Units at $1.00/share on DealMaker. The company reported no revenue for its most recent fiscal year.",
-   "flags": [
-    "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Newly formed entity with little or no operating history.",
-    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   }
  ]
