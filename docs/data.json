@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T16:51:36.640Z",
+ "generated": "2026-11-08T17:05:47.736Z",
  "count": 87,
  "deals": [
   {
@@ -2337,6 +2337,40 @@
    ]
   },
   {
+   "sector": "Other",
+   "name": "Mightylicious",
+   "legal": "Mightylicious Inc",
+   "city": "Wood-Ridge",
+   "state": "NJ",
+   "site": "https://mightylicious.com/",
+   "founded": 2017,
+   "type": "Equity",
+   "security": "SAFE (Simple Agreement for Future Equity)",
+   "price": 1,
+   "minAmount": 75000,
+   "maxAmount": 1000000,
+   "deadline": "2026-12-18",
+   "platformRaw": "OpenDeal Portal LLC",
+   "platform": "Republic",
+   "fees": "Issuer shall pay the Intermediary a cash fee equal to the greater of (A) $12Kor (B) 6% of amounts raised exceeding $100K. No fee applies to the first $100K raised. The 6% fee applies to amounts raised above $100K up to $5M. P nonrefundable $5K onboarding",
+   "rev": 459216,
+   "revPrior": 347602,
+   "ni": -896217,
+   "cash": 116414,
+   "assets": 1846740,
+   "shortDebt": 272880,
+   "employees": 2,
+   "amended": false,
+   "filed": "2026-09-28",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2147043/000214704326000002/",
+   "cik": 2147043,
+   "summary": "Mightylicious, based in Wood-Ridge, NJ, is raising up to $1.0M by selling SAFE (Simple Agreement for Future Equity) at $1.00/share on Republic. It reported $459K in revenue for its most recent fiscal year, up 32% year-over-year, with a net loss of $896K. Reported cash ($116K) is below its annual loss ($896K), so this raise materially affects its runway.",
+   "flags": [
+    "Cash on hand covers less than half the most recent annual loss.",
+    "Issuer pays 6% of the amount raised to Republic."
+   ]
+  },
+  {
    "sector": "Tech & Software",
    "name": "DIT AgTech (US) Ltd.",
    "legal": "DIT AgTech (US) Ltd.",
@@ -2992,41 +3026,6 @@
    "flags": [
     "Revenue declined 22% year-over-year.",
     "Issuer pays fees to Liquidity Io — see full fee disclosure."
-   ]
-  },
-  {
-   "sector": "Other",
-   "name": "Sovereign Kingdom",
-   "legal": "Sovereign Kingdom LLC",
-   "city": "Sheridan",
-   "state": "WY",
-   "site": "http://thesovereignkingdom.com",
-   "founded": 2020,
-   "type": "Equity",
-   "security": "Class B LLC Membership Interests (each a \"Class B Unit\")",
-   "price": 10,
-   "minAmount": 15000,
-   "maxAmount": 1235000,
-   "deadline": "2027-09-07",
-   "platformRaw": "ICON CAPITAL GROUP, LLC",
-   "platform": "Icon Capital Group",
-   "fees": "ICON Capital Group, LLC will receive 2% of the aggregate gross proceeds raised in the Offering. ICON is also entitled to an addition 6% commission on amounts raised as a result of ICON's direct introductions and introductory efforts.",
-   "rev": 0,
-   "revPrior": 0,
-   "ni": -398,
-   "cash": 85,
-   "assets": 85,
-   "shortDebt": 0,
-   "employees": 0,
-   "amended": false,
-   "filed": "2026-09-08",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2150480/000215048026000001/",
-   "cik": 2150480,
-   "summary": "Sovereign Kingdom, based in Sheridan, WY, is raising up to $1.2M by selling Class B LLC Membership Interests (each a \"Class B Unit\") at $10.00/share on Icon Capital Group. The company reported no revenue for its most recent fiscal year. Reported cash ($85) is below its annual loss ($398), so this raise materially affects its runway.",
-   "flags": [
-    "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer pays 2% of the amount raised to Icon Capital Group."
    ]
   }
  ]
