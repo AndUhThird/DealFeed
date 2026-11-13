@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T18:58:11.761Z",
+ "generated": "2026-11-13T18:33:24.332Z",
  "count": 85,
  "deals": [
   {
@@ -13,9 +13,9 @@
    "type": "Debt",
    "security": "Debt",
    "price": 1,
-   "minAmount": 125000,
-   "maxAmount": 145000,
-   "deadline": "2027-02-10",
+   "minAmount": 260000,
+   "maxAmount": 295000,
+   "deadline": "2027-02-11",
    "platformRaw": "CLIMATIZE EARTH SECURITIES LLC",
    "platform": "Climatize",
    "fees": "An Origination Fee equal to 6.00% of the Offering Amount raised, payable in full on the Issuance Date, plus an annual Servicing Fee of 0.50% for the Term of Loan. Other filing fees or third-party fees may apply.",
@@ -27,12 +27,46 @@
    "shortDebt": 340502,
    "employees": 42,
    "amended": false,
-   "filed": "2026-11-12",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2137687/000213768726000011/",
+   "filed": "2026-11-13",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2137687/000213768726000013/",
    "cik": 2137687,
-   "summary": "Solar Development Group, based in Maitland, FL, is raising up to $145K in loan notes on Climatize. It reported $17.7M in revenue for its most recent fiscal year, up 1% year-over-year, with a net profit of $3.5M.",
+   "summary": "Solar Development Group, based in Maitland, FL, is raising up to $295K in loan notes on Climatize. It reported $17.7M in revenue for its most recent fiscal year, up 1% year-over-year, with a net profit of $3.5M.",
    "flags": [
     "Issuer pays 6.00% of the amount raised plus setup/monthly fees to Climatize."
+   ]
+  },
+  {
+   "sector": "Other",
+   "name": "SwiftSift",
+   "legal": "SwiftSift, Inc.",
+   "city": "Charlotte",
+   "state": "NC",
+   "site": "https://swiftsift.net",
+   "founded": 2025,
+   "type": "Equity",
+   "security": "SAFE",
+   "price": 1,
+   "minAmount": 10000,
+   "maxAmount": 1200000,
+   "deadline": "2027-02-12",
+   "platformRaw": "NetCapital Funding Portal Inc.",
+   "platform": "Netcapital",
+   "fees": "Up to 4.9% of amount raised for a successful offering and a listing fee of up to $10,000",
+   "rev": 0,
+   "revPrior": 0,
+   "ni": 0,
+   "cash": 0,
+   "assets": 0,
+   "shortDebt": 0,
+   "employees": 3,
+   "amended": true,
+   "filed": "2026-11-12",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2144403/000214440326000002/",
+   "cik": 2144403,
+   "summary": "SwiftSift, based in Charlotte, NC, is raising up to $1.2M by selling SAFE at $1.00/share on Netcapital. The company reported no revenue for its most recent fiscal year.",
+   "flags": [
+    "Pre-revenue: no sales reported in the most recent fiscal year.",
+    "Issuer pays 4.9% of the amount raised to Netcapital."
    ]
   },
   {
@@ -346,41 +380,6 @@
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Newly formed entity with little or no operating history.",
     "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
-   ]
-  },
-  {
-   "sector": "Media & Entertainment",
-   "name": "Borinqueneers Film",
-   "legal": "Borinqueneers Film LLC",
-   "city": "San Juan",
-   "state": "PR",
-   "site": "www.the65thmovie.com",
-   "founded": 2023,
-   "type": "Equity",
-   "security": "Revenue Participation Interest",
-   "price": 1,
-   "minAmount": 75000,
-   "maxAmount": 1000000,
-   "deadline": "2027-03-01",
-   "platformRaw": "OpenDeal Portal LLC",
-   "platform": "Republic",
-   "fees": "Cash fee equal to the greater of $15,000 and 6% of aggregate amount raised in Offering; for single investment in the amount $150,000 or more directly sourced and introduced by issuer shall be 3% of amount invested. One-time $20,000 paid to Intermediary.",
-   "rev": 0,
-   "revPrior": 0,
-   "ni": -250556,
-   "cash": 48731,
-   "assets": 280281,
-   "shortDebt": 0,
-   "employees": 1,
-   "amended": false,
-   "filed": "2026-11-09",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2161737/000216173726000003/",
-   "cik": 2161737,
-   "summary": "Borinqueneers Film, based in San Juan, PR, is raising up to $1.0M by selling Revenue Participation Interest at $1.00/share on Republic. The company reported no revenue for its most recent fiscal year. Reported cash ($49K) is below its annual loss ($251K), so this raise materially affects its runway.",
-   "flags": [
-    "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer pays 6% of the amount raised to Republic."
    ]
   },
   {
