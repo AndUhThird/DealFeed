@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T17:59:40.234Z",
+ "generated": "2026-11-22T18:32:22.609Z",
  "count": 82,
  "deals": [
   {
@@ -2056,40 +2056,6 @@
    ]
   },
   {
-   "sector": "Other",
-   "name": "Dothan FC",
-   "legal": "Dothan FC, LLC",
-   "city": "Dothan",
-   "state": "AL",
-   "site": "https://www.dothanunitedsoccer.com",
-   "founded": 2023,
-   "type": "Equity",
-   "security": "Non-voting Preferred Units or Common Units",
-   "price": 10,
-   "minAmount": 150000,
-   "maxAmount": 1000000,
-   "deadline": "2026-11-22",
-   "platformRaw": "Vicinity LLC",
-   "platform": "Vicinity",
-   "fees": "Commission equalling 6% of the total amount raised payable at each closing.",
-   "rev": 409482,
-   "revPrior": 313190,
-   "ni": -168591,
-   "cash": 17871,
-   "assets": 53320,
-   "shortDebt": 5677,
-   "employees": 10,
-   "amended": true,
-   "filed": "2026-10-19",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2148936/000182198226000036/",
-   "cik": 2148936,
-   "summary": "Dothan FC, based in Dothan, AL, is raising up to $1.0M by selling Non-voting Preferred Units or Common Units at $10.00/share on Vicinity. It reported $409K in revenue for its most recent fiscal year, up 31% year-over-year, with a net loss of $169K. Reported cash ($18K) is below its annual loss ($169K), so this raise materially affects its runway.",
-   "flags": [
-    "Cash on hand covers less than half the most recent annual loss.",
-    "Issuer pays 6% of the amount raised to Vicinity."
-   ]
-  },
-  {
    "sector": "Energy & Climate",
    "name": "Faradyne Power Systems",
    "legal": "Faradyne Power Systems Corp.",
@@ -2717,6 +2683,40 @@
     "Pre-revenue: no sales reported in the most recent fiscal year.",
     "Cash on hand covers less than half the most recent annual loss.",
     "Issuer pays fees to StartEngine — see full fee disclosure."
+   ]
+  },
+  {
+   "sector": "Other",
+   "name": "Mightylicious",
+   "legal": "Mightylicious Inc",
+   "city": "Wood-Ridge",
+   "state": "NJ",
+   "site": "https://mightylicious.com/",
+   "founded": 2017,
+   "type": "Equity",
+   "security": "SAFE (Simple Agreement for Future Equity)",
+   "price": 1,
+   "minAmount": 75000,
+   "maxAmount": 1000000,
+   "deadline": "2026-12-18",
+   "platformRaw": "OpenDeal Portal LLC",
+   "platform": "Republic",
+   "fees": "Issuer shall pay the Intermediary a cash fee equal to the greater of (A) $12Kor (B) 6% of amounts raised exceeding $100K. No fee applies to the first $100K raised. The 6% fee applies to amounts raised above $100K up to $5M. P nonrefundable $5K onboarding",
+   "rev": 459216,
+   "revPrior": 347602,
+   "ni": -896217,
+   "cash": 116414,
+   "assets": 1846740,
+   "shortDebt": 272880,
+   "employees": 2,
+   "amended": false,
+   "filed": "2026-09-28",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2147043/000214704326000002/",
+   "cik": 2147043,
+   "summary": "Mightylicious, based in Wood-Ridge, NJ, is raising up to $1.0M by selling SAFE (Simple Agreement for Future Equity) at $1.00/share on Republic. It reported $459K in revenue for its most recent fiscal year, up 32% year-over-year, with a net loss of $896K. Reported cash ($116K) is below its annual loss ($896K), so this raise materially affects its runway.",
+   "flags": [
+    "Cash on hand covers less than half the most recent annual loss.",
+    "Issuer pays 6% of the amount raised to Republic."
    ]
   },
   {
