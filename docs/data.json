@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-25T17:49:25.950Z",
- "count": 85,
+ "generated": "2026-11-25T20:29:52.579Z",
+ "count": 84,
  "deals": [
   {
    "sector": "Other",
@@ -35,6 +35,41 @@
     "Cash on hand covers less than half the most recent annual loss.",
     "Short-term debt ($24K) exceeds total assets ($15K).",
     "Issuer pays 8.5% of the amount raised to Fundify Portal."
+   ]
+  },
+  {
+   "sector": "Other",
+   "name": "CERLOS(R) Factory I",
+   "legal": "CERLOS(R) Factory I, LLC",
+   "city": "Las Vegas",
+   "state": "NV",
+   "site": "https://www.cerlos.com/",
+   "founded": 2026,
+   "type": "Equity",
+   "security": "Class B Common Units",
+   "price": 1,
+   "minAmount": 10000.17,
+   "maxAmount": 5000000,
+   "deadline": "2027-04-30",
+   "platformRaw": "DEALMAKER SECURITIES LLC",
+   "platform": "DealMaker",
+   "fees": "The Issuer will pay DealMaker Securities LLC an 8.5% cash commission fee based on the dollar amount of Securities sold in the Offering. There is also a $2,000 monthly fee for the use of the platform payable to DealMaker Securities LLC or its affiliates.",
+   "rev": 0,
+   "revPrior": 0,
+   "ni": 0,
+   "cash": 0,
+   "assets": 0,
+   "shortDebt": 0,
+   "employees": 0,
+   "amended": true,
+   "filed": "2026-11-25",
+   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2147324/000187285626000376/",
+   "cik": 2147324,
+   "summary": "CERLOS(R) Factory I, based in Las Vegas, NV, is raising up to $5.0M by selling Class B Common Units at $1.00/share on DealMaker. The company reported no revenue for its most recent fiscal year.",
+   "flags": [
+    "Pre-revenue: no sales reported in the most recent fiscal year.",
+    "Newly formed entity with little or no operating history.",
+    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
   {
@@ -174,41 +209,6 @@
     "Cash on hand covers less than half the most recent annual loss.",
     "Issuer name suggests a special-purpose entity: what you'd own may track a specific asset, project, or contract rather than the named brand — read the filing to see exactly what the security represents.",
     "Issuer pays 0% of the amount raised to Republic."
-   ]
-  },
-  {
-   "sector": "Other",
-   "name": "CERLOS(R) Factory I",
-   "legal": "CERLOS(R) Factory I, LLC",
-   "city": "Las Vegas",
-   "state": "NV",
-   "site": "https://www.cerlos.com/",
-   "founded": 2026,
-   "type": "Equity",
-   "security": "Class B Common Units",
-   "price": 1,
-   "minAmount": 10000.17,
-   "maxAmount": 5000000,
-   "deadline": "2027-04-30",
-   "platformRaw": "DEALMAKER SECURITIES LLC",
-   "platform": "DealMaker",
-   "fees": "The Issuer will pay DealMaker Securities LLC an 8.5% cash commission fee based on the dollar amount of Securities sold in the Offering. There is also a $2,000 monthly fee for the use of the platform payable to DealMaker Securities LLC or its affiliates.",
-   "rev": 0,
-   "revPrior": 0,
-   "ni": 0,
-   "cash": 0,
-   "assets": 0,
-   "shortDebt": 0,
-   "employees": 0,
-   "amended": true,
-   "filed": "2026-11-24",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2147324/000187285626000375/",
-   "cik": 2147324,
-   "summary": "CERLOS(R) Factory I, based in Las Vegas, NV, is raising up to $5.0M by selling Class B Common Units at $1.00/share on DealMaker. The company reported no revenue for its most recent fiscal year.",
-   "flags": [
-    "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Newly formed entity with little or no operating history.",
-    "Issuer pays 8.5% of the amount raised plus setup/monthly fees to DealMaker."
    ]
   },
   {
@@ -2928,41 +2928,6 @@
    "flags": [
     "Cash on hand covers less than half the most recent annual loss.",
     "Issuer pays 6% of the amount raised to Republic."
-   ]
-  },
-  {
-   "sector": "Other",
-   "name": "OPTIMISTIC PRODUCTIONS",
-   "legal": "OPTIMISTIC PRODUCTIONS LLC",
-   "city": "Santa Monica",
-   "state": "CA",
-   "site": "https://futurevisionxprize.com/",
-   "founded": 2026,
-   "type": "Equity",
-   "security": "Revenue Participation Interests",
-   "price": 1,
-   "minAmount": 75000,
-   "maxAmount": 1000000,
-   "deadline": "2026-12-31",
-   "platformRaw": "OpenDeal Portal LLC",
-   "platform": "Republic",
-   "fees": "The Issuer will pay to the Intermediary a Cash fee of the greater of 1) $15,000 or 2) 7% of the aggregate amount of securities sold; and a 2% securities commission.",
-   "rev": 0,
-   "revPrior": 0,
-   "ni": 0,
-   "cash": 0,
-   "assets": 0,
-   "shortDebt": 0,
-   "employees": 0,
-   "amended": true,
-   "filed": "2026-09-28",
-   "filingUrl": "https://www.sec.gov/Archives/edgar/data/2153237/000215323726000002/",
-   "cik": 2153237,
-   "summary": "OPTIMISTIC PRODUCTIONS, based in Santa Monica, CA, is raising up to $1.0M by selling Revenue Participation Interests at $1.00/share on Republic. The company reported no revenue for its most recent fiscal year.",
-   "flags": [
-    "Pre-revenue: no sales reported in the most recent fiscal year.",
-    "Newly formed entity with little or no operating history.",
-    "Issuer pays 7% of the amount raised to Republic."
    ]
   }
  ]
